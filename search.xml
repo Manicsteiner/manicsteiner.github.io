@@ -53,18 +53,32 @@
 ]]></content>
   </entry>
   <entry>
-    <title>V0-testvn</title>
-    <url>/v/v0/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>V0-testvn</strong><br>Image: <img src="https://s2.vndb.org/s/angel-bg.jpg"><br>VNDB Link: <a href="https://vndb.org/">V0-testvn</a><br>BGM Link: <a href="https://bangumi.tv/">V0-testvn</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><p>raw, not-playable</p>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p><a href="../../r/r0/">R0</a></p>
+    <title>Yume no Tsubasa</title>
+    <url>/r/r11423/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Yume no Tsubasa</strong><br>VNDB Link: <a href="https://vndb.org/r11423">Yume no Tsubasa</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – e543d86e818faa4c88c66bb0ba5ba2e1#924ea2d6c66b5a87bb3a993d933750ad#333584893#Yume no Tsubasa (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part5/Yume%20no%20Tsubasa%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Yume%20no%20Tsubasa%20(Japan).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Yume%20no%20Tsubasa%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>Game</category>
+        <category>Release</category>
       </categories>
       <tags>
-        <tag>raw</tag>
-        <tag>not-playable</tag>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
       </tags>
   </entry>
   <entry>
@@ -89,42 +103,57 @@
         <category>Release</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
         <tag>not-tested</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
-    <title>眠れる森のお姫さま</title>
-    <url>/v/v6378/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>眠れる森のお姫さま</strong><br>Aliase: Nemureru Mori no Ohime-sama, Sleeping Princess in Forest, 眠れる森のお姫様, Emmyrea, エミーリア<br>Image: <img src="https://s2.vndb.org/cv/72/7972.jpg"><br>VNDB Link: <a href="https://vndb.org/v6378">Nemureru Mori no Ohime-sama</a><br>BGM Link: <a href="https://bangumi.tv/subject/104611">眠れる森のお姫様</a></p>
+    <title>6 Inch My Darling</title>
+    <url>/r/r11561/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>6 Inch My Darling</strong><br>VNDB Link: <a href="https://vndb.org/r11561">6 Inch My Darling</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>raw</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[Windows][JP]<a href="../../r/r12528/">Nemureru Mori no Ohime-sama</a><br>[PS1][JP]<a href="../../r/r26170/">Emmyrea</a><br>[PS1][JP]<a href="../../r/r26795/">Emmyrea - SuperLite 1500 Series</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Emmyrea</title>
-    <url>/r/r26170/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Emmyrea</strong><br>VNDB Link: <a href="https://vndb.org/r26170">Emmyrea</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
+<li>Platform : Saturn</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
 <li>All-aged</li>
 </ul>
 <h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Emmyrea%20%28Japan%29.zip">Direct Link</a></li>
+<li>BaiduNetDisk<br> – 4f12a2ff65eadc44dc3493dc7e15dbda#b851f63ff2f214cb91a8511dcecc2beb#261073831#SS0011.rar<br> – password: oldmanemu.net</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/6%20Inch%20My%20Darling%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0011.rar">Direct Link</a><br> – password: oldmanemu.net</li>
 </ul>
-<h3 id="ECM"><a href="#ECM" class="headerlink" title="ECM"></a>ECM</h3><ul>
-<li>BaiduNetDisk<br> – d9770e13a9cbd7972e0fdcb5da1ea285#7e638cd418af53f50d4aacac7fbbc8e1#132072788#Emmyrea (Japan) [SLPS-03216].zip</li>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/6%20Inch%20My%20Darling%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>Saturn</tag>
+        <tag>playable</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>L no Kisetsu: A piece of memories - Limited Edition</title>
+    <url>/r/r11764/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>L no Kisetsu: A piece of memories - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11764">L no Kisetsu: A piece of memories - Limited Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 827d17d8e44c995c706343aa163ed06a#75b5a8fdc0b1081d8ba47877a8064798#255828069#L no Kisetsu - A Piece of Memories (Japan) (Shokai Genteiban).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29%20%28Shokai%20Genteiban%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20(Japan)%20(Shokai%20Genteiban).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29%20%28Shokai%20Genteiban%29.chd">Direct Link</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -133,67 +162,67 @@
       <tags>
         <tag>PS1</tag>
         <tag>Japanese</tag>
-        <tag>playable</tag>
         <tag>complete</tag>
-        <tag>all-aged</tag>
+        <tag>playable</tag>
       </tags>
   </entry>
   <entry>
-    <title>Eve The Lost One</title>
-    <url>/v/v2708/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Eve The Lost One</strong><br>Aliases: EVE TLO, 夜行侦探 迷失者<br>Image: <img src="https://s2.vndb.org/cv/19/22619.jpg"><br>VNDB Link: <a href="https://vndb.org/v2708">Eve The Lost One</a><br>BGM Link: <a href="https://bangumi.tv/subject/107536">EVE ～the lost one～</a></p>
+    <title>Kiss yori... - Limited Edition</title>
+    <url>/r/r11559/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Kiss yori… - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11559">Kiss yori… - Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>translated</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r12958/">EVE The Lost One</a><br>[PS1][JP]<a href="../../r/r5323/">EVE The Lost One (GameVillage The Best)</a><br>[Saturn][JP]<a href="../../r/r5321/">Eve The Lost One</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>translated</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>EVE ZERO</title>
-    <url>/v/v2709/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>EVE ZERO</strong><br>Aliases: EVE 0, イブ ゼロ, 夜行侦探：零<br>Image: <img src="https://s2.vndb.org/cv/65/21465.jpg"><br>VNDB Link: <a href="https://vndb.org/v2709">EVE ZERO</a><br>BGM Link: <a href="https://bangumi.tv/subject/78818">EVE ZERO ~ark of the matter~</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>translated</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r5324/">Eve Zero</a><br>[PS1][JP]<a href="../../r/r5325/">Eve Zero - Limited Edition</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>translated</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Emmyrea - SuperLite 1500 Series</title>
-    <url>/r/r26795/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Emmyrea - SuperLite 1500 Series</strong><br>VNDB Link: <a href="https://vndb.org/r26795">Emmyrea - SuperLite 1500 Series</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
+<li>Platform : Saturn</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
 <li>All-aged</li>
 </ul>
 <h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 88eaf35780295a1eea3e0578d6382447#94db67ada537f4d34141369383fc8b2c#148467027#SuperLite 1500 Series - Emmyrea (Japan).zip</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part4/SuperLite%201500%20Series%20-%20Emmyrea%20%28Japan%29.zip">Direct Link</a></li>
+<li>BaiduNetDisk<br> – 6e15d26b6b14aa00f35f89526fc2df9a#d31f10b794afaf578feb4533215388f2#502930844#SS0826.rar<br> – password: oldmanemu.net</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Kiss%20yori...%20%28Japan%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Kiss%20yori...%20%28Japan%29%20%28Rev%20A%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0826.rar">Direct Link</a><br> – password: oldmanemu.net</li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Kiss%20yori...%20%28Japan%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Kiss%20yori...%20%28Japan%29%20%28Rev%20A%29.chd">Direct Link</a></li>
 </ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
+        <tag>Japanese</tag>
         <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>Saturn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>L no Kisetsu: A piece of memories - Regular Edition</title>
+    <url>/r/r11765/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>L no Kisetsu: A piece of memories - Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11765">L no Kisetsu: A piece of memories - Regular Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 4ef6435850bb4d014956fd38f6afee3e#c769e71504b43bf8f5b7d98856e5c91c#256544225#L no Kisetsu - A Piece of Memories (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20(Japan).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
         <tag>PS1</tag>
         <tag>Japanese</tag>
         <tag>complete</tag>
+        <tag>playable</tag>
       </tags>
   </entry>
   <entry>
@@ -215,112 +244,10 @@
         <category>Release</category>
       </categories>
       <tags>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
         <tag>Windows</tag>
-        <tag>Japanese</tag>
         <tag>playable</tag>
-        <tag>complete</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>EVE The Lost One (GameVillage The Best)</title>
-    <url>/r/r5323/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>EVE The Lost One (GameVillage The Best)</strong><br>VNDB Link: <a href="https://vndb.org/r5323">EVE The Lost One</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29%20%28GameVillage%20The%20Best%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29%20%28GameVillage%20The%20Best%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%28GameVillage%20The%20Best%29.zip">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>EVE The Lost One</title>
-    <url>/r/r12958/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>EVE The Lost One</strong><br>VNDB Link: <a href="https://vndb.org/r12958">title</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><ul>
-<li>BaiduNetDisk<br> – f0f5bc268e8e56a30fa027d69b496fff#f3766e239379ec1965f74c2ab4dfbe14#208835743#Eve - The Lost One (Japan) (Disc 1) (Kyoko Disc).7z<br> – 854f0fb78e58cb29c256a517f77b1ab9#12f86e6aadfd865af8228d1f293e8d3d#221993741#Eve - The Lost One (Japan) (Disc 2) (Snake Disc).7z<br> – 1db60ef73c5e8fed4b63251e0d6d7e2b#2266be043d2e22f4436aab05cfc0b49f#136748357#Eve - The Lost One (Japan) (Disc 3) (Lost One Disc).7z<br> – 9cff5197437be35f9ebb55f61bb3ee7c#d0fef31ff2c4392f7703dd2441a81a15#260719124#Eve - The Lost One - Premium Disc (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Premium%20Disc%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Lost%20One%20(Japan)%20(Disc%201)%20(Kyoko%20Disc).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Lost%20One%20(Japan)%20(Disc%202)%20(Snake%20Disc).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Lost%20One%20(Japan)%20(Disc%203)%20(Lost%20One%20Disc).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Lost%20One%20-%20Premium%20Disc%20(Japan).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Yume no Tsubasa</title>
-    <url>/r/r11423/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Yume no Tsubasa</strong><br>VNDB Link: <a href="https://vndb.org/r11423">Yume no Tsubasa</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – e543d86e818faa4c88c66bb0ba5ba2e1#924ea2d6c66b5a87bb3a993d933750ad#333584893#Yume no Tsubasa (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part5/Yume%20no%20Tsubasa%20%28Japan%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Yume%20no%20Tsubasa%20(Japan).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>L no Kisetsu: A piece of memories - Regular Edition</title>
-    <url>/r/r11765/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>L no Kisetsu: A piece of memories - Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11765">L no Kisetsu: A piece of memories - Regular Edition</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : playable</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 4ef6435850bb4d014956fd38f6afee3e#c769e71504b43bf8f5b7d98856e5c91c#256544225#L no Kisetsu - A Piece of Memories (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20(Japan).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>playable</tag>
-        <tag>complete</tag>
       </tags>
   </entry>
   <entry>
@@ -334,27 +261,30 @@
 <li>Completeness : complete</li>
 <li>All-aged</li>
 </ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
 <li>BaiduNetDisk<br> – 0bff9dca2c6cf6ccf1912f58dd21c792#c49fee20523d192bb541de066ed52939#195593634#EXODUS Guilty (Japan).7z</li>
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Exodus%20Guilty%20%28Japan%29.zip">Direct Link</a></li>
 <li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/EXODUS%20Guilty%20(Japan).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Exodus%20Guilty%20%28Japan%29.chd">Direct Link</a></li>
 </ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
         <tag>PS1</tag>
         <tag>Japanese</tag>
+        <tag>not-tested</tag>
         <tag>complete</tag>
         <tag>all-aged</tag>
       </tags>
   </entry>
   <entry>
-    <title>Milky Season</title>
-    <url>/r/r15019/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Milky Season</strong><br>VNDB Link: <a href="https://vndb.org/r15019">Milky Season</a></p>
+    <title>EVE The Lost One</title>
+    <url>/r/r12958/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>EVE The Lost One</strong><br>VNDB Link: <a href="https://vndb.org/r12958">title</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
 <li>Language : Japanese</li>
@@ -362,44 +292,21 @@
 <li>Completeness : complete</li>
 </ul>
 <h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 3f0e18599d8027b0e55015bb296c735c#bf3d5d9b6ae341857993bba2cda39cf6#355825977#Milky Season (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/Milky%20Season%20%28Japan%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Milky%20Season%20(Japan).7z">Direct Link</a></li>
+<li>BaiduNetDisk<br> – f0f5bc268e8e56a30fa027d69b496fff#f3766e239379ec1965f74c2ab4dfbe14#208835743#Eve - The Lost One (Japan) (Disc 1) (Kyoko Disc).7z<br> – 854f0fb78e58cb29c256a517f77b1ab9#12f86e6aadfd865af8228d1f293e8d3d#221993741#Eve - The Lost One (Japan) (Disc 2) (Snake Disc).7z<br> – 1db60ef73c5e8fed4b63251e0d6d7e2b#2266be043d2e22f4436aab05cfc0b49f#136748357#Eve - The Lost One (Japan) (Disc 3) (Lost One Disc).7z<br> – 9cff5197437be35f9ebb55f61bb3ee7c#d0fef31ff2c4392f7703dd2441a81a15#260719124#Eve - The Lost One - Premium Disc (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Premium%20Disc%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Lost%20One%20(Japan)%20(Disc%201)%20(Kyoko%20Disc).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Lost%20One%20(Japan)%20(Disc%202)%20(Snake%20Disc).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Lost%20One%20(Japan)%20(Disc%203)%20(Lost%20One%20Disc).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Lost%20One%20-%20Premium%20Disc%20(Japan).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Premium%20Disc%29.chd">Direct Link</a></li>
 </ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
         <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>L no Kisetsu: A piece of memories - Limited Edition</title>
-    <url>/r/r11764/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>L no Kisetsu: A piece of memories - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11764">L no Kisetsu: A piece of memories - Limited Edition</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : playable</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 827d17d8e44c995c706343aa163ed06a#75b5a8fdc0b1081d8ba47877a8064798#255828069#L no Kisetsu - A Piece of Memories (Japan) (Shokai Genteiban).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29%20%28Shokai%20Genteiban%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20(Japan)%20(Shokai%20Genteiban).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>playable</tag>
         <tag>complete</tag>
       </tags>
   </entry>
@@ -417,14 +324,46 @@
 <li>BaiduNetDisk<br> – 878681307C5AA079FC654DBC66E84317#6B61A0DB84DE5EE7C2AACB4CC6C193D4#544432221#Sound Novel Evolution 1 - Otogirisou - Sosei-hen (Japan) (Rev 1).zip<br> – 85ED13652AF715314B6ADCF8326D4023#FFFDE48FC6BC3B62E0F70E7FEF8B6440#544435382#Sound Novel Evolution 1 - Otogirisou - Sosei-hen (Japan).zip</li>
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part4/Sound%20Novel%20Evolution%201%20-%20Otogirisou%20-%20Sosei-hen%20%28Japan%29%20%28Rev%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part4/Sound%20Novel%20Evolution%201%20-%20Otogirisou%20-%20Sosei-hen%20%28Japan%29.zip">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Sound%20Novel%20Evolution%201%20-%20Otogirisou%20-%20Sosei-hen%20%28Japan%29%20%28Rev%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Sound%20Novel%20Evolution%201%20-%20Otogirisou%20-%20Sosei-hen%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
         <tag>PS1</tag>
         <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Milky Season</title>
+    <url>/r/r15019/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Milky Season</strong><br>VNDB Link: <a href="https://vndb.org/r15019">Milky Season</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 3f0e18599d8027b0e55015bb296c735c#bf3d5d9b6ae341857993bba2cda39cf6#355825977#Milky Season (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/Milky%20Season%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Milky%20Season%20(Japan).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Milky%20Season%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
         <tag>complete</tag>
       </tags>
   </entry>
@@ -442,6 +381,9 @@
 <li>BaiduNetDisk<br> – B417AD6E4275502581F0D035A1B29DFA#1D23EF5673F2FEF4D75E3487FA4D00AA#230913621#Memories Off (Japan).zip</li>
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/Memories%20Off%20%28Japan%29.zip">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Memories%20Off%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
@@ -449,8 +391,8 @@
       <tags>
         <tag>PS1</tag>
         <tag>Japanese</tag>
-        <tag>playable</tag>
         <tag>complete</tag>
+        <tag>playable</tag>
       </tags>
   </entry>
   <entry>
@@ -468,14 +410,17 @@
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/Memories%20Off%202nd%20%28Japan%29%20%28Disc%201%29%20%28Shokai%20Genteiban%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part3/Memories%20Off%202nd%20%28Japan%29%20%28Disc%202%29%20%28Shokai%20Genteiban%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part3/Memories%20Off%202nd%20%28Japan%29%20%28Disc%203%29%20%28Making%20Disc%29%20%28Shokai%20Genteiban%29.zip">Direct Link</a></li>
 <li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Memories%20Off%202nd%20(Japan)%20(Disc%201)%20(Shokai%20Genteiban).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Memories%20Off%202nd%20(Japan)%20(Disc%202)%20(Shokai%20Genteiban).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Memories%20Off%202nd%20(Japan)%20(Disc%203)%20(Making%20Disc)%20(Shokai%20Genteiban).7z">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/Memories%20Off%202nd%20%28Japan%29%20%28Disc%201%29%20%28Shokai%20Genteiban%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/Memories%20Off%202nd%20%28Japan%29%20%28Disc%202%29%20%28Shokai%20Genteiban%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/Memories%20Off%202nd%20%28Japan%29%20%28Disc%203%29%20%28Making%20Disc%29%20%28Shokai%20Genteiban%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
         <tag>PS1</tag>
         <tag>Japanese</tag>
+        <tag>not-tested</tag>
         <tag>complete</tag>
       </tags>
   </entry>
@@ -494,6 +439,9 @@
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part4/Sound%20Novel%20Evolution%202%20-%20Kamaitachi%20no%20Yoru%20Tokubetsu-hen%20%28Japan%29.zip">Direct Link</a></li>
 <li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Sound%20Novel%20Evolution%202%20-%20Kamaitachi%20no%20Yoru%20Tokubetsu%20Hen%20(Japan).7z">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Sound%20Novel%20Evolution%202%20-%20Kamaitachi%20no%20Yoru%20Tokubetsu%20Hen%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
@@ -501,7 +449,36 @@
       <tags>
         <tag>PS1</tag>
         <tag>Japanese</tag>
+        <tag>complete</tag>
         <tag>playable</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tentama</title>
+    <url>/r/r23807/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Tentama</strong><br>VNDB Link: <a href="https://vndb.org/r23807">Tentama</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – d74f95b3cbaf960a73e008d578e1233b#131663be10a341a4145c21c1befbd38a#243055503#Tentama (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part5/Tentama%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Tentama%20(Japan).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Tentama%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
         <tag>complete</tag>
       </tags>
   </entry>
@@ -520,15 +497,78 @@
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/Memories%20Off%202nd%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part3/Memories%20Off%202nd%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a></li>
 <li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Memories%20Off%202nd%20(Japan)%20(Disc%201).zip">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Memories%20Off%202nd%20(Japan)%20(Disc%202).zip">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Memories%20Off%202nd%20%28Japan%29%20%28Disc%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Memories%20Off%202nd%20%28Japan%29%20%28Disc%202%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
         <tag>not-tested</tag>
+        <tag>complete</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Emmyrea</title>
+    <url>/r/r26170/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Emmyrea</strong><br>VNDB Link: <a href="https://vndb.org/r26170">Emmyrea</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+<li>All-aged</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Emmyrea%20%28Japan%29.zip">Direct Link</a></li>
+</ul>
+<h3 id="ECM"><a href="#ECM" class="headerlink" title="ECM"></a>ECM</h3><ul>
+<li>BaiduNetDisk<br> – d9770e13a9cbd7972e0fdcb5da1ea285#7e638cd418af53f50d4aacac7fbbc8e1#132072788#Emmyrea (Japan) [SLPS-03216].zip</li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Emmyrea%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
         <tag>PS1</tag>
         <tag>Japanese</tag>
         <tag>complete</tag>
+        <tag>playable</tag>
+        <tag>all-aged</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Machi</title>
+    <url>/r/r2661/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Machi</strong><br>VNDB Link: <a href="https://vndb.org/r2661">Machi</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : Saturn</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 409D2CCA393702308C342C13949C4BB5#83C03936AE7BFD345459A23A91204571#211285294#Machi (Japan) (Demo).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Machi%20%28Japan%29%20%28Demo%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Machi%20%28Japan%29%20%28Demo%29%20%282M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Machi%20%28Japan%29%20%28Demo%29%20%284M%29.zip">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Machi%20%28Japan%29%20%28Demo%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Machi%20%28Japan%29%20%28Demo%29%20%282M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Machi%20%28Japan%29%20%28Demo%29%20%284M%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>Saturn</tag>
       </tags>
   </entry>
   <entry>
@@ -545,6 +585,9 @@
 <li>BaiduNetDisk<br> – 91A167A83870D6BFF2C45C6421E3BF50#6456F170D2A90FB40E413326141031C2#557395931#Sound Novel Evolution 3 - Machi - Unmei no Kousaten (Japan) (Disc 1).zip<br> – 8307C8A3F0B825A32DA27401D2F03EDA#AFB97CCBEBF3B2A9B34A95BA2FA7AC49#473037105#Sound Novel Evolution 3 - Machi - Unmei no Kousaten (Japan) (Disc 2).zip</li>
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part4/Sound%20Novel%20Evolution%203%20-%20Machi%20-%20Unmei%20no%20Kousaten%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part4/Sound%20Novel%20Evolution%203%20-%20Machi%20-%20Unmei%20no%20Kousaten%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Sound%20Novel%20Evolution%203%20-%20Machi%20-%20Unmei%20no%20Kousaten%20%28Japan%29%20%28Disc%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Sound%20Novel%20Evolution%203%20-%20Machi%20-%20Unmei%20no%20Kousaten%20%28Japan%29%20%28Disc%202%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
@@ -552,8 +595,67 @@
       <tags>
         <tag>PS1</tag>
         <tag>Japanese</tag>
-        <tag>playable</tag>
         <tag>complete</tag>
+        <tag>playable</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Kono Yo no Hate de Koi o Utau Shoujo YU-NO</title>
+    <url>/r/r2696/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Kono Yo no Hate de Koi o Utau Shoujo YU-NO</strong><br>VNDB Link: <a href="https://vndb.org/r2696">Kono Yo no Hate de Koi o Utau Shoujo YU-NO</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : Saturn</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – f6f4398a19d078f0bf48e402eac3bd0b#6cfd563dfa80fc35878b2c6938e5713a#428215444#SS2038.rar<br> – 27c90255a0a16f5e635d7e2948efbbf8#8979dc296bbc9647455d71bc7dd06858#411981812#SS2039.rar<br> – 6bc469d516cdb10aface77eedbc5399f#bd3cbc4e2ff45d65ed79cd7f636ee49e#475108744#SS2040.rar<br> – password: oldmanemu.net</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20A%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20B%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20C%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS2038.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS2039.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS2040.rar">Direct Link</a><br> – password: oldmanemu.net</li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20A%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20B%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20C%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>Saturn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Emmyrea - SuperLite 1500 Series</title>
+    <url>/r/r26795/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Emmyrea - SuperLite 1500 Series</strong><br>VNDB Link: <a href="https://vndb.org/r26795">Emmyrea - SuperLite 1500 Series</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+<li>All-aged</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 88eaf35780295a1eea3e0578d6382447#94db67ada537f4d34141369383fc8b2c#148467027#SuperLite 1500 Series - Emmyrea (Japan).zip</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part4/SuperLite%201500%20Series%20-%20Emmyrea%20%28Japan%29.zip">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/SuperLite%201500%20Series%20-%20Emmyrea%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>all-aged</tag>
       </tags>
   </entry>
   <entry>
@@ -576,35 +678,9 @@
       </categories>
       <tags>
         <tag>PS1</tag>
+        <tag>complete</tag>
         <tag>playable</tag>
-        <tag>complete</tag>
         <tag>Chinese</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tentama</title>
-    <url>/r/r23807/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Tentama</strong><br>VNDB Link: <a href="https://vndb.org/r23807">Tentama</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – d74f95b3cbaf960a73e008d578e1233b#131663be10a341a4145c21c1befbd38a#243055503#Tentama (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part5/Tentama%20%28Japan%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Tentama%20(Japan).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
       </tags>
   </entry>
   <entry>
@@ -626,89 +702,9 @@
       </categories>
       <tags>
         <tag>PS1</tag>
+        <tag>complete</tag>
         <tag>playable</tag>
-        <tag>complete</tag>
         <tag>Chinese</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Memories Off (SuperLite 1500)</title>
-    <url>/r/r49674/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off (SuperLite 1500)</strong><br>VNDB Link: <a href="https://vndb.org/r49674">Memories Off (SuperLite 1500)</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 71f9184276fea366d9a039924bea6be2#83a9d37ab002181bbb84171e0f7fb00c#197467861#SuperLite 1500 Series - Memories Off (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part4/SuperLite%201500%20Series%20-%20Memories%20Off%20%28Japan%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SuperLite%201500%20Series%20-%20Memories%20Off%20(Japan).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Eve Zero</title>
-    <url>/r/r5324/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero</strong><br>VNDB Link: <a href="https://vndb.org/r5324">Eve Zero</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-<li>All-aged</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – c2f2b4b33cadf641bc9ed13d42e56ef4#4800c5b8c9c818cb0b831a458c69ebc2#423486119#Eve Zero (Japan) (Disc 1).7z<br> – 4a07719f3930d0bda7bf5bfa435221bc#b7128b85c3a0bce1c1d11a56ec491a91#443282244#Eve Zero (Japan) (Disc 2).7z<br> – be68a1077da21b135bc215aeef8be1ff#80e61cdc11fe162daf5961febb8b6738#281078377#Eve Zero (Japan) (Disc 3).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%203%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%202).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%203).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>all-aged</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Eve Zero - Limited Edition</title>
-    <url>/r/r5325/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r5325">Eve Zero - Limited Edition</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-<li>All-aged</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%201%29%20%28Premium%20Box%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%202%29%20%28Premium%20Box%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%203%29%20%28Premium%20Box%29.zip">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>all-aged</tag>
       </tags>
   </entry>
   <entry>
@@ -731,26 +727,29 @@
       </categories>
       <tags>
         <tag>PS1</tag>
-        <tag>playable</tag>
         <tag>complete</tag>
+        <tag>playable</tag>
         <tag>Chinese</tag>
         <tag>PSP</tag>
       </tags>
   </entry>
   <entry>
-    <title>KID Mix Section ~Character Collection~</title>
-    <url>/r/r64378/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>KID Mix Section ~Character Collection~</strong><br>VNDB Link: <a href="https://vndb.org/r64378">KID Mix Section ~Character Collection~</a></p>
+    <title>Memories Off (SuperLite 1500)</title>
+    <url>/r/r49674/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off (SuperLite 1500)</strong><br>VNDB Link: <a href="https://vndb.org/r49674">Memories Off (SuperLite 1500)</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
 <li>Language : Japanese</li>
-<li>Compatibility : playable</li>
+<li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
 </ul>
 <h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 4acf18a4c74f6942a5de411c9eecc563#b8aa03ed4f67eb96e462187382a20370#145082848#Kid Mix Section - Character Collection (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/Kid%20Mix%20Section%20-%20Character%20Collection%20%28Japan%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Kid%20Mix%20Section%20-%20Character%20Collection%20(Japan).7z">Direct Link</a></li>
+<li>BaiduNetDisk<br> – 71f9184276fea366d9a039924bea6be2#83a9d37ab002181bbb84171e0f7fb00c#197467861#SuperLite 1500 Series - Memories Off (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part4/SuperLite%201500%20Series%20-%20Memories%20Off%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SuperLite%201500%20Series%20-%20Memories%20Off%20(Japan).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/SuperLite%201500%20Series%20-%20Memories%20Off%20%28Japan%29.chd">Direct Link</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -759,8 +758,153 @@
       <tags>
         <tag>PS1</tag>
         <tag>Japanese</tag>
-        <tag>playable</tag>
+        <tag>not-tested</tag>
         <tag>complete</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Eve Burst Error - First Press Edition</title>
+    <url>/r/r5264/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Burst Error - First Press Edition</strong><br>VNDB Link: <a href="https://vndb.org/r5264">Eve Burst Error - First Press Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : Saturn</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 5fa7b53a0054407566b25d802baa70a8#24f89c08909bb0ea3e61a5e9bc996dde#256094803#SS0472.rar<br> – 6e06639ce290922780e18c5c6629c9aa#684db7988d73986c1afe4d45374d5d0d#238630184#SS0473.rar<br> – c047458a34116942ffb432c807a7b50d#dc8804500710752b72c7d4f7c176eae1#554418024#SS0474.rar<br> – b3572e6d3e453734bfe7f502f43e9b70#366175b59b1082b034a2236af14d4666#439212742#SS0475.rar 	<br> – password: oldmanemu.net</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%201%29%20%28Kojiroh%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%202%29%20%28Marina%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%203%29%20%28Terror%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%204%29%20%28Making%20Disc%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0472.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0473.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0474.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0475.rar">Direct Link</a><br> – password: oldmanemu.net</li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%201%29%20%28Kojiroh%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%202%29%20%28Marina%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%203%29%20%28Terror%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%204%29%20%28Making%20Disc%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>Saturn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Eve The Lost One</title>
+    <url>/r/r5321/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve The Lost One</strong><br>VNDB Link: <a href="https://vndb.org/r5321">Eve The Lost One</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : Saturn</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 489ff9c7730acb5584546fde6b5b0508#6c30aa2f23e66b6c737fc07b1fd44a6f#73436039#SS0476.rar<br> – 13f81487a4cf3d4661601f6065db7f59#004b10bb430b5cb6ee8b79f80806160a#306427249#SS0477.rar<br> – 918ca8f566a3257e270c7fc93eca909c#03974fd275c15c0309a28550291e0a5a#319327421#SS0478.rar<br> – fae172a3befe2a38a1357d6de4f36b31#7b1a8b793182cc8f1359939debbec880#113334838#SS0479.rar<br> – 43b863e7211b33960c6a458b0e9b6905#4c4dee87f9c0af90ee827776415bfe70#113322956#SS0480.rar<br> – 5419a4ffd36e45a1abca73214403f893#d7a4c789c0484da8c327880e530b6b95#156070115#SS0481.rar<br> – 6706631d4f538c5598ab6c7b3ec632a5#9ab5568e4af3d3031b618e3d7659771b#156044837#SS0482.rar<br> – password: oldmanemu.net</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Demo%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29%20%282M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%282M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Extra%20Disc%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Extra%20Disc%29%20%282M%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0476.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0477.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0478.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0479.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0480.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0481.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0482.rar">Direct Link</a><br> – password: oldmanemu.net</li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Demo%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29%20%282M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%282M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Extra%20Disc%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Extra%20Disc%29%20%282M%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>Saturn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>EVE The Lost One (GameVillage The Best)</title>
+    <url>/r/r5323/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>EVE The Lost One (GameVillage The Best)</strong><br>VNDB Link: <a href="https://vndb.org/r5323">EVE The Lost One</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29%20%28GameVillage%20The%20Best%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29%20%28GameVillage%20The%20Best%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%28GameVillage%20The%20Best%29.zip">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29%20%28GameVillage%20The%20Best%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29%20%28GameVillage%20The%20Best%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%28GameVillage%20The%20Best%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Eve Zero</title>
+    <url>/r/r5324/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero</strong><br>VNDB Link: <a href="https://vndb.org/r5324">Eve Zero</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+<li>All-aged</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – c2f2b4b33cadf641bc9ed13d42e56ef4#4800c5b8c9c818cb0b831a458c69ebc2#423486119#Eve Zero (Japan) (Disc 1).7z<br> – 4a07719f3930d0bda7bf5bfa435221bc#b7128b85c3a0bce1c1d11a56ec491a91#443282244#Eve Zero (Japan) (Disc 2).7z<br> – be68a1077da21b135bc215aeef8be1ff#80e61cdc11fe162daf5961febb8b6738#281078377#Eve Zero (Japan) (Disc 3).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%203%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%202).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%203).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%202%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%203%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>all-aged</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Eve Zero - Limited Edition</title>
+    <url>/r/r5325/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r5325">Eve Zero - Limited Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+<li>All-aged</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%201%29%20%28Premium%20Box%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%202%29%20%28Premium%20Box%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%203%29%20%28Premium%20Box%29.zip">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%201%29%20%28Premium%20Box%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%202%29%20%28Premium%20Box%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%203%29%20%28Premium%20Box%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>all-aged</tag>
       </tags>
   </entry>
   <entry>
@@ -778,6 +922,9 @@
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Infinity%20%28Japan%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Infinity%20%28Japan%29%20%28Rev%201%29.zip">Direct Link</a></li>
 <li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Infinity%20(Japan).7z">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Infinity%20%28Japan%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Infinity%20%28Japan%29%20%28Rev%201%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
@@ -787,6 +934,64 @@
         <tag>Japanese</tag>
         <tag>playable</tag>
         <tag>partial</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Desire Premium Pack</title>
+    <url>/r/r6004/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Desire Premium Pack</strong><br>VNDB Link: <a href="https://vndb.org/r6004">Desire Premium Pack</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : Saturn</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 31cfad1b24417f6d1b8e9ffedfd5dadf#0c5724abf101e0c0924f44bb6adc644b#365492376#Desire (Japan) (Disc 1).7z<br> – fae3f48e082a197571c195a023f7c053#4182d79c989665f19be81c64b0051d3a#141211341#Desire (Japan) (Disc 2) (1M).7z<br> – accdbc301ea9ce123d8b7ed4ac3bbeb8#0bbf0b1b6116a35706a05cca5cfdcdc2#141211587#Desire (Japan) (Disc 2) (2M).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Desire%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Desire%20%28Japan%29%20%28Disc%202%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Desire%20%28Japan%29%20%28Disc%202%29%20%282M%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Desire%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Desire%20(Japan)%20(Disc%202)%20(1M).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Desire%20(Japan)%20(Disc%202)%20(2M).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Desire%20%28Japan%29%20%28Disc%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Desire%20%28Japan%29%20%28Disc%202%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Desire%20%28Japan%29%20%28Disc%202%29%20%282M%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>Saturn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>KID Mix Section ~Character Collection~</title>
+    <url>/r/r64378/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>KID Mix Section ~Character Collection~</strong><br>VNDB Link: <a href="https://vndb.org/r64378">KID Mix Section ~Character Collection~</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 4acf18a4c74f6942a5de411c9eecc563#b8aa03ed4f67eb96e462187382a20370#145082848#Kid Mix Section - Character Collection (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/Kid%20Mix%20Section%20-%20Character%20Collection%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Kid%20Mix%20Section%20-%20Character%20Collection%20(Japan).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Kid%20Mix%20Section%20-%20Character%20Collection%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>playable</tag>
       </tags>
   </entry>
   <entry>
@@ -805,15 +1010,48 @@
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%203%29.zip">Direct Link</a></li>
 <li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Fatal%20Attraction%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Fatal%20Attraction%20(Japan)%20(Disc%202).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20-%20The%20Fatal%20Attraction%20(Japan)%20(Disc%203).7z">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%202%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%203%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
         <tag>PS1</tag>
         <tag>Japanese</tag>
+        <tag>not-tested</tag>
         <tag>complete</tag>
+        <tag>all-aged</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Eve: The Fatal Attraction - Limited Edition</title>
+    <url>/r/r6522/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve: The Fatal Attraction - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r6522">Eve: The Fatal Attraction - Limited Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+<li>All-aged</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%201%29%20%28Premium%20Box%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%202%29%20%28Premium%20Box%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%203%29%20%28Premium%20Box%29.zip">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%201%29%20%28Premium%20Box%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%202%29%20%28Premium%20Box%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%203%29%20%28Premium%20Box%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>PS1</tag>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>all-aged</tag>
       </tags>
   </entry>
   <entry>
@@ -831,14 +1069,17 @@
 <li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part4/Subete%20ga%20F%20ni%20Naru%20-%20The%20Perfect%20Insider%20%28Japan%29.zip">Direct Link</a></li>
 <li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Subete%20ga%20F%20ni%20Naru%20(Japan).7z">Direct Link</a></li>
 </ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Subete%20ga%20F%20ni%20Naru%20%28Japan%29.chd">Direct Link</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
         <tag>PS1</tag>
         <tag>Japanese</tag>
+        <tag>not-tested</tag>
         <tag>complete</tag>
       </tags>
   </entry>
@@ -861,35 +1102,40 @@
       </categories>
       <tags>
         <tag>PS1</tag>
-        <tag>playable</tag>
         <tag>complete</tag>
+        <tag>playable</tag>
         <tag>Chinese</tag>
       </tags>
   </entry>
   <entry>
-    <title>Eve: The Fatal Attraction - Limited Edition</title>
-    <url>/r/r6522/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve: The Fatal Attraction - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r6522">Eve: The Fatal Attraction - Limited Edition</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-<li>All-aged</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%201%29%20%28Premium%20Box%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%202%29%20%28Premium%20Box%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20-%20The%20Fatal%20Attraction%20%28Japan%29%20%28Disc%203%29%20%28Premium%20Box%29.zip">Direct Link</a></li>
-</ul>
+    <title>V0-testvn</title>
+    <url>/v/v0/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>V0-testvn</strong><br>Image: <img src="https://s2.vndb.org/s/angel-bg.jpg"><br>VNDB Link: <a href="https://vndb.org/">V0-testvn</a><br>BGM Link: <a href="https://bangumi.tv/">V0-testvn</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><p>raw, not-playable</p>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p><a href="../../r/r0/">R0</a></p>
 ]]></content>
       <categories>
-        <category>Release</category>
+        <category>Game</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
-        <tag>PS1</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>all-aged</tag>
+        <tag>raw</tag>
+        <tag>not-playable</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Memories Off</title>
+    <url>/v/v1152/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Memories Off</strong><br>Aliases: メモリーズオフ, 秋之回忆, memof, Memo-Off, メモオフ, MO1<br>Image: <img src="https://s2.vndb.org/cv/63/43463.jpg"><br>VNDB Link: <a href="https://vndb.org/v1152">Memories Off</a><br>BGM Link: <a href="https://bangumi.tv/subject/1732">Memories Off</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r2196/">Memories Off</a><br>[PS1][JP]<a href="../../r/r49674">Memories Off (SuperLite 1500)</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
       </tags>
   </entry>
   <entry>
@@ -925,54 +1171,6 @@
       </tags>
   </entry>
   <entry>
-    <title>街</title>
-    <url>/v/v1360/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>街</strong><br>Aliases: Machi, 街 <del>運命の交差点</del><br>Image: <img src="https://s2.vndb.org/cv/53/43753.jpg"><br>VNDB Link: <a href="https://vndb.org/v1360">Machi</a><br>BGM Link: <a href="https://bangumi.tv/subject/957">街 ~運命の交差点~</a> <a href="https://bangumi.tv/subject/228439">街 ~運命の交差点~ 特別篇</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>translated</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[Saturn][JP]<a href="../../r/r2661">Machi</a><br>[PS1][JP]<a href="../../r/r2662/">Sound Novel Evolution 3: Machi ~Unmei no Kousaten~</a><br>[PS1][CH]<a href="../../r/r90463/">音响小说系列第三部 街 ~命运的交叉点~</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>translated</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Memories Off</title>
-    <url>/v/v1152/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Memories Off</strong><br>Aliases: メモリーズオフ, 秋之回忆, memof, Memo-Off, メモオフ, MO1<br>Image: <img src="https://s2.vndb.org/cv/63/43463.jpg"><br>VNDB Link: <a href="https://vndb.org/v1152">Memories Off</a><br>BGM Link: <a href="https://bangumi.tv/subject/1732">Memories Off</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>translated</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r2196/">Memories Off</a><br>[PS1][JP]<a href="../../r/r49674">Memories Off (SuperLite 1500)</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>translated</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Exodus Guilty</title>
-    <url>/v/v172/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Exodus Guilty</strong><br>Aliases: エクソダスギルティー<br>Image: <img src="https://s2.vndb.org/cv/94/22694.jpg"><br>VNDB Link: <a href="https://vndb.org/v172">Exodus Guilty</a><br>BGM Link: <a href="https://bangumi.tv/subject/99011">エクソダスギルティー</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>raw</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r12899/">Exodus Guilty - Limited Edition</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>镰鼬之夜</title>
     <url>/v/v1241/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>镰鼬之夜</strong><br>Aliases: Kamaitachi no Yoru, かまいたちの夜, Night of the Sickle Weasel, Night of the Kamaitachi, Banshee’s Last Cry, 恐怖惊魂夜, 镰鼬之夜, かまいたちの夜 輪廻彩声, 镰鼬之夜 轮回彩声<br>Image: <img src="https://s2.vndb.org/cv/65/31365.jpg"><br>VNDB Link: <a href="https://vndb.org/v1241">Kamaitachi no Yoru</a><br>BGM Link: <a href="https://bangumi.tv/subject/14761">かまいたちの夜</a> <a href="https://bangumi.tv/subject/206205">かまいたちの夜 輪廻彩声</a></p>
@@ -989,125 +1187,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Never7 -the end of infinity-</title>
-    <url>/v/v248/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Never7 -the end of infinity-</strong><br>Aliases: ネバーセブン<del>ジ エンド オブ インフィニティ</del>, 時光之鑰, Never7：无限轮回的终结, 第七夜 无限轮回的终结<br>Image: <img src="https://s2.vndb.org/cv/70/45770.jpg"><br>VNDB Link: <a href="https://vndb.org/v248">Never7 -the end of infinity-</a><br>BGM Link: <a href="https://bangumi.tv/subject/1125">Never7 -the end of infinity-</a></p>
+    <title>街</title>
+    <url>/v/v1360/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>街</strong><br>Aliases: Machi, 街 <del>運命の交差点</del><br>Image: <img src="https://s2.vndb.org/cv/53/43753.jpg"><br>VNDB Link: <a href="https://vndb.org/v1360">Machi</a><br>BGM Link: <a href="https://bangumi.tv/subject/957">街 ~運命の交差点~</a> <a href="https://bangumi.tv/subject/228439">街 ~運命の交差点~ 特別篇</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
 </ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r5872/">Infinity</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>translated</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Kid Mix Section - Character Collection</title>
-    <url>/v/v26011/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Kid Mix Section - Character Collection</strong><br>Aliases: KIDミックスセクション キャラクターコレクション, KID Mix Section ~Character Collection~<br>Image: <img src="https://s2.vndb.org/cv/89/39189.jpg"><br>VNDB Link: <a href="https://vndb.org/v26011">Kid Mix Section - Character Collection</a><br>BGM Link: <a href="https://bangumi.tv/subject/330831">KID MIXセクション</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>raw</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r64378/">KID Mix Section ~Character Collection~</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>EVE The Fatal Attraction</title>
-    <url>/v/v3338/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>EVE The Fatal Attraction</strong><br>Aliases: イブティーエフエーアトラクション, EVE TFA<br>Image: <img src="https://s2.vndb.org/cv/52/4052.jpg"><br>VNDB Link: <a href="https://vndb.org/v3338">EVE The Fatal Attraction</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>raw</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r6521/">Eve: The Fatal Attraction - Regular Edition</a><br>[PS1][JP]<a href="../../r/r6522/">Eve: The Fatal Attraction - Limited Edition</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>すべてがFになる ～THE PERFECT INSIDER～</title>
-    <url>/v/v3972/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>すべてがFになる ～THE PERFECT INSIDER～</strong><br>Aliases: Subete ga F ni Naru ~The Perfect Insider~, 全部成为F<br>Image: <img src="https://s2.vndb.org/cv/61/4861.jpg"><br>VNDB Link: <a href="https://vndb.org/v3972">Subete ga F ni Naru ~The Perfect Insider~</a><br>BGM Link: <a href="https://bangumi.tv/subject/155696">すべてがFになる ～THE PERFECT INSIDER～</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>raw</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r7677/">Subete ga F ni Naru ~The Perfect Insider~</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Lの季節 A Piece of Memories</title>
-    <url>/v/v6011/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Lの季節 ~A piece of memories~</strong><br>Aliases: L no Kisetsu: A Piece of Memories<br>Image: <img src="https://s2.vndb.org/cv/35/7535.jpg"><br>VNDB Link: <a href="https://vndb.org/v6011">L no Kisetsu: A Piece of Memories</a><br>BGM Link: <a href="https://bangumi.tv/subject/151098">Lの季節 ~A piece of memories~</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>raw</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r11764/">L no Kisetsu: A piece of memories - Limited Edition</a><br>[PS1][JP]<a href="../../r/r11765/">L no Kisetsu: A piece of memories - Regular Edition</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>弟切草</title>
-    <url>/v/v661/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>弟切草</strong><br>Aliases: Otogirisou<br>Image: <img src="https://s2.vndb.org/cv/66/40166.jpg"><br>VNDB Link: <a href="https://vndb.org/v661">Otogirisou</a><br>BGM Link: <a href="https://bangumi.tv/subject/22512">弟切草</a> <a href="https://bangumi.tv/subject/56619">弟切草 蘇生篇</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>translated</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r1309/">Sound Novel Evolution 1 - Otogirisou - Soseihen</a><br>[PS1][CH]<a href="../../r/r47478">弟切草 蘇生篇</a><br>[PSX2PSP][CH]<a href="../../r/r47478g1">弟切草 蘇生篇</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>translated</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Milky Season</title>
-    <url>/v/v7510/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Milky Season</strong><br>Aliases: ミルキィ·シーズン<br>Image: <img src="https://s2.vndb.org/cv/04/9504.jpg"><br>VNDB Link: <a href="https://vndb.org/v7510">Milky Season</a><br>BGM Link: <a href="https://bangumi.tv/subject/330832">ミルキィ·シーズン</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>raw</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r15019/">Milky Season</a><br>[Dreamcast][JP]<a href="../../r/r15020/">Milky Season</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>梦之翼</title>
-    <url>/v/v5850/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>梦之翼</strong><br>Aliases: 夢のつばさ, Yume no Tsubasa, 梦之翼<br>Image: <img src="https://s2.vndb.org/cv/32/43632.jpg"><br>VNDB Link: <a href="https://vndb.org/v5850">Yume no Tsubasa</a><br>BGM Link: <a href="https://bangumi.tv/subject/16916">夢のつばさ</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>translated</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r11423/">Yume no Tsubasa</a></p>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[Saturn][JP]<a href="../../r/r2661">Machi</a><br>[PS1][JP]<a href="../../r/r2662/">Sound Novel Evolution 3: Machi ~Unmei no Kousaten~</a><br>[PS1][CH]<a href="../../r/r90463/">音响小说系列第三部 街 ~命运的交叉点~</a></p>
 ]]></content>
       <categories>
         <category>Game</category>
@@ -1165,6 +1251,38 @@
       </tags>
   </entry>
   <entry>
+    <title>Exodus Guilty</title>
+    <url>/v/v172/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Exodus Guilty</strong><br>Aliases: エクソダスギルティー<br>Image: <img src="https://s2.vndb.org/cv/94/22694.jpg"><br>VNDB Link: <a href="https://vndb.org/v172">Exodus Guilty</a><br>BGM Link: <a href="https://bangumi.tv/subject/99011">エクソダスギルティー</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>raw</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r12899/">Exodus Guilty - Limited Edition</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>raw</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Never7 -the end of infinity-</title>
+    <url>/v/v248/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Never7 -the end of infinity-</strong><br>Aliases: ネバーセブン<del>ジ エンド オブ インフィニティ</del>, 時光之鑰, Never7：无限轮回的终结, 第七夜 无限轮回的终结<br>Image: <img src="https://s2.vndb.org/cv/70/45770.jpg"><br>VNDB Link: <a href="https://vndb.org/v248">Never7 -the end of infinity-</a><br>BGM Link: <a href="https://bangumi.tv/subject/1125">Never7 -the end of infinity-</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r5872/">Infinity</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>6 Inch My Darling</title>
     <url>/v/v1833/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>6 Inch My Darling</strong><br>Aliases: 6インチまいだーりん<br>Image: <img src="https://s2.vndb.org/cv/69/8769.jpg"><br>VNDB Link: <a href="https://vndb.org/v1833">6 Inch My Darling</a><br>BGM Link: <a href="https://bangumi.tv/subject/330829">6インチまいだーりん</a></p>
@@ -1172,6 +1290,86 @@
 <li>raw</li>
 </ul>
 <h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[Saturn][JP]<a href="../../r/r11561/">6 Inch My Darling</a><br>[Windows][JP]<a href="../../r/r3551/">6 Inch My Darling</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>raw</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Kid Mix Section - Character Collection</title>
+    <url>/v/v26011/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Kid Mix Section - Character Collection</strong><br>Aliases: KIDミックスセクション キャラクターコレクション, KID Mix Section ~Character Collection~<br>Image: <img src="https://s2.vndb.org/cv/89/39189.jpg"><br>VNDB Link: <a href="https://vndb.org/v26011">Kid Mix Section - Character Collection</a><br>BGM Link: <a href="https://bangumi.tv/subject/330831">KID MIXセクション</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>raw</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r64378/">KID Mix Section ~Character Collection~</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>raw</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Eve The Lost One</title>
+    <url>/v/v2708/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Eve The Lost One</strong><br>Aliases: EVE TLO, 夜行侦探 迷失者<br>Image: <img src="https://s2.vndb.org/cv/19/22619.jpg"><br>VNDB Link: <a href="https://vndb.org/v2708">Eve The Lost One</a><br>BGM Link: <a href="https://bangumi.tv/subject/107536">EVE ～the lost one～</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r12958/">EVE The Lost One</a><br>[PS1][JP]<a href="../../r/r5323/">EVE The Lost One (GameVillage The Best)</a><br>[Saturn][JP]<a href="../../r/r5321/">Eve The Lost One</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>EVE ZERO</title>
+    <url>/v/v2709/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>EVE ZERO</strong><br>Aliases: EVE 0, イブ ゼロ, 夜行侦探：零<br>Image: <img src="https://s2.vndb.org/cv/65/21465.jpg"><br>VNDB Link: <a href="https://vndb.org/v2709">EVE ZERO</a><br>BGM Link: <a href="https://bangumi.tv/subject/78818">EVE ZERO ~ark of the matter~</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r5324/">Eve Zero</a><br>[PS1][JP]<a href="../../r/r5325/">Eve Zero - Limited Edition</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>EVE The Fatal Attraction</title>
+    <url>/v/v3338/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>EVE The Fatal Attraction</strong><br>Aliases: イブティーエフエーアトラクション, EVE TFA<br>Image: <img src="https://s2.vndb.org/cv/52/4052.jpg"><br>VNDB Link: <a href="https://vndb.org/v3338">EVE The Fatal Attraction</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>raw</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r6521/">Eve: The Fatal Attraction - Regular Edition</a><br>[PS1][JP]<a href="../../r/r6522/">Eve: The Fatal Attraction - Limited Edition</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>raw</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>すべてがFになる ～THE PERFECT INSIDER～</title>
+    <url>/v/v3972/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>すべてがFになる ～THE PERFECT INSIDER～</strong><br>Aliases: Subete ga F ni Naru ~The Perfect Insider~, 全部成为F<br>Image: <img src="https://s2.vndb.org/cv/61/4861.jpg"><br>VNDB Link: <a href="https://vndb.org/v3972">Subete ga F ni Naru ~The Perfect Insider~</a><br>BGM Link: <a href="https://bangumi.tv/subject/155696">すべてがFになる ～THE PERFECT INSIDER～</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>raw</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r7677/">Subete ga F ni Naru ~The Perfect Insider~</a></p>
 ]]></content>
       <categories>
         <category>Game</category>
@@ -1197,207 +1395,109 @@
       </tags>
   </entry>
   <entry>
-    <title>Kiss yori... - Limited Edition</title>
-    <url>/r/r11559/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Kiss yori… - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11559">Kiss yori… - Limited Edition</a></p>
+    <title>梦之翼</title>
+    <url>/v/v5850/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>梦之翼</strong><br>Aliases: 夢のつばさ, Yume no Tsubasa, 梦之翼<br>Image: <img src="https://s2.vndb.org/cv/32/43632.jpg"><br>VNDB Link: <a href="https://vndb.org/v5850">Yume no Tsubasa</a><br>BGM Link: <a href="https://bangumi.tv/subject/16916">夢のつばさ</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : Saturn</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-<li>All-aged</li>
+<li>translated</li>
 </ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 6e15d26b6b14aa00f35f89526fc2df9a#d31f10b794afaf578feb4533215388f2#502930844#SS0826.rar<br> – password: oldmanemu.net</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Kiss%20yori...%20%28Japan%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Kiss%20yori...%20%28Japan%29%20%28Rev%20A%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0826.rar">Direct Link</a><br> – password: oldmanemu.net</li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Kiss%20yori...%20%28Japan%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Kiss%20yori...%20%28Japan%29%20%28Rev%20A%29.chd">Direct Link</a></li>
-</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r11423/">Yume no Tsubasa</a></p>
 ]]></content>
       <categories>
-        <category>Release</category>
+        <category>Game</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>Saturn</tag>
+        <tag>translated</tag>
       </tags>
   </entry>
   <entry>
-    <title>6 Inch My Darling</title>
-    <url>/r/r11561/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>6 Inch My Darling</strong><br>VNDB Link: <a href="https://vndb.org/r11561">6 Inch My Darling</a></p>
+    <title>Lの季節 A Piece of Memories</title>
+    <url>/v/v6011/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Lの季節 ~A piece of memories~</strong><br>Aliases: L no Kisetsu: A Piece of Memories<br>Image: <img src="https://s2.vndb.org/cv/35/7535.jpg"><br>VNDB Link: <a href="https://vndb.org/v6011">L no Kisetsu: A Piece of Memories</a><br>BGM Link: <a href="https://bangumi.tv/subject/151098">Lの季節 ~A piece of memories~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : Saturn</li>
-<li>Language : Japanese</li>
-<li>Compatibility : playable</li>
-<li>Completeness : complete</li>
-<li>All-aged</li>
+<li>raw</li>
 </ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 4f12a2ff65eadc44dc3493dc7e15dbda#b851f63ff2f214cb91a8511dcecc2beb#261073831#SS0011.rar<br> – password: oldmanemu.net</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/6%20Inch%20My%20Darling%20%28Japan%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0011.rar">Direct Link</a><br> – password: oldmanemu.net</li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/6%20Inch%20My%20Darling%20%28Japan%29.chd">Direct Link</a></li>
-</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r11764/">L no Kisetsu: A piece of memories - Limited Edition</a><br>[PS1][JP]<a href="../../r/r11765/">L no Kisetsu: A piece of memories - Regular Edition</a></p>
 ]]></content>
       <categories>
-        <category>Release</category>
+        <category>Game</category>
       </categories>
       <tags>
-        <tag>Japanese</tag>
-        <tag>playable</tag>
-        <tag>complete</tag>
-        <tag>Saturn</tag>
+        <tag>raw</tag>
       </tags>
   </entry>
   <entry>
-    <title>Machi</title>
-    <url>/r/r2661/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Machi</strong><br>VNDB Link: <a href="https://vndb.org/r2661">Machi</a></p>
+    <title>眠れる森のお姫さま</title>
+    <url>/v/v6378/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>眠れる森のお姫さま</strong><br>Aliase: Nemureru Mori no Ohime-sama, Sleeping Princess in Forest, 眠れる森のお姫様, Emmyrea, エミーリア<br>Image: <img src="https://s2.vndb.org/cv/72/7972.jpg"><br>VNDB Link: <a href="https://vndb.org/v6378">Nemureru Mori no Ohime-sama</a><br>BGM Link: <a href="https://bangumi.tv/subject/104611">眠れる森のお姫様</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : Saturn</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
+<li>raw</li>
 </ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 409D2CCA393702308C342C13949C4BB5#83C03936AE7BFD345459A23A91204571#211285294#Machi (Japan) (Demo).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Machi%20%28Japan%29%20%28Demo%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Machi%20%28Japan%29%20%28Demo%29%20%282M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Machi%20%28Japan%29%20%28Demo%29%20%284M%29.zip">Direct Link</a></li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Machi%20%28Japan%29%20%28Demo%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Machi%20%28Japan%29%20%28Demo%29%20%282M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Machi%20%28Japan%29%20%28Demo%29%20%284M%29.chd">Direct Link</a></li>
-</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[Windows][JP]<a href="../../r/r12528/">Nemureru Mori no Ohime-sama</a><br>[PS1][JP]<a href="../../r/r26170/">Emmyrea</a><br>[PS1][JP]<a href="../../r/r26795/">Emmyrea - SuperLite 1500 Series</a></p>
 ]]></content>
       <categories>
-        <category>Release</category>
+        <category>Game</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>Saturn</tag>
+        <tag>raw</tag>
       </tags>
   </entry>
   <entry>
-    <title>Kono Yo no Hate de Koi o Utau Shoujo YU-NO</title>
-    <url>/r/r2696/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Kono Yo no Hate de Koi o Utau Shoujo YU-NO</strong><br>VNDB Link: <a href="https://vndb.org/r2696">Kono Yo no Hate de Koi o Utau Shoujo YU-NO</a></p>
+    <title>弟切草</title>
+    <url>/v/v661/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>弟切草</strong><br>Aliases: Otogirisou<br>Image: <img src="https://s2.vndb.org/cv/66/40166.jpg"><br>VNDB Link: <a href="https://vndb.org/v661">Otogirisou</a><br>BGM Link: <a href="https://bangumi.tv/subject/22512">弟切草</a> <a href="https://bangumi.tv/subject/56619">弟切草 蘇生篇</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : Saturn</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
+<li>translated</li>
 </ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – f6f4398a19d078f0bf48e402eac3bd0b#6cfd563dfa80fc35878b2c6938e5713a#428215444#SS2038.rar<br> – 27c90255a0a16f5e635d7e2948efbbf8#8979dc296bbc9647455d71bc7dd06858#411981812#SS2039.rar<br> – 6bc469d516cdb10aface77eedbc5399f#bd3cbc4e2ff45d65ed79cd7f636ee49e#475108744#SS2040.rar<br> – password: oldmanemu.net</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20A%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20B%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20C%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS2038.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS2039.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS2040.rar">Direct Link</a><br> – password: oldmanemu.net</li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20A%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20B%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20C%29.chd">Direct Link</a></li>
-</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r1309/">Sound Novel Evolution 1 - Otogirisou - Soseihen</a><br>[PS1][CH]<a href="../../r/r47478">弟切草 蘇生篇</a><br>[PSX2PSP][CH]<a href="../../r/r47478g1">弟切草 蘇生篇</a></p>
 ]]></content>
       <categories>
-        <category>Release</category>
+        <category>Game</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>Saturn</tag>
+        <tag>translated</tag>
       </tags>
   </entry>
   <entry>
-    <title>Eve Burst Error - First Press Edition</title>
-    <url>/r/r5264/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Burst Error - First Press Edition</strong><br>VNDB Link: <a href="https://vndb.org/r5264">Eve Burst Error - First Press Edition</a></p>
+    <title>Milky Season</title>
+    <url>/v/v7510/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Milky Season</strong><br>Aliases: ミルキィ·シーズン<br>Image: <img src="https://s2.vndb.org/cv/04/9504.jpg"><br>VNDB Link: <a href="https://vndb.org/v7510">Milky Season</a><br>BGM Link: <a href="https://bangumi.tv/subject/330832">ミルキィ·シーズン</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : Saturn</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
+<li>raw</li>
 </ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 5fa7b53a0054407566b25d802baa70a8#24f89c08909bb0ea3e61a5e9bc996dde#256094803#SS0472.rar<br> – 6e06639ce290922780e18c5c6629c9aa#684db7988d73986c1afe4d45374d5d0d#238630184#SS0473.rar<br> – c047458a34116942ffb432c807a7b50d#dc8804500710752b72c7d4f7c176eae1#554418024#SS0474.rar<br> – b3572e6d3e453734bfe7f502f43e9b70#366175b59b1082b034a2236af14d4666#439212742#SS0475.rar 	<br> – password: oldmanemu.net</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%201%29%20%28Kojiroh%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%202%29%20%28Marina%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%203%29%20%28Terror%20Disc%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%204%29%20%28Making%20Disc%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0472.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0473.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0474.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0475.rar">Direct Link</a><br> – password: oldmanemu.net</li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%201%29%20%28Kojiroh%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%202%29%20%28Marina%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%203%29%20%28Terror%20Disc%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20Burst%20Error%20%28Japan%29%20%28Disc%204%29%20%28Making%20Disc%29.chd">Direct Link</a></li>
-</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS1][JP]<a href="../../r/r15019/">Milky Season</a><br>[Dreamcast][JP]<a href="../../r/r15020/">Milky Season</a></p>
 ]]></content>
       <categories>
-        <category>Release</category>
+        <category>Game</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>Saturn</tag>
+        <tag>raw</tag>
       </tags>
   </entry>
   <entry>
-    <title>Eve The Lost One</title>
-    <url>/r/r5321/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve The Lost One</strong><br>VNDB Link: <a href="https://vndb.org/r5321">Eve The Lost One</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : Saturn</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 489ff9c7730acb5584546fde6b5b0508#6c30aa2f23e66b6c737fc07b1fd44a6f#73436039#SS0476.rar<br> – 13f81487a4cf3d4661601f6065db7f59#004b10bb430b5cb6ee8b79f80806160a#306427249#SS0477.rar<br> – 918ca8f566a3257e270c7fc93eca909c#03974fd275c15c0309a28550291e0a5a#319327421#SS0478.rar<br> – fae172a3befe2a38a1357d6de4f36b31#7b1a8b793182cc8f1359939debbec880#113334838#SS0479.rar<br> – 43b863e7211b33960c6a458b0e9b6905#4c4dee87f9c0af90ee827776415bfe70#113322956#SS0480.rar<br> – 5419a4ffd36e45a1abca73214403f893#d7a4c789c0484da8c327880e530b6b95#156070115#SS0481.rar<br> – 6706631d4f538c5598ab6c7b3ec632a5#9ab5568e4af3d3031b618e3d7659771b#156044837#SS0482.rar<br> – password: oldmanemu.net</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Demo%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29%20%282M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%282M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Extra%20Disc%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Extra%20Disc%29%20%282M%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0476.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0477.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0478.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0479.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0480.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0481.rar">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/SS0482.rar">Direct Link</a><br> – password: oldmanemu.net</li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Demo%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%201%29%20%28Kyoko%20Disc%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%202%29%20%28Snake%20Disc%29%20%282M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%203%29%20%28Lost%20One%20Disc%29%20%282M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Extra%20Disc%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Eve%20-%20The%20Lost%20One%20%28Japan%29%20%28Disc%204%29%20%28Extra%20Disc%29%20%282M%29.chd">Direct Link</a></li>
-</ul>
+    <title>Categories</title>
+    <url>/categories/</url>
+    <content><![CDATA[<h2 id="Game"><a href="#Game" class="headerlink" title="Game"></a><a href="./game">Game</a></h2><p>抽象的“一个游戏”。对标VNDB的&#x2F;v页面，提供VNDB页面和Bangumi.tv页面链接，对于缺少VNDB页面的游戏可能提供IGDB页面链接代替。对于“是不是同一个游戏”的判断标准将优先遵从VNDB的判断标准。</p>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a><a href="./release">Release</a></h2><p>“一个游戏”的具体的“分发版本”。对标VNDB的&#x2F;r页面，但更加具体，尤其是合集版本，会根据其“是否有多个独立的可执行文件”进行分割、保留或与独立版本页面合并。在此处直接与独立的程序及其下载链接相关联。</p>
 ]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>Saturn</tag>
-      </tags>
   </entry>
   <entry>
-    <title>Desire Premium Pack</title>
-    <url>/r/r6004/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Desire Premium Pack</strong><br>VNDB Link: <a href="https://vndb.org/r6004">Desire Premium Pack</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : Saturn</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
+    <title>Tags</title>
+    <url>/tags/</url>
+    <content><![CDATA[<h2 id="Tags-for-Games"><a href="#Tags-for-Games" class="headerlink" title="Tags for Games"></a>Tags for Games</h2><ul>
+<li>Game.raw&#x2F;translated<br> — 用于描述该游戏是否有汉化版。只要有一个Release标注为有中文，即标注为translated。<br> — <a href="./raw">raw</a><br> — <a href="./translated">translated</a></li>
+<li>Game.not-playable<br> — 用于描述该游戏整体是否可玩。所有游戏默认不使用此tag。如果游戏没有任何已收集的Release或没有任何标注为complete的Release可玩性为playable及以上，即标注为not-playable。<br> — <a href="./not-playable">not-playable</a></li>
+<li>Game.unofficial<br> — 在VNDB上，unofficial用于描述VN间的关系，而且是双向的——我认为这不太合理。在这里，unofficial这个标签用于描述游戏自身，而非关系。另外，在VNDB上，unofficial还用于描述Release，在这里将改用homebrew描述此类非官方的release。<br> — <a href="./unofficial">unofficial</a></li>
 </ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-x2F-CUE"><a href="#BIN-x2F-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 31cfad1b24417f6d1b8e9ffedfd5dadf#0c5724abf101e0c0924f44bb6adc644b#365492376#Desire (Japan) (Disc 1).7z<br> – fae3f48e082a197571c195a023f7c053#4182d79c989665f19be81c64b0051d3a#141211341#Desire (Japan) (Disc 2) (1M).7z<br> – accdbc301ea9ce123d8b7ed4ac3bbeb8#0bbf0b1b6116a35706a05cca5cfdcdc2#141211587#Desire (Japan) (Disc 2) (2M).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/redump.ss.revival/Desire%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Desire%20%28Japan%29%20%28Disc%202%29%20%281M%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/redump.ss.revival/Desire%20%28Japan%29%20%28Disc%202%29%20%282M%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Desire%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Desire%20(Japan)%20(Disc%202)%20(1M).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Desire%20(Japan)%20(Disc%202)%20(2M).7z">Direct Link</a></li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Desire%20%28Japan%29%20%28Disc%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Desire%20%28Japan%29%20%28Disc%202%29%20%281M%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_saturn/CHD-Saturn/Japan/Desire%20%28Japan%29%20%28Disc%202%29%20%282M%29.chd">Direct Link</a></li>
+<h2 id="Tags-for-Releases"><a href="#Tags-for-Releases" class="headerlink" title="Tags for Releases"></a>Tags for Releases</h2><ul>
+<li>Release.platform(Windows, PS3, Xbox360, and else)<br> — 用于描述该游戏版本的平台。某些release可能会有多个平台标签，这可能是因为这个游戏使用了跨平台引擎并预留了多个可执行文件，或是官方的移植版本（PSX2PSP，PSX2PS3），但可以用旧平台的模拟器运行。<br> — <a href="./windows">Windows</a><br> — <a href="./ps1">PS1</a></li>
+<li>Release.language(Chinese, Japanese, English, and else)<br> — 用于描述该游戏版本所用的语言。可以有多个。此处按VNDB的早期标准，不区分繁体中文和简体中文。有些游戏在购买页面显示多语言，但实际在下载时只能选择其中一个，此时将只标注收集版本的语言，因此将和VNDB的release页面标注有所不同。<br> — <a href="./chinese">Chinese</a><br> — <a href="./japanese">Japanese</a></li>
+<li>Release.compatibility(playable, ingame, loadable, crash, not-tested)<br> — 用于描述该游戏版本的运行状态。根据各个模拟器的compatibility分类简化而来。这一描述将综合个人测试结果和其他用户贡献的测试结果。<br> — playable表示游戏几乎完全可玩，只有少量基本不影响游戏体验的问题。ingame表示可以进入游戏，有基本正确的响应内容，但无法体验完整内容。loadable表示游戏可以引导，但没有正确的输出内容，无法进行游戏。crash表示完全无法进入游戏。not-tested表示该游戏未经测试。<br> — 对于主机平台的游戏，这一信息仅代表模拟器上的表现。如果您希望在破解的游戏机上使用这些内容，请自行测试且后果自负。<br> — 对于Windows平台的游戏，可能因为系统版本不匹配、驱动异常、相关API异常、缺少相关运行环境等问题而无法运行或出现各种小错误，此类问题过于杂乱且因设备而异，故不进行描述。只要该游戏版本在Windows7或更高的系统上不经太过复杂的处理成功运行过一次，即标注为playable。如果出现普遍性的问题，才会使用其他描述。<br> — <a href="./playable">playable</a><br> — <a href="./ingame">ingame</a><br> — <a href="./loadable">loadable</a><br> — <a href="./crash">crash</a><br> — <a href="./not-tested">not-tested</a></li>
+<li>Release.completeness(complete, partial, trial)<br> — 用于描述游戏版本的完整性。参考VNDB的标注，设置complete, partial, trial三个档次。使用此tag的游戏版本默认为“包含完整游戏文件的、独立的可执行文件”。<br> — <a href="./complete">complete</a><br> — <a href="./partial">partial</a><br> — <a href="./trial">trial</a></li>
+<li>Release.patch&#x2F;UPD<br> — 用于描述游戏版本的程序的完整性。使用此tag的游戏版本默认为“不包含完整游戏文件的内容”、“无法独立运行的可执行文件”或“不包含可执行文件”。<br> — <a href="./patch">patch</a></li>
+<li>Release.early-version<br> — 用于描述游戏版本是否为早期版本。</li>
+<li>Release.all-aged<br> — 使用此tag表示该游戏有着“有年龄限制的”版本，而此游戏版本不包含此类内容。<br> — <a href="./all-aged">all-aged</a></li>
 </ul>
 ]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>Saturn</tag>
-      </tags>
   </entry>
 </search>
