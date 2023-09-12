@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>About</title>
-    <url>/about/</url>
+    <url>/wiki/about/</url>
     <content><![CDATA[<h2 id="关于v2"><a href="#关于v2" class="headerlink" title="关于v2"></a>关于v2</h2><p><em><strong>本分享原则上不直接提供资源本身</strong></em><br>当然，这话我自己都不信</p>
 <p>相比v1，增加了大概100个游戏，修改了几处错误。全部文件可能约1T。</p>
 <p>添加了大把的Xbox360平台的游戏，完成了Switch平台游戏的整理，将原来近400行的超长列表分成了九个页面，查找会相对容易。</p>
@@ -23,7 +23,7 @@
   </entry>
   <entry>
     <title>Instruction</title>
-    <url>/instruction/</url>
+    <url>/wiki/instruction/</url>
     <content><![CDATA[<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p><a href="../../">Back</a></p>
 <p><em><strong>本分享原则上不直接提供资源本身</strong></em><br>当然，这话我自己都不信</p>
 <h2 id="资源获取"><a href="#资源获取" class="headerlink" title="资源获取"></a>资源获取</h2><p>本分享以保持分享内容长期存活可用为主要目标，没有考虑下载速度和便捷程度等问题。基于此目的，本分享使用的分享形式需要保证存储文件的网站尽可能长期存活，尽量不依赖分享者账号，获取资源时限制尽可能少等要求。<br>本分享中使用的分享形式主要有度云秒传链接和BT链接。两者能保证中长期时间内文件存活，且基本不依赖分享者账号。另部分文件附有NoPayStation的链接，这个网站短期内应该不会关门或和谐，且能保证基本的下载速度，可以选择使用。</p>
@@ -54,7 +54,7 @@
   </entry>
   <entry>
     <title>Yume no Tsubasa</title>
-    <url>/r/r11423/</url>
+    <url>/wiki/r/r11423/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Yume no Tsubasa</strong><br>VNDB Link: <a href="https://vndb.org/r11423">Yume no Tsubasa</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -83,7 +83,7 @@
   </entry>
   <entry>
     <title>R0-testrelease</title>
-    <url>/r/r0/</url>
+    <url>/wiki/r/r0/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>R0-testrelease</strong><br>VNDB Link: <a href="https://vndb.org/">V0-testvn</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Windows</li>
@@ -109,7 +109,7 @@
   </entry>
   <entry>
     <title>6 Inch My Darling</title>
-    <url>/r/r11561/</url>
+    <url>/wiki/r/r11561/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>6 Inch My Darling</strong><br>VNDB Link: <a href="https://vndb.org/r11561">6 Inch My Darling</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Saturn</li>
@@ -139,7 +139,7 @@
   </entry>
   <entry>
     <title>L no Kisetsu: A piece of memories - Limited Edition</title>
-    <url>/r/r11764/</url>
+    <url>/wiki/r/r11764/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>L no Kisetsu: A piece of memories - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11764">L no Kisetsu: A piece of memories - Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -168,7 +168,7 @@
   </entry>
   <entry>
     <title>Kiss yori... - Limited Edition</title>
-    <url>/r/r11559/</url>
+    <url>/wiki/r/r11559/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Kiss yori… - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11559">Kiss yori… - Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Saturn</li>
@@ -198,7 +198,7 @@
   </entry>
   <entry>
     <title>L no Kisetsu: A piece of memories - Regular Edition</title>
-    <url>/r/r11765/</url>
+    <url>/wiki/r/r11765/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>L no Kisetsu: A piece of memories - Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11765">L no Kisetsu: A piece of memories - Regular Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -227,7 +227,7 @@
   </entry>
   <entry>
     <title>Nemureru Mori no Ohime-sama</title>
-    <url>/r/r12528/</url>
+    <url>/wiki/r/r12528/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Nemureru Mori no Ohime-sama</strong><br>VNDB Link: <a href="https://vndb.org/r12528">Nemureru Mori no Ohime-sama</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Windows</li>
@@ -252,7 +252,7 @@
   </entry>
   <entry>
     <title>Exodus Guilty - Limited Edition</title>
-    <url>/r/r12899/</url>
+    <url>/wiki/r/r12899/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Exodus Guilty - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r12899">Exodus Guilty - Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -283,7 +283,7 @@
   </entry>
   <entry>
     <title>EVE The Lost One</title>
-    <url>/r/r12958/</url>
+    <url>/wiki/r/r12958/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>EVE The Lost One</strong><br>VNDB Link: <a href="https://vndb.org/r12958">title</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -312,7 +312,7 @@
   </entry>
   <entry>
     <title>Sound Novel Evolution 1 - Otogirisou - Soseihen</title>
-    <url>/r/r1309/</url>
+    <url>/wiki/r/r1309/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Sound Novel Evolution 1 - Otogirisou - Soseihen</strong><br>VNDB Link: <a href="https://vndb.org/r1309">Sound Novel Evolution 1 - Otogirisou - Soseihen</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -340,7 +340,7 @@
   </entry>
   <entry>
     <title>Milky Season</title>
-    <url>/r/r15019/</url>
+    <url>/wiki/r/r15019/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Milky Season</strong><br>VNDB Link: <a href="https://vndb.org/r15019">Milky Season</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -369,7 +369,7 @@
   </entry>
   <entry>
     <title>Memories Off</title>
-    <url>/r/r2196/</url>
+    <url>/wiki/r/r2196/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off</strong><br>VNDB Link: <a href="https://vndb.org/r2196">Memories Off</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -397,7 +397,7 @@
   </entry>
   <entry>
     <title>Memories Off 2nd - First Press Limited Edition</title>
-    <url>/r/r2199/</url>
+    <url>/wiki/r/r2199/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off 2nd - First Press Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r2199">Memories Off 2nd - First Press Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -426,7 +426,7 @@
   </entry>
   <entry>
     <title>Sound Novel Evolution 2 - Kamaitachi no Yoru - Tokubetsuhen</title>
-    <url>/r/r2334/</url>
+    <url>/wiki/r/r2334/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Sound Novel Evolution 2 - Kamaitachi no Yoru - Tokubetsuhen</strong><br>VNDB Link: <a href="https://vndb.org/r2334">Sound Novel Evolution 2 - Kamaitachi no Yoru - Tokubetsuhen</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -455,7 +455,7 @@
   </entry>
   <entry>
     <title>Tentama</title>
-    <url>/r/r23807/</url>
+    <url>/wiki/r/r23807/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Tentama</strong><br>VNDB Link: <a href="https://vndb.org/r23807">Tentama</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -484,7 +484,7 @@
   </entry>
   <entry>
     <title>Memories Off 2nd - Regular Edition</title>
-    <url>/r/r2430/</url>
+    <url>/wiki/r/r2430/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off 2nd - Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r2430">Memories Off 2nd - Regular Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -513,7 +513,7 @@
   </entry>
   <entry>
     <title>Emmyrea</title>
-    <url>/r/r26170/</url>
+    <url>/wiki/r/r26170/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Emmyrea</strong><br>VNDB Link: <a href="https://vndb.org/r26170">Emmyrea</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -545,7 +545,7 @@
   </entry>
   <entry>
     <title>Machi</title>
-    <url>/r/r2661/</url>
+    <url>/wiki/r/r2661/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Machi</strong><br>VNDB Link: <a href="https://vndb.org/r2661">Machi</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Saturn</li>
@@ -573,7 +573,7 @@
   </entry>
   <entry>
     <title>Sound Novel Evolution 3: Machi ~Unmei no Kousaten~</title>
-    <url>/r/r2662/</url>
+    <url>/wiki/r/r2662/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Sound Novel Evolution 3: Machi ~Unmei no Kousaten~</strong><br>VNDB Link: <a href="https://vndb.org/r2662">Sound Novel Evolution 3: Machi ~Unmei no Kousaten~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -601,7 +601,7 @@
   </entry>
   <entry>
     <title>Kono Yo no Hate de Koi o Utau Shoujo YU-NO</title>
-    <url>/r/r2696/</url>
+    <url>/wiki/r/r2696/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Kono Yo no Hate de Koi o Utau Shoujo YU-NO</strong><br>VNDB Link: <a href="https://vndb.org/r2696">Kono Yo no Hate de Koi o Utau Shoujo YU-NO</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Saturn</li>
@@ -630,7 +630,7 @@
   </entry>
   <entry>
     <title>Emmyrea - SuperLite 1500 Series</title>
-    <url>/r/r26795/</url>
+    <url>/wiki/r/r26795/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Emmyrea - SuperLite 1500 Series</strong><br>VNDB Link: <a href="https://vndb.org/r26795">Emmyrea - SuperLite 1500 Series</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -660,7 +660,7 @@
   </entry>
   <entry>
     <title>镰鼬之夜</title>
-    <url>/r/r46441/</url>
+    <url>/wiki/r/r46441/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>镰鼬之夜</strong><br>VNDB Link: <a href="https://vndb.org/r46441">Lianyou zhi Ye</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -685,7 +685,7 @@
   </entry>
   <entry>
     <title>弟切草 蘇生篇</title>
-    <url>/r/r47478/</url>
+    <url>/wiki/r/r47478/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>弟切草 蘇生篇</strong><br>VNDB Link: <a href="https://vndb.org/r47478">Diqiecao Sushengpian</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -709,7 +709,7 @@
   </entry>
   <entry>
     <title>弟切草 蘇生篇</title>
-    <url>/r/r47478g1/</url>
+    <url>/wiki/r/r47478g1/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>弟切草 蘇生篇</strong></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1, PSP</li>
@@ -735,7 +735,7 @@
   </entry>
   <entry>
     <title>Memories Off (SuperLite 1500)</title>
-    <url>/r/r49674/</url>
+    <url>/wiki/r/r49674/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off (SuperLite 1500)</strong><br>VNDB Link: <a href="https://vndb.org/r49674">Memories Off (SuperLite 1500)</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -764,7 +764,7 @@
   </entry>
   <entry>
     <title>Eve Burst Error - First Press Edition</title>
-    <url>/r/r5264/</url>
+    <url>/wiki/r/r5264/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Burst Error - First Press Edition</strong><br>VNDB Link: <a href="https://vndb.org/r5264">Eve Burst Error - First Press Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Saturn</li>
@@ -793,7 +793,7 @@
   </entry>
   <entry>
     <title>Eve The Lost One</title>
-    <url>/r/r5321/</url>
+    <url>/wiki/r/r5321/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve The Lost One</strong><br>VNDB Link: <a href="https://vndb.org/r5321">Eve The Lost One</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Saturn</li>
@@ -822,7 +822,7 @@
   </entry>
   <entry>
     <title>EVE The Lost One (GameVillage The Best)</title>
-    <url>/r/r5323/</url>
+    <url>/wiki/r/r5323/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>EVE The Lost One (GameVillage The Best)</strong><br>VNDB Link: <a href="https://vndb.org/r5323">EVE The Lost One</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -849,7 +849,7 @@
   </entry>
   <entry>
     <title>Eve Zero</title>
-    <url>/r/r5324/</url>
+    <url>/wiki/r/r5324/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero</strong><br>VNDB Link: <a href="https://vndb.org/r5324">Eve Zero</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -880,7 +880,7 @@
   </entry>
   <entry>
     <title>Eve Zero - Limited Edition</title>
-    <url>/r/r5325/</url>
+    <url>/wiki/r/r5325/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r5325">Eve Zero - Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -909,7 +909,7 @@
   </entry>
   <entry>
     <title>Infinity</title>
-    <url>/r/r5872/</url>
+    <url>/wiki/r/r5872/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Infinity</strong><br>VNDB Link: <a href="https://vndb.org/r5872">Infinity</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -938,7 +938,7 @@
   </entry>
   <entry>
     <title>Desire Premium Pack</title>
-    <url>/r/r6004/</url>
+    <url>/wiki/r/r6004/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Desire Premium Pack</strong><br>VNDB Link: <a href="https://vndb.org/r6004">Desire Premium Pack</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Saturn</li>
@@ -967,7 +967,7 @@
   </entry>
   <entry>
     <title>KID Mix Section ~Character Collection~</title>
-    <url>/r/r64378/</url>
+    <url>/wiki/r/r64378/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>KID Mix Section ~Character Collection~</strong><br>VNDB Link: <a href="https://vndb.org/r64378">KID Mix Section ~Character Collection~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -996,7 +996,7 @@
   </entry>
   <entry>
     <title>Eve: The Fatal Attraction - Regular Edition</title>
-    <url>/r/r6521/</url>
+    <url>/wiki/r/r6521/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve: The Fatal Attraction - Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r6521">Eve: The Fatal Attraction - Regular Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -1027,7 +1027,7 @@
   </entry>
   <entry>
     <title>Eve: The Fatal Attraction - Limited Edition</title>
-    <url>/r/r6522/</url>
+    <url>/wiki/r/r6522/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve: The Fatal Attraction - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r6522">Eve: The Fatal Attraction - Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -1056,7 +1056,7 @@
   </entry>
   <entry>
     <title>Subete ga F ni Naru ~The Perfect Insider~</title>
-    <url>/r/r7677/</url>
+    <url>/wiki/r/r7677/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Subete ga F ni Naru ~The Perfect Insider~</strong><br>VNDB Link: <a href="https://vndb.org/r7677">Subete ga F ni Naru ~The Perfect Insider~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -1085,7 +1085,7 @@
   </entry>
   <entry>
     <title>音响小说系列第三部 街 ~命运的交叉点~</title>
-    <url>/r/r90463/</url>
+    <url>/wiki/r/r90463/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>音响小说系列第三部 街 ~命运的交叉点~</strong><br>VNDB Link: <a href="https://vndb.org/r90463">音响小说系列第三部 街 ~命运的交叉点~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
@@ -1109,7 +1109,7 @@
   </entry>
   <entry>
     <title>V0-testvn</title>
-    <url>/v/v0/</url>
+    <url>/wiki/v/v0/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>V0-testvn</strong><br>Image: <img src="https://s2.vndb.org/s/angel-bg.jpg"><br>VNDB Link: <a href="https://vndb.org/">V0-testvn</a><br>BGM Link: <a href="https://bangumi.tv/">V0-testvn</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><p>raw, not-playable</p>
 <h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p><a href="../../r/r0/">R0</a></p>
@@ -1124,7 +1124,7 @@
   </entry>
   <entry>
     <title>Memories Off</title>
-    <url>/v/v1152/</url>
+    <url>/wiki/v/v1152/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Memories Off</strong><br>Aliases: メモリーズオフ, 秋之回忆, memof, Memo-Off, メモオフ, MO1<br>Image: <img src="https://s2.vndb.org/cv/63/43463.jpg"><br>VNDB Link: <a href="https://vndb.org/v1152">Memories Off</a><br>BGM Link: <a href="https://bangumi.tv/subject/1732">Memories Off</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1140,7 +1140,7 @@
   </entry>
   <entry>
     <title>见习天使</title>
-    <url>/v/v11517/</url>
+    <url>/wiki/v/v11517/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>见习天使</strong><br>Aliases: てんたま, Tentama<br>Image: <img src="https://s2.vndb.org/cv/94/14594.jpg"><br>VNDB Link: <a href="https://vndb.org/v11517">Tentama</a><br>BGM Link: <a href="https://bangumi.tv/subject/46058">てんたま -1st Sunny Side-</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1156,7 +1156,7 @@
   </entry>
   <entry>
     <title>Memories Off 2nd</title>
-    <url>/v/v1153/</url>
+    <url>/wiki/v/v1153/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Memories Off 2nd</strong><br>Aliases: memoff2, Memo-Off 2, メモオフ2, メモリーズオフ セカンド, 秋之回忆2<br>Image: <img src="https://s2.vndb.org/cv/64/43464.jpg"><br>VNDB Link: <a href="https://vndb.org/v1153">Memories Off 2nd</a><br>BGM Link: <a href="https://bangumi.tv/subject/1733">Memories Off 2nd</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1172,7 +1172,7 @@
   </entry>
   <entry>
     <title>镰鼬之夜</title>
-    <url>/v/v1241/</url>
+    <url>/wiki/v/v1241/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>镰鼬之夜</strong><br>Aliases: Kamaitachi no Yoru, かまいたちの夜, Night of the Sickle Weasel, Night of the Kamaitachi, Banshee’s Last Cry, 恐怖惊魂夜, 镰鼬之夜, かまいたちの夜 輪廻彩声, 镰鼬之夜 轮回彩声<br>Image: <img src="https://s2.vndb.org/cv/65/31365.jpg"><br>VNDB Link: <a href="https://vndb.org/v1241">Kamaitachi no Yoru</a><br>BGM Link: <a href="https://bangumi.tv/subject/14761">かまいたちの夜</a> <a href="https://bangumi.tv/subject/206205">かまいたちの夜 輪廻彩声</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1188,7 +1188,7 @@
   </entry>
   <entry>
     <title>街</title>
-    <url>/v/v1360/</url>
+    <url>/wiki/v/v1360/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>街</strong><br>Aliases: Machi, 街 <del>運命の交差点</del><br>Image: <img src="https://s2.vndb.org/cv/53/43753.jpg"><br>VNDB Link: <a href="https://vndb.org/v1360">Machi</a><br>BGM Link: <a href="https://bangumi.tv/subject/957">街 ~運命の交差点~</a> <a href="https://bangumi.tv/subject/228439">街 ~運命の交差点~ 特別篇</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1204,7 +1204,7 @@
   </entry>
   <entry>
     <title>この世の果てで恋を唄う少女YU-NO</title>
-    <url>/v/v1377/</url>
+    <url>/wiki/v/v1377/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>この世の果てで恋を唄う少女YU-NO</strong><br>Aliases: Kono Yo no Hate de Koi o Utau Shoujo YU-NO, 在世界尽头咏唱恋曲的少女YU-NO, A girl who chants love at the bound of this world YU-NO, yuno<br>Image: <img src="https://s2.vndb.org/cv/29/59029.jpg"><br>VNDB Link: <a href="https://vndb.org/v1377">Kono Yo no Hate de Koi o Utau Shoujo YU-NO</a><br>BGM Link: <a href="https://bangumi.tv/subject/1075">この世の果てで恋を唄う少女YU-NO</a> <a href="https://bangumi.tv/subject/121307">この世の果てで恋を唄う少女YU-NO</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1220,7 +1220,7 @@
   </entry>
   <entry>
     <title>Eve Burst Error</title>
-    <url>/v/v147/</url>
+    <url>/wiki/v/v147/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Eve Burst Error</strong><br>Aliases: イブ·バースト·エラー, 夜行侦探<br>Image: <img src="https://s2.vndb.org/cv/56/54756.jpg"><br>VNDB Link: <a href="https://vndb.org/v147">Eve Burst Error</a><br>BGM Link: <a href="https://bangumi.tv/subject/14665">EVE ～burst error～</a> <a href="https://bangumi.tv/subject/168953">EVE Burst error R</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1236,12 +1236,12 @@
   </entry>
   <entry>
     <title>DESIRE 背徳の螺旋</title>
-    <url>/v/v151/</url>
+    <url>/wiki/v/v151/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>DESIRE 背徳の螺旋</strong><br>Aliases: DESIRE Haitoku no Rasen, DESIRE<br>Image: <img src="https://s2.vndb.org/cv/14/32214.jpg"><br>VNDB Link: <a href="https://vndb.org/v151">DESIRE Haitoku no Rasen</a><br>BGM Link: <a href="https://bangumi.tv/subject/37675">DESIRE ～背徳の螺旋～</a> <a href="https://bangumi.tv/subject/212138">DESIRE remaster ver.</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
 </ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[Saturn][JP]<a href="../../r/r6004/">Desire Premium Pack</a></p>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[Saturn][JP]<a href="../../r/r6004/">Desire Premium Pack</a><br>[PS2][JP]<a href="../../r/r6002/">Desire</a></p>
 ]]></content>
       <categories>
         <category>Game</category>
@@ -1252,7 +1252,7 @@
   </entry>
   <entry>
     <title>Exodus Guilty</title>
-    <url>/v/v172/</url>
+    <url>/wiki/v/v172/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Exodus Guilty</strong><br>Aliases: エクソダスギルティー<br>Image: <img src="https://s2.vndb.org/cv/94/22694.jpg"><br>VNDB Link: <a href="https://vndb.org/v172">Exodus Guilty</a><br>BGM Link: <a href="https://bangumi.tv/subject/99011">エクソダスギルティー</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1268,7 +1268,7 @@
   </entry>
   <entry>
     <title>Never7 -the end of infinity-</title>
-    <url>/v/v248/</url>
+    <url>/wiki/v/v248/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Never7 -the end of infinity-</strong><br>Aliases: ネバーセブン~ジ エンド オブ インフィニティ~, 時光之鑰, Never7：无限轮回的终结, 第七夜 无限轮回的终结<br>Image: <img src="https://s2.vndb.org/cv/70/45770.jpg"><br>VNDB Link: <a href="https://vndb.org/v248">Never7 -the end of infinity-</a><br>BGM Link: <a href="https://bangumi.tv/subject/1125">Never7 -the end of infinity-</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1284,7 +1284,7 @@
   </entry>
   <entry>
     <title>6 Inch My Darling</title>
-    <url>/v/v1833/</url>
+    <url>/wiki/v/v1833/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>6 Inch My Darling</strong><br>Aliases: 6インチまいだーりん<br>Image: <img src="https://s2.vndb.org/cv/69/8769.jpg"><br>VNDB Link: <a href="https://vndb.org/v1833">6 Inch My Darling</a><br>BGM Link: <a href="https://bangumi.tv/subject/330829">6インチまいだーりん</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1300,7 +1300,7 @@
   </entry>
   <entry>
     <title>Kid Mix Section - Character Collection</title>
-    <url>/v/v26011/</url>
+    <url>/wiki/v/v26011/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Kid Mix Section - Character Collection</strong><br>Aliases: KIDミックスセクション キャラクターコレクション, KID Mix Section ~Character Collection~<br>Image: <img src="https://s2.vndb.org/cv/89/39189.jpg"><br>VNDB Link: <a href="https://vndb.org/v26011">Kid Mix Section - Character Collection</a><br>BGM Link: <a href="https://bangumi.tv/subject/330831">KID MIXセクション</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1316,7 +1316,7 @@
   </entry>
   <entry>
     <title>Eve The Lost One</title>
-    <url>/v/v2708/</url>
+    <url>/wiki/v/v2708/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Eve The Lost One</strong><br>Aliases: EVE TLO, 夜行侦探 迷失者<br>Image: <img src="https://s2.vndb.org/cv/19/22619.jpg"><br>VNDB Link: <a href="https://vndb.org/v2708">Eve The Lost One</a><br>BGM Link: <a href="https://bangumi.tv/subject/107536">EVE ～the lost one～</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1332,7 +1332,7 @@
   </entry>
   <entry>
     <title>EVE ZERO</title>
-    <url>/v/v2709/</url>
+    <url>/wiki/v/v2709/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>EVE ZERO</strong><br>Aliases: EVE 0, イブ ゼロ, 夜行侦探：零<br>Image: <img src="https://s2.vndb.org/cv/65/21465.jpg"><br>VNDB Link: <a href="https://vndb.org/v2709">EVE ZERO</a><br>BGM Link: <a href="https://bangumi.tv/subject/78818">EVE ZERO ~ark of the matter~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1348,7 +1348,7 @@
   </entry>
   <entry>
     <title>EVE The Fatal Attraction</title>
-    <url>/v/v3338/</url>
+    <url>/wiki/v/v3338/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>EVE The Fatal Attraction</strong><br>Aliases: イブティーエフエーアトラクション, EVE TFA<br>Image: <img src="https://s2.vndb.org/cv/52/4052.jpg"><br>VNDB Link: <a href="https://vndb.org/v3338">EVE The Fatal Attraction</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1364,7 +1364,7 @@
   </entry>
   <entry>
     <title>すべてがFになる ～THE PERFECT INSIDER～</title>
-    <url>/v/v3972/</url>
+    <url>/wiki/v/v3972/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>すべてがFになる ～THE PERFECT INSIDER～</strong><br>Aliases: Subete ga F ni Naru ~The Perfect Insider~, 全部成为F<br>Image: <img src="https://s2.vndb.org/cv/61/4861.jpg"><br>VNDB Link: <a href="https://vndb.org/v3972">Subete ga F ni Naru ~The Perfect Insider~</a><br>BGM Link: <a href="https://bangumi.tv/subject/155696">すべてがFになる ～THE PERFECT INSIDER～</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1380,7 +1380,7 @@
   </entry>
   <entry>
     <title>KISSより…</title>
-    <url>/v/v4200/</url>
+    <url>/wiki/v/v4200/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>KISSより…</strong><br>Aliases: Kiss yori…<br>Image: <img src="https://s2.vndb.org/cv/90/5190.jpg"><br>VNDB Link: <a href="https://vndb.org/v4200">Kiss yori…</a><br>BGM Link: <a href="https://bangumi.tv/subject/84413">KISSより…</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1396,7 +1396,7 @@
   </entry>
   <entry>
     <title>梦之翼</title>
-    <url>/v/v5850/</url>
+    <url>/wiki/v/v5850/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>梦之翼</strong><br>Aliases: 夢のつばさ, Yume no Tsubasa, 梦之翼<br>Image: <img src="https://s2.vndb.org/cv/32/43632.jpg"><br>VNDB Link: <a href="https://vndb.org/v5850">Yume no Tsubasa</a><br>BGM Link: <a href="https://bangumi.tv/subject/16916">夢のつばさ</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1412,7 +1412,7 @@
   </entry>
   <entry>
     <title>Lの季節 A Piece of Memories</title>
-    <url>/v/v6011/</url>
+    <url>/wiki/v/v6011/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Lの季節 ~A piece of memories~</strong><br>Aliases: L no Kisetsu: A Piece of Memories<br>Image: <img src="https://s2.vndb.org/cv/35/7535.jpg"><br>VNDB Link: <a href="https://vndb.org/v6011">L no Kisetsu: A Piece of Memories</a><br>BGM Link: <a href="https://bangumi.tv/subject/151098">Lの季節 ~A piece of memories~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1428,7 +1428,7 @@
   </entry>
   <entry>
     <title>眠れる森のお姫さま</title>
-    <url>/v/v6378/</url>
+    <url>/wiki/v/v6378/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>眠れる森のお姫さま</strong><br>Aliase: Nemureru Mori no Ohime-sama, Sleeping Princess in Forest, 眠れる森のお姫様, Emmyrea, エミーリア<br>Image: <img src="https://s2.vndb.org/cv/72/7972.jpg"><br>VNDB Link: <a href="https://vndb.org/v6378">Nemureru Mori no Ohime-sama</a><br>BGM Link: <a href="https://bangumi.tv/subject/104611">眠れる森のお姫様</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1444,7 +1444,7 @@
   </entry>
   <entry>
     <title>弟切草</title>
-    <url>/v/v661/</url>
+    <url>/wiki/v/v661/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>弟切草</strong><br>Aliases: Otogirisou<br>Image: <img src="https://s2.vndb.org/cv/66/40166.jpg"><br>VNDB Link: <a href="https://vndb.org/v661">Otogirisou</a><br>BGM Link: <a href="https://bangumi.tv/subject/22512">弟切草</a> <a href="https://bangumi.tv/subject/56619">弟切草 蘇生篇</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1460,7 +1460,7 @@
   </entry>
   <entry>
     <title>Milky Season</title>
-    <url>/v/v7510/</url>
+    <url>/wiki/v/v7510/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Milky Season</strong><br>Aliases: ミルキィ·シーズン<br>Image: <img src="https://s2.vndb.org/cv/04/9504.jpg"><br>VNDB Link: <a href="https://vndb.org/v7510">Milky Season</a><br>BGM Link: <a href="https://bangumi.tv/subject/330832">ミルキィ·シーズン</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1476,14 +1476,14 @@
   </entry>
   <entry>
     <title>Categories</title>
-    <url>/categories/</url>
+    <url>/wiki/categories/</url>
     <content><![CDATA[<h2 id="Game"><a href="#Game" class="headerlink" title="Game"></a><a href="./game">Game</a></h2><p>抽象的“一个游戏”。对标VNDB的&#x2F;v页面，提供VNDB页面和Bangumi.tv页面链接，对于缺少VNDB页面的游戏可能提供IGDB页面链接代替。对于“是不是同一个游戏”的判断标准将优先遵从VNDB的判断标准。</p>
 <h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a><a href="./release">Release</a></h2><p>“一个游戏”的具体的“分发版本”。对标VNDB的&#x2F;r页面，但更加具体，尤其是合集版本，会根据其“是否有多个独立的可执行文件”进行分割、保留或与独立版本页面合并。在此处直接与独立的程序及其下载链接相关联。</p>
-]]></content>
+<h2 id="Anime"><a href="#Anime" class="headerlink" title="Anime"></a><a href="./anime">Anime</a></h2><h2 id="Tool"><a href="#Tool" class="headerlink" title="[Tool]"></a>[Tool]</h2>]]></content>
   </entry>
   <entry>
     <title>Tags</title>
-    <url>/tags/</url>
+    <url>/wiki/tags/</url>
     <content><![CDATA[<h2 id="Tags-for-Games"><a href="#Tags-for-Games" class="headerlink" title="Tags for Games"></a>Tags for Games</h2><ul>
 <li>Game.raw&#x2F;translated<br> — 用于描述该游戏是否有汉化版。只要有一个Release标注为有中文，即标注为translated。<br> — <a href="./raw">raw</a><br> — <a href="./translated">translated</a></li>
 <li>Game.not-playable<br> — 用于描述该游戏整体是否可玩。所有游戏默认不使用此tag。如果游戏没有任何已收集的Release或没有任何标注为complete的Release可玩性为playable及以上，即标注为not-playable。<br> — <a href="./not-playable">not-playable</a></li>
@@ -1503,7 +1503,7 @@
   </entry>
   <entry>
     <title>Otogirisou</title>
-    <url>/r/r1308/</url>
+    <url>/wiki/r/r1308/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Otogirisou</strong><br>VNDB Link: <a href="https://vndb.org/r1308">Otogirisou</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : SFC&#x2F;SNES</li>
@@ -1531,7 +1531,7 @@
   </entry>
   <entry>
     <title>Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</title>
-    <url>/r/r2664/</url>
+    <url>/wiki/r/r2664/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</strong><br>VNDB Link: <a href="https://vndb.org/r2664">Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo zenpen</a> <a href="https://vndb.org/r2665">Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo kouhen</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : FC&#x2F;NES</li>
@@ -1559,7 +1559,7 @@
   </entry>
   <entry>
     <title>Kamaitachi no Yoru</title>
-    <url>/r/r2333/</url>
+    <url>/wiki/r/r2333/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Kamaitachi no Yoru</strong><br>VNDB Link: <a href="https://vndb.org/r2333">Kamaitachi no Yoru</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : SFC&#x2F;SNES</li>
@@ -1587,7 +1587,7 @@
   </entry>
   <entry>
     <title>BS Tantei Club - Yuki ni Kieta Kako</title>
-    <url>/r/r26271/</url>
+    <url>/wiki/r/r26271/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>BS Tantei Club - Yuki ni Kieta Kako</strong><br>VNDB Link: <a href="https://vndb.org/r26271">BS Tantei Club - Yuki ni Kieta Kako zenpen</a> <a href="https://vndb.org/r26272">BS Tantei Club - Yuki ni Kieta Kako chuuhen</a> <a href="https://vndb.org/r26273">BS Tantei Club - Yuki ni Kieta Kako kouhen</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : SFC&#x2F;SNES</li>
@@ -1614,7 +1614,7 @@
   </entry>
   <entry>
     <title>8-BIT ADV Steins;Gate</title>
-    <url>/r/r68635/</url>
+    <url>/wiki/r/r68635/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>8-BIT ADV Steins;Gate</strong><br>VNDB Link: <a href="https://vndb.org/r68635">8-BIT ADV Steins;Gate</a> <a href="https://vndb.org/r68630">8-BIT ADV Steins;Gate</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : FC&#x2F;NES</li>
@@ -1641,7 +1641,7 @@
   </entry>
   <entry>
     <title>Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</title>
-    <url>/r/r732/</url>
+    <url>/wiki/r/r732/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</strong><br>VNDB Link: <a href="https://vndb.org/r732">Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : SFC&#x2F;SNES</li>
@@ -1669,7 +1669,7 @@
   </entry>
   <entry>
     <title>Famicom Tantei Club - Kieta Koukeisha</title>
-    <url>/r/r6697/</url>
+    <url>/wiki/r/r6697/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Famicom Tantei Club - Kieta Koukeisha</strong><br>VNDB Link: <a href="https://vndb.org/r6697">Famicom Tantei Club - Kieta Koukeisha Zenpen</a> <a href="https://vndb.org/r6698">Famicom Tantei Club - Kieta Koukeisha kouhen</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : FC&#x2F;NES</li>
@@ -1697,7 +1697,7 @@
   </entry>
   <entry>
     <title>Famicom Detective Club Part 2</title>
-    <url>/r/r734/</url>
+    <url>/wiki/r/r734/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Famicom Detective Club Part 2</strong><br>VNDB Link: <a href="https://vndb.org/r734">Famicom Detective Club Part 2</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : SFC&#x2F;SNES</li>
@@ -1721,7 +1721,7 @@
   </entry>
   <entry>
     <title>BS Tantei Club - Yuki ni Kieta Kako</title>
-    <url>/v/v12366/</url>
+    <url>/wiki/v/v12366/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>BS Tantei Club - Yuki ni Kieta Kako</strong><br>Aliases: BS探偵倶楽部 ～雪に消えた過去～<br>Image: <img src="https://s2.vndb.org/cv/49/32849.jpg"><br>VNDB Link: <a href="https://vndb.org/v12366">BS Tantei Club - Yuki ni Kieta Kako</a><br>BGM Link: <a href="https://bangumi.tv/subject/280269">BS探偵倶楽部 雪に消えた過去</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1739,7 +1739,7 @@
   </entry>
   <entry>
     <title>FamicolleADV STEINS;GATE</title>
-    <url>/v/v23221/</url>
+    <url>/wiki/v/v23221/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>FamicolleADV STEINS;GATE</strong><br>Aliases: ファミコレADV シュタインズ·ゲート<br>Image: <img src="https://s2.vndb.org/cv/31/36531.jpg"><br>VNDB Link: <a href="https://vndb.org/v23221">FamicolleADV STEINS;GATE</a><br>BGM Link: <a href="https://bangumi.tv/subject/255333">ファミコレADV シュタインズ·ゲート</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -1755,7 +1755,7 @@
   </entry>
   <entry>
     <title>Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</title>
-    <url>/v/v295/</url>
+    <url>/wiki/v/v295/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</strong><br>Aliases: ファミコン探偵倶楽部PartII うしろに立つ少女, Famicom Detective Club: The Girl Who Stands Behind, Famicom偵探俱樂部 站在身後的少女<br>Image: <img src="https://s2.vndb.org/cv/81/31181.jpg"><br>VNDB Link: <a href="https://vndb.org/v295">Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</a><br>BGM Link: <a href="https://bangumi.tv/subject/234988">ファミコン探偵倶楽部PartII うしろに立つ少女</a> <a href="https://bangumi.tv/subject/290175">ファミコン探偵倶楽部PartII うしろに立つ少女</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1771,7 +1771,7 @@
   </entry>
   <entry>
     <title>Famicom Tantei Club - Kieta Koukeisha</title>
-    <url>/v/v3433/</url>
+    <url>/wiki/v/v3433/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Famicom Tantei Club - Kieta Koukeisha</strong><br>Aliases: ファミコン探偵倶楽部 消えた後継者, Famicom Detective Club: The Missing Heir, Famicom偵探俱樂部 消失的繼承人<br>Image: <img src="https://s2.vndb.org/cv/80/31180.jpg"><br>VNDB Link: <a href="https://vndb.org/v3433">Famicom Tantei Club - Kieta Koukeisha</a><br>BGM Link: <a href="https://bangumi.tv/subject/234987">ファミコン探偵倶楽部 消えた後継者</a> <a href="https://bangumi.tv/subject/290174">ファミコン探偵倶楽部 消えた後継者</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1787,7 +1787,7 @@
   </entry>
   <entry>
     <title>Kiss yori... Seaside Serenade</title>
-    <url>/r/r12694/</url>
+    <url>/wiki/r/r12694/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Kiss yori… Seaside Serenade</strong><br>VNDB Link: <a href="https://vndb.org/r12694">Kiss yori… Seaside Serenade</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : WonderSwan</li>
@@ -1817,7 +1817,7 @@
   </entry>
   <entry>
     <title>Memories Off Pure</title>
-    <url>/r/r2422/</url>
+    <url>/wiki/r/r2422/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off Pure</strong><br>VNDB Link: <a href="https://vndb.org/r2422">Memories Off Pure</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : NeoGeoPocketColor</li>
@@ -1842,7 +1842,7 @@
   </entry>
   <entry>
     <title>Memories Off Festa</title>
-    <url>/r/r3865/</url>
+    <url>/wiki/r/r3865/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off Festa</strong><br>VNDB Link: <a href="https://vndb.org/r3865">Memories Off Festa</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : WonderSwan Color</li>
@@ -1870,7 +1870,7 @@
   </entry>
   <entry>
     <title>Pocket Love</title>
-    <url>/r/r50147/</url>
+    <url>/wiki/r/r50147/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Pocket Love</strong><br>VNDB Link: <a href="https://vndb.org/r50147">Pocket Love</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : GameBoy</li>
@@ -1895,7 +1895,7 @@
   </entry>
   <entry>
     <title>Pocket Love 2</title>
-    <url>/r/r50148/</url>
+    <url>/wiki/r/r50148/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Pocket Love 2</strong><br>VNDB Link: <a href="https://vndb.org/r50148">Pocket Love 2</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : GameBoy</li>
@@ -1920,7 +1920,7 @@
   </entry>
   <entry>
     <title>Pocket Love ~If~</title>
-    <url>/r/r50156/</url>
+    <url>/wiki/r/r50156/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Pocket Love ~If~</strong><br>VNDB Link: <a href="https://vndb.org/r50156">Pocket Love ~If~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : NeoGeoPocket</li>
@@ -1945,7 +1945,7 @@
   </entry>
   <entry>
     <title>Infinity Cure</title>
-    <url>/r/r5873/</url>
+    <url>/wiki/r/r5873/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Infinity Cure</strong><br>VNDB Link: <a href="https://vndb.org/r5873">Infinity Cure.</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : NeoGeoPocketColor</li>
@@ -1970,7 +1970,7 @@
   </entry>
   <entry>
     <title>Memories Off Pure</title>
-    <url>/v/v1284/</url>
+    <url>/wiki/v/v1284/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Memories Off Pure</strong><br>Aliases: メモリーズオフ～ピュア～<br>Image: <img src="https://s2.vndb.org/cv/86/15686.jpg"><br>VNDB Link: <a href="https://vndb.org/v1284">Memories Off Pure</a><br>BGM Link: <a href="https://bangumi.tv/subject/52492">Memories Off Duet</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -1986,7 +1986,7 @@
   </entry>
   <entry>
     <title>Memories Off Festa</title>
-    <url>/v/v1966/</url>
+    <url>/wiki/v/v1966/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Memories Off Festa</strong><br>Aliases: メモリーズオフ -フェスタ-<br>Image: <img src="https://s2.vndb.org/cv/87/15687.jpg"><br>VNDB Link: <a href="https://vndb.org/v1966">Memories Off Festa</a><br>BGM Link: <a href="https://bangumi.tv/subject/80814">Memories Off Festa</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2002,7 +2002,7 @@
   </entry>
   <entry>
     <title>Pocket Love</title>
-    <url>/v/v20677/</url>
+    <url>/wiki/v/v20677/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Pocket Love</strong><br>Aliases: ポケットラブ<br>Image: <img src="https://s2.vndb.org/cv/65/31665.jpg"><br>VNDB Link: <a href="https://vndb.org/v20677">Pocket Love</a><br>BGM Link: <a href="https://bangumi.tv/subject/330826">ポケットラブ</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2018,7 +2018,7 @@
   </entry>
   <entry>
     <title>Pocket Love 2</title>
-    <url>/v/v20678/</url>
+    <url>/wiki/v/v20678/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Pocket Love 2</strong><br>Aliases: ポケットラブ2<br>Image: <img src="https://s2.vndb.org/cv/66/31666.jpg"><br>VNDB Link: <a href="https://vndb.org/v20678">Pocket Love 2</a><br>BGM Link: <a href="https://bangumi.tv/subject/330828">ポケットラブ2</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2034,7 +2034,7 @@
   </entry>
   <entry>
     <title>Pocket Love ~If~</title>
-    <url>/v/v20686/</url>
+    <url>/wiki/v/v20686/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Pocket Love ~If~</strong><br>Aliases: ポケットラブ ~if~<br>Image: <img src="https://s2.vndb.org/cv/75/31675.jpg"><br>VNDB Link: <a href="https://vndb.org/v20686">Pocket Love ~If~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2050,7 +2050,7 @@
   </entry>
   <entry>
     <title>沦为回忆的你 ~秋之回忆~</title>
-    <url>/v/v1170/</url>
+    <url>/wiki/v/v1170/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>沦为回忆的你 <del>秋之回忆</del></strong><br>Aliases: Omoide ni Kawaru Kimi ~Memories Off~, 想い出にかわる君 ～メモリーズオフ～, memoff3, Memo-Off 3, メモオフ3, You that became a Memory <del>Memories Off</del>, Omokimi, 想君, MO3<br>Image: <img src="https://s2.vndb.org/cv/46/16946.jpg"><br>VNDB Link: <a href="https://vndb.org/v1170">Omoide ni Kawaru Kimi ~Memories Off~</a><br>BGM Link: <a href="https://bangumi.tv/subject/1734">想い出にかわる君 ～Memories Off～</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -2066,7 +2066,7 @@
   </entry>
   <entry>
     <title>爱神餐馆</title>
-    <url>/v/v21143/</url>
+    <url>/wiki/v/v21143/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>爱神餐馆</strong><br>Aliases: Cupid Bistro!!, Bistro Cupid, ビストロ·きゅーぴっと<br>Image: <img src="https://s2.vndb.org/cv/90/32390.jpg"><br>VNDB Link: <a href="https://vndb.org/v21143">Cupid Bistro!!</a><br>BGM Link: <a href="https://bangumi.tv/subject/125859">爱神餐馆</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -2082,7 +2082,7 @@
   </entry>
   <entry>
     <title>Ever17 -the out of infinity-</title>
-    <url>/v/v17/</url>
+    <url>/wiki/v/v17/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Ever17 -the out of infinity-</strong><br>Aliases: Ever 17, E17, エバー·セブンティーン, 时空轮回<br>Image: <img src="https://s2.vndb.org/cv/41/49241.jpg"><br>VNDB Link: <a href="https://vndb.org/v17">Ever17 -the out of infinity-</a><br>BGM Link: <a href="https://bangumi.tv/subject/1126">Ever17 -the out of infinity-</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -2098,7 +2098,7 @@
   </entry>
   <entry>
     <title>Iris</title>
-    <url>/v/v2312/</url>
+    <url>/wiki/v/v2312/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Iris</strong><br>Aliases: Iris －イリス－, 鸢尾花物语<br>Image: <img src="https://s2.vndb.org/cv/24/45024.jpg"><br>VNDB Link: <a href="https://vndb.org/v2312">Iris</a><br>BGM Link: <a href="https://bangumi.tv/subject/79550">Iris ～イリス～</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -2114,7 +2114,7 @@
   </entry>
   <entry>
     <title>Fukakutei Sekai no Tantei Shinshi</title>
-    <url>/v/v2389/</url>
+    <url>/wiki/v/v2389/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Fukakutei Sekai no Tantei Shinshi</strong><br>Aliases: 不確定世界の探偵紳士, Detective Gentleman, Fukakutei Sekai no Tanteishinshi Hardcore!<br>Image: <img src="https://s2.vndb.org/cv/88/2888.jpg"><br>VNDB Link: <a href="https://vndb.org/v2389">Fukakutei Sekai no Tantei Shinshi</a><br>BGM Link: <a href="https://bangumi.tv/subject/16693">不確定世界の探偵紳士</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2130,7 +2130,7 @@
   </entry>
   <entry>
     <title>My Merry May</title>
-    <url>/v/v3696/</url>
+    <url>/wiki/v/v3696/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>My Merry May</strong><br>Aliases: マイ·メリー·メイ, 皋月物语<br>Image: <img src="https://s2.vndb.org/cv/34/18034.jpg"><br>VNDB Link: <a href="https://vndb.org/v3696">My Merry May</a><br>BGM Link: <a href="https://bangumi.tv/subject/79183">My Merry May with be</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2146,7 +2146,7 @@
   </entry>
   <entry>
     <title>爱神餐馆2</title>
-    <url>/v/v28084/</url>
+    <url>/wiki/v/v28084/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>爱神餐馆2</strong><br>Aliases: Bistro Cupid 2, ビストロ·きゅーぴっと2<br>Image: <img src="https://s2.vndb.org/cv/00/50200.jpg"><br>VNDB Link: <a href="https://vndb.org/v28084">Bistro Cupid 2</a><br>BGM Link: <a href="https://bangumi.tv/subject/34292">爱神餐馆2</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -2162,7 +2162,7 @@
   </entry>
   <entry>
     <title>Pizzicato Polka -Suisei Gen&#39;ya-</title>
-    <url>/v/v5838/</url>
+    <url>/wiki/v/v5838/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Pizzicato Polka -Suisei Gen’ya-</strong><br>Aliases: PIZZICATO POLKA－彗星幻夜－, Pizzicato Polka Ensa Genya, 拨弦波尔卡缘锁现夜<br>Image: <img src="https://s2.vndb.org/cv/29/7329.jpg"><br>VNDB Link: <a href="https://vndb.org/v5838">Pizzicato Polka -Suisei Gen’ya-</a><br>BGM Link: <a href="https://bangumi.tv/subject/99052">PIZZICATO POLKA－彗星幻夜－</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2178,7 +2178,7 @@
   </entry>
   <entry>
     <title>My Merry Maybe</title>
-    <url>/v/v3697/</url>
+    <url>/wiki/v/v3697/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>My Merry Maybe</strong><br>Aliases: マイ·メリー·メイビー, マイ·メリー·メイ ウィズ ビー, MMMWB, 皋月物语<br>Image: <img src="https://s2.vndb.org/cv/94/49194.jpg"><br>VNDB Link: <a href="https://vndb.org/v3697">My Merry Maybe</a><br>BGM Link: <a href="https://bangumi.tv/subject/79183">My Merry May with be</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2193,13 +2193,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Erde ～ネズの樹の下で～</title>
-    <url>/v/v6099/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Erde ～ネズの樹の下で～</strong><br>Aliases: Erde ~Nezu no Ki no Shita de~, エルデ, Erde <del>Under the Juniper Tree</del><br>Image: <img src="https://s2.vndb.org/cv/67/60167.jpg"><br>VNDB Link: <a href="https://vndb.org/v6099">Erde ～ネズの樹の下で～</a><br>BGM Link: <a href="https://bangumi.tv/subject/79446">Erde ～ネズの樹の下で～</a></p>
+    <title>Erde ~Nezu no Ki no Shita de~</title>
+    <url>/wiki/v/v6099/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Erde ~Nezu no Ki no Shita de~</strong><br>Aliases: Erde ～ネズの樹の下で～, エルデ, Erde <del>Under the Juniper Tree</del><br>Image: <img src="https://s2.vndb.org/cv/67/60167.jpg"><br>VNDB Link: <a href="https://vndb.org/v6099">Erde ～ネズの樹の下で～</a><br>BGM Link: <a href="https://bangumi.tv/subject/79446">Erde ～ネズの樹の下で～</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
 </ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[DreamCast][JP]<a href="../../r/r11972/">Erde ~Nezu no Ki no Shita de~</a></p>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[DreamCast][JP]<a href="../../r/r11972/">Erde ~Nezu no Ki no Shita de~</a><br>[PS2][JP]<a href="../../r/r11973/">Erde ~Nezu no Ki no Shita de~</a></p>
 ]]></content>
       <categories>
         <category>Game</category>
@@ -2210,7 +2210,7 @@
   </entry>
   <entry>
     <title>Card of Destiny</title>
-    <url>/v/v7495/</url>
+    <url>/wiki/v/v7495/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Card of Destiny</strong><br>Aliases: カード·オブ·デスティニー<br>Image: <img src="https://s2.vndb.org/cv/85/9485.jpg"><br>VNDB Link: <a href="https://vndb.org/v7495">Card of Destiny</a><br>BGM Link: <a href="https://bangumi.tv/subject/267820">Card of Destiny</a> <a href="https://bangumi.tv/subject/289272">カード·オブ·デスティニーオルタナティブ</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
@@ -2226,7 +2226,7 @@
   </entry>
   <entry>
     <title>Close to ～祈りの丘～</title>
-    <url>/v/v95/</url>
+    <url>/wiki/v/v95/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Close to ～祈りの丘～</strong><br>Aliases: Close to ~Inori no Oka~, 想いのかけら-Close to-, Omoi no Kakera -Close to-, 思念的碎片, 思念百分百<br>Image: <img src="https://s2.vndb.org/cv/88/44188.jpg"><br>VNDB Link: <a href="https://vndb.org/v95">Close to ~Inori no Oka~</a><br>BGM Link: <a href="https://bangumi.tv/subject/8158">想いのかけら -Close to-</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>translated</li>
@@ -2242,10 +2242,10 @@
   </entry>
   <entry>
     <title>Iris - First Press Limited Edition</title>
-    <url>/r/r10663/</url>
+    <url>/wiki/r/r10663/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Iris －イリス－ 初回限定版</strong><br>VNDB Link: <a href="https://vndb.org/r10663">Iris - First Press Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2268,7 +2268,7 @@
   </entry>
   <entry>
     <title>Pizzicato Polka -Suisei Gen&#39;ya- First Press Limited Edition (DVD-ROM)</title>
-    <url>/r/r11403/</url>
+    <url>/wiki/r/r11403/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Pizzicato Polka -Suisei Gen’ya- First Press Limited Edition (DVD-ROM)</strong><br>VNDB Link: <a href="https://vndb.org/r11403">Pizzicato Polka -Suisei Gen’ya- First Press Limited Edition (DVD-ROM)</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Windows</li>
@@ -2296,10 +2296,10 @@
   </entry>
   <entry>
     <title>Yume no Tsubasa -Fate of Heart-</title>
-    <url>/r/r11420/</url>
+    <url>/wiki/r/r11420/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Yume no Tsubasa -Fate of Heart-</strong><br>VNDB Link: <a href="https://vndb.org/r11420">Yume no Tsubasa -Fate of Heart-</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2322,10 +2322,10 @@
   </entry>
   <entry>
     <title>Pizzicato Polka -Ensa Gen&#39;ya-</title>
-    <url>/r/r12065/</url>
+    <url>/wiki/r/r12065/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Pizzicato Polka -Ensa Gen’ya-</strong><br>VNDB Link: <a href="https://vndb.org/r12065">Pizzicato Polka -Ensa Gen’ya-</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2350,10 +2350,10 @@
   </entry>
   <entry>
     <title>Erde ~Nezu no Ki no Shita de~</title>
-    <url>/r/r11972/</url>
+    <url>/wiki/r/r11972/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Erde ~Nezu no Ki no Shita de~</strong><br>VNDB Link: <a href="https://vndb.org/r11972">Erde ~Nezu no Ki no Shita de~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2376,10 +2376,10 @@
   </entry>
   <entry>
     <title>Close to ~Inori no Oka~</title>
-    <url>/r/r19/</url>
+    <url>/wiki/r/r19/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Close to ~Inori no Oka~</strong><br>VNDB Link: <a href="https://vndb.org/r19">Close to ~Inori no Oka~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2408,10 +2408,10 @@
   </entry>
   <entry>
     <title>Card of Destiny Hikari to Yami no Tougousha - Regular Edition</title>
-    <url>/r/r15094/</url>
+    <url>/wiki/r/r15094/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Card of Destiny Hikari to Yami no Tougousha - Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r15094">Card of Destiny Hikari to Yami no Tougousha - Regular Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2436,10 +2436,10 @@
   </entry>
   <entry>
     <title>Memories Off Complete</title>
-    <url>/r/r2198/</url>
+    <url>/wiki/r/r2198/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off Complete</strong><br>VNDB Link: <a href="https://vndb.org/r2198">Memories Off Complete</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2462,10 +2462,10 @@
   </entry>
   <entry>
     <title>Milky Season</title>
-    <url>/r/r15020/</url>
+    <url>/wiki/r/r15020/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Milky Season</strong><br>VNDB Link: <a href="https://vndb.org/r15020">Milky Season</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2488,10 +2488,10 @@
   </entry>
   <entry>
     <title>Tentama 1st Sunny Side</title>
-    <url>/r/r23983/</url>
+    <url>/wiki/r/r23983/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Tentama 1st Sunny Side</strong><br>VNDB Link: <a href="https://vndb.org/r23983">Tentama 1st Sunny Side</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2514,10 +2514,10 @@
   </entry>
   <entry>
     <title>Memories Off 2nd - First Press Limited Edition</title>
-    <url>/r/r2432/</url>
+    <url>/wiki/r/r2432/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off 2nd - First Press Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r2432">Memories Off 2nd - First Press Limited Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2540,10 +2540,10 @@
   </entry>
   <entry>
     <title>Omoide ni Kawaru Kimi ~Memories Off~</title>
-    <url>/r/r2219/</url>
+    <url>/wiki/r/r2219/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Omoide ni Kawaru Kimi ~Memories Off~</strong><br>VNDB Link: <a href="https://vndb.org/r2219">Omoide ni Kawaru Kimi ~Memories Off~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2566,10 +2566,10 @@
   </entry>
   <entry>
     <title>Ever17 -the out of infinity- PREMIUM EDITION</title>
-    <url>/r/r281/</url>
+    <url>/wiki/r/r281/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Ever17 -the out of infinity- PREMIUM EDITION</strong><br>VNDB Link: <a href="https://vndb.org/r281">Ever17 -the out of infinity- PREMIUM EDITION</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : playable</li>
 <li>Completeness : complete</li>
@@ -2595,10 +2595,10 @@
   </entry>
   <entry>
     <title>Ever17 -the out of infinity-</title>
-    <url>/r/r280/</url>
+    <url>/wiki/r/r280/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Ever17 -the out of infinity-</strong><br>VNDB Link: <a href="https://vndb.org/r280">Ever17 -the out of infinity-</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2621,10 +2621,10 @@
   </entry>
   <entry>
     <title>Exodus Guilty Neos</title>
-    <url>/r/r4541/</url>
+    <url>/wiki/r/r4541/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Exodus Guilty Neos</strong><br>VNDB Link: <a href="https://vndb.org/r4541">Exodus Guilty Neos</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2649,10 +2649,10 @@
   </entry>
   <entry>
     <title>Tantei Shinshi Dash! - Regular Edition</title>
-    <url>/r/r4660/</url>
+    <url>/wiki/r/r4660/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Tantei Shinshi Dash! - Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r4660">Tantei Shinshi Dash! - Regular Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2677,10 +2677,10 @@
   </entry>
   <entry>
     <title>My Merry May</title>
-    <url>/r/r7089/</url>
+    <url>/wiki/r/r7089/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>My Merry May</strong><br>VNDB Link: <a href="https://vndb.org/r7089">My Merry May</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2703,10 +2703,10 @@
   </entry>
   <entry>
     <title>Eve Zero - Complete Edition</title>
-    <url>/r/r5328/</url>
+    <url>/wiki/r/r5328/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero - Complete Edition</strong><br>VNDB Link: <a href="https://vndb.org/r5328">Eve Zero - Complete Edition</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2731,7 +2731,7 @@
   </entry>
   <entry>
     <title>Bistro Cupid</title>
-    <url>/r/r51387/</url>
+    <url>/wiki/r/r51387/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Bistro Cupid</strong><br>VNDB Link: <a href="https://vndb.org/r51387">Bistro Cupid</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Xbox</li>
@@ -2758,7 +2758,7 @@
   </entry>
   <entry>
     <title>Bistro Cupid 2</title>
-    <url>/r/r70057/</url>
+    <url>/wiki/r/r70057/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Bistro Cupid 2</strong><br>VNDB Link: <a href="https://vndb.org/r70057">Bistro Cupid 2</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : Xbox</li>
@@ -2785,10 +2785,10 @@
   </entry>
   <entry>
     <title>Never7 -The End of Infinity-</title>
-    <url>/r/r630/</url>
+    <url>/wiki/r/r630/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Never7 -The End of Infinity-</strong><br>VNDB Link: <a href="https://vndb.org/r630">Never7 -The End of Infinity-</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2811,10 +2811,10 @@
   </entry>
   <entry>
     <title>My Merry Maybe</title>
-    <url>/r/r7092/</url>
+    <url>/wiki/r/r7092/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>My Merry Maybe</strong><br>VNDB Link: <a href="https://vndb.org/r7092">My Merry Maybe</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreanCast</li>
+<li>Platform : DreamCast</li>
 <li>Language : Japanese</li>
 <li>Compatibility : not-tested</li>
 <li>Completeness : complete</li>
@@ -2833,6 +2833,334 @@
         <tag>not-tested</tag>
         <tag>complete</tag>
         <tag>DreamCast</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ai yori Aoshi SuperLite2000</title>
+    <url>/wiki/r/r11329/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Ai Yori Aoshi (SuperLite 2000)</strong><br>VNDB Link: <a href="https://vndb.org/r11329">Ai Yori Aoshi (SuperLite 2000)</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – e43d9921c98f6349ffd480c3f40fb06d#854dd4ed8744be2121330d7bc80d79fd#1113199111#Aiyori_Aoshi__SuperLite_2000___NTSC-J___SLPM-66015_.7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation2_s_part4/SuperLite%202000%20Vol.%2032%20-%20Ai%20yori%20Aoshi%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Aiyori_Aoshi__SuperLite_2000___NTSC-J___SLPM-66015_.7z">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Erde ~Nezu no Ki no Shita de~</title>
+    <url>/wiki/r/r11973/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Erde ~Nezu no Ki no Shita de~</strong><br>VNDB Link: <a href="https://vndb.org/r11973">Erde ~Nezu no Ki no Shita de~</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – 7e55fa8db86001d99c8a7802874a2dd3#fa3a09a1b989d0f1bd8185529fb2ebd1#1058640297#Erde__NTSC-J___SLPS-25188_.7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation2_e/Erde%20-%20Nezu%20no%20Ki%20no%20Shita%20de%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Erde__NTSC-J___SLPS-25188_.7z">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>playable</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ai Yori Aoshi - First Press Limited Edition</title>
+    <url>/wiki/r/r149/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Ai Yori Aoshi - First Press Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r149">Ai Yori Aoshi - First Press Limited Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation2_a/Ai%20yori%20Aoshi%20%28Japan%29%20%28Shokai%20Genteiban%29.zip">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aria The Origination ~Aoi Hoshi no Il Cielo~ Regular Edition</title>
+    <url>/wiki/r/r2510/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Aria The Origination ~Aoi Hoshi no Il Cielo~ Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r2510">Aria The Origination ~Aoi Hoshi no Il Cielo~ Regular Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – 6dd6026e566eb5a7fe9dc02e737aec90#6c7b6d4653b5fa78bbab0c6b5ad7d6ad#1840167395#Aria_-<em>The_Origination__Aoi_Hoshi_no_El_Cielo___NTSC-J___SLPM-55014</em>.7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation2_a/Aria%20-%20The%20Origination%20-%20Aoi%20Hoshi%20no%20El%20Cielo%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Aria_-_The_Origination__Aoi_Hoshi_no_El_Cielo___NTSC-J___SLPM-55014_.7z">Direct Link</a></li>
+</ul>
+<h3 id="Batch"><a href="#Batch" class="headerlink" title="Batch"></a>Batch</h3><ul>
+<li>BitTorrent<br> – fa04f9843f897449c91ccd2dd96a2b34081f0e7c<br> – nyaa.si&#x2F;view&#x2F;1466651</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>playable</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aria The Natural ~Tooi Kioku no Mirage~</title>
+    <url>/wiki/r/r2472/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Aria The Natural ~Tooi Kioku no Mirage~</strong><br>VNDB Link: <a href="https://vndb.org/r2472">Aria The Natural ~Tooi Kioku no Mirage~</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – eab270041bc7592a02ad5c67c7f19025#b64d439e33276fe24919550ea99e57ad#1824350579#Aria_-<em>The_Natural__Tooi_Yume_no_Mirage___NTSC-J___SLPM-66536</em>.7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation2_a/Aria%20-%20The%20Natural%20-%20Tooi%20Yume%20no%20Mirage%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Aria_-_The_Natural__Tooi_Yume_no_Mirage___NTSC-J___SLPM-66536_.7z">Direct Link</a></li>
+</ul>
+<h3 id="Batch"><a href="#Batch" class="headerlink" title="Batch"></a>Batch</h3><ul>
+<li>BitTorrent<br> – fa04f9843f897449c91ccd2dd96a2b34081f0e7c<br> – nyaa.si&#x2F;view&#x2F;1466651</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>playable</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>12Riven -The Ψcliminal of Integral- Regular Edition</title>
+    <url>/wiki/r/r2480/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>12Riven -The Ψcliminal of Integral- Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r2480">12Riven -The Ψcliminal of Integral- Regular Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – 95102607594e03a30464988269cbf21c#9377503618d39a23cbde36f00e6edf8e#2139503061#12Riven_-<em>The_Psi-Climinal_of_Integral__NTSC-J___SLPM-66901</em>.7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation2_numberssymbols/12Riven%20-%20The%20Psi-Climinal%20of%20Integral%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/12Riven_-_The_Psi-Climinal_of_Integral__NTSC-J___SLPM-66901_.7z">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>playable</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ARIA The NATURAL ～遥远记忆的幻象～</title>
+    <url>/wiki/r/r25300/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>ARIA The NATURAL ～遥远记忆的幻象～</strong><br>VNDB Link: <a href="https://vndb.org/r25300">ARIA The NATURAL ～遥远记忆的幻象～</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Chinese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – 1b04efa463341aacbc366f2e74c1b940#9478877eaba2ac6f773b7f047508d514#2383622431#水星领航员 遥远记忆的幻象 汉化版 PS2CH138.rar</li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/%E6%B0%B4%E6%98%9F%E9%A2%86%E8%88%AA%E5%91%98%20%E9%81%A5%E8%BF%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E5%B9%BB%E8%B1%A1%20%E6%B1%89%E5%8C%96%E7%89%88%20PS2CH138.rar">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>complete</tag>
+        <tag>playable</tag>
+        <tag>Chinese</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ai Yori Aoshi - Regular Edition</title>
+    <url>/wiki/r/r2959/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Ai Yori Aoshi - Regular Edition</strong><br>VNDB Link: <a href="https://vndb.org/r2959">Ai Yori Aoshi - Regular Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – ec6273a94c437ca27583af803ba6cb86#1682164a3cc6829aa2821f7e6128bf53#1114104252#Ai yori Aoshi (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation2_a/Ai%20yori%20Aoshi%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Ai%20yori%20Aoshi%20(Japan).7z">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>playable</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Desire</title>
+    <url>/wiki/r/r6002/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Desire</strong><br>VNDB Link: <a href="https://vndb.org/r6002">Desire</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+<li>All-aged</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – af85e99319853d2df46f8f5b5bf819af#8a2060c51c286bc946498943be0ddcd0#1051032527#Desire__NTSC-J___SLPS-25392_.7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation2_d_part1/Desire%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Desire__NTSC-J___SLPS-25392_.7z">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>not-tested</tag>
+        <tag>complete</tag>
+        <tag>all-aged</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ARIA The ORIGINATION ～蓝色行星的天空～</title>
+    <url>/wiki/r/r85319/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>ARIA The ORIGINATION ～蓝色行星的天空～</strong><br>VNDB Link: <a href="https://vndb.org/r85319">ARIA The ORIGINATION ～蓝色行星的天空～</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS2</li>
+<li>Language : Chinese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h3><ul>
+<li>BaiduNetDisk<br> – 0ebf6f6b80c1bb1ff3dd4cfcb5376dd6#e54f663528305f8808507d59807d5c17#2036228004#水星领航员 蓝色行星的天空 汉化版 PS2CH088.rar</li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/%E6%B0%B4%E6%98%9F%E9%A2%86%E8%88%AA%E5%91%98%20%E8%93%9D%E8%89%B2%E8%A1%8C%E6%98%9F%E7%9A%84%E5%A4%A9%E7%A9%BA%20%E6%B1%89%E5%8C%96%E7%89%88%20PS2CH088.rar">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>complete</tag>
+        <tag>playable</tag>
+        <tag>Chinese</tag>
+        <tag>PS2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ARIA The ORIGINATION ~Aoi Hoshi no Il Cielo~</title>
+    <url>/wiki/v/v1294/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>ARIA The ORIGINATION ~Aoi Hoshi no Il Cielo~</strong><br>Aliases: ARIA The ORIGINATION ～蒼い惑星のエルシエロ～, ARIA 起源 <del>蓝色行星的天空</del><br>Image: <img src="https://s2.vndb.org/cv/70/16470.jpg"><br>VNDB Link: <a href="https://vndb.org/v1294">ARIA The ORIGINATION ~Aoi Hoshi no Il Cielo~</a><br>BGM Link: <a href="https://bangumi.tv/subject/132098">ARIA The ORIGINATION ～蒼い惑星のエルシエロ～</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS2][JP]<a href="../../r/r2510/">ARIA The ORIGINATION ~Aoi Hoshi no Il Cielo~</a><br>[PS2][CH]<a href="../../r/r85319/">ARIA The ORIGINATION ～蓝色行星的天空～</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ARIA The NATURAL ~Tooi Kioku no Mirage~</title>
+    <url>/wiki/v/v1293/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>ARIA The NATURAL ~Tooi Kioku no Mirage~</strong><br>Aliases: ARIA The NATURAL ～遠い記憶のミラージュ～, ARIA The NATURAL ～遥远记忆的幻象～<br>Image: <img src="https://s2.vndb.org/cv/94/1594.jpg"><br>VNDB Link: <a href="https://vndb.org/v1293">ARIA The NATURAL ~Tooi Kioku no Mirage~</a><br>BGM Link: <a href="https://bangumi.tv/subject/63148">ARIA The NATURAL ～遠い記憶のミラージュ～</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS2][JP]<a href="../../r/r2472/">ARIA The NATURAL <del>Tooi Kioku no Mirage</del></a><br>[PS2][CH]<a href="../../r/r25300/">ARIA The NATURAL ～遥远记忆的幻象～</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>12RIVEN -the Ψcliminal of integral-</title>
+    <url>/wiki/v/v247/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>12RIVEN -the Ψcliminal of integral-</strong><br>Aliases: 12R, 12RIVEN跳跃的时空<br>Image: <img src="https://s2.vndb.org/cv/59/3459.jpg"><br>VNDB Link: <a href="https://vndb.org/v247">12RIVEN -the Ψcliminal of integral-</a><br>BGM Link: <a href="https://bangumi.tv/subject/1736">12RIVEN -the Ψcliminal of integral-</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS2][JP]<a href="../../r/r2480/">12Riven -The Ψcliminal of Integral- Regular Edition</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ai yori Aoshi</title>
+    <url>/wiki/v/v60/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Ai yori Aoshi</strong><br>Aliases: 藍より青し, 青出于蓝<br>Image: <img src="https://s2.vndb.org/cv/25/57825.jpg"><br>VNDB Link: <a href="https://vndb.org/v60">Ai yori Aoshi</a><br>BGM Link: <a href="https://bamgumi.tv/subject/365836">藍より青し</a> <a href="https://bangumi.tv/subject/79162">藍より青し ~春夏~</a> <a href="https://bangumi.tv/subject/301738">藍より青し ~秋冬~</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[PS2][JP]<a href="../../r/r149/">Ai Yori Aoshi - First Press Limited Edition</a><br>[PS2][JP]<a href="../../r/r2959/">Ai Yori Aoshi - Regular Edition</a><br>[PS2][JP]<a href="../../r/r11329/">Ai Yori Aoshi (SuperLite 2000)</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
       </tags>
   </entry>
 </search>
