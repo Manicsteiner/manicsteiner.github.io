@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>manicsteiner.github.io</title>
+  <title>Kaleido ADV Workshop Chara Tool | manicsteiner.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="manicsteiner.github.io">
-<meta property="og:url" content="https://manicsteiner.github.io/blog/index.html">
+  <meta name="description" content="尝试分析了 映画 五等分の花嫁～君と過ごした五つの思い出～ 的角色立绘。   123456&quot;crop&quot;: &amp;#123;  &quot;h&quot;: 1232,  &quot;w&quot;: 677,  &quot;x&quot;: 1022,  &quot;y&quot;: 648&amp;#125; w，h分别为立绘主体的宽和高。x，y的用处在下文。   1234567&amp;quo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kaleido ADV Workshop Chara Tool">
+<meta property="og:url" content="https://manicsteiner.github.io/blog/20230911-kaleido/index.html">
 <meta property="og:site_name" content="manicsteiner.github.io">
+<meta property="og:description" content="尝试分析了 映画 五等分の花嫁～君と過ごした五つの思い出～ 的角色立绘。   123456&quot;crop&quot;: &amp;#123;  &quot;h&quot;: 1232,  &quot;w&quot;: 677,  &quot;x&quot;: 1022,  &quot;y&quot;: 648&amp;#125; w，h分别为立绘主体的宽和高。x，y的用处在下文。   1234567&amp;quo">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-09-12T04:31:28.000Z">
+<meta property="article:modified_time" content="2023-09-12T08:39:08.715Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
   
@@ -75,9 +79,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-20230911-kaleido" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-20230911-kaleido" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/blog/20230911-kaleido/" class="article-date">
   <time class="dt-published" datetime="2023-09-12T04:31:28.000Z" itemprop="datePublished">2023-09-12</time>
@@ -90,8 +92,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/blog/20230911-kaleido/">Kaleido ADV Workshop Chara Tool</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Kaleido ADV Workshop Chara Tool
     </h1>
   
 
@@ -125,108 +127,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-20230910-kaleido" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/blog/20230910-kaleido/" class="article-date">
-  <time class="dt-published" datetime="2023-09-11T16:03:13.000Z" itemprop="datePublished">2023-09-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/blog/20230910-kaleido/">Kaleido ADV Workshop Key Finder</a>
-    </h1>
+    <a href="/blog/20230910-kaleido/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Kaleido ADV Workshop Key Finder</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p><a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/KaleidoKeyFinderSwitch">Kaleido ADV Workshop Key Finder|Github</a><br>此工具用于寻找Switch平台的Kaleido ADV Workshop引擎的游戏的密钥。<br>测试时使用了 _ANONYMOUS;CODE(JP)<em>，_五等分の花嫁∬～夏の思い出も五等分～_，_映画 五等分の花嫁～君と過ごした五つの思い出～</em> 三个游戏。<br>Switch平台的Kaleido ADV Workshop引擎的游戏的密钥存储在exefs&#x2F;main文件中，可以用<a target="_blank" rel="noopener" href="https://github.com/Ryujinx/Ryujinx">Ryujinx</a>提取该文件。<br>但其在文件中的位置很不固定，密钥的内容也很随机，没有什么好方法去找它。<br>在以上三个游戏中，密钥的共同点只有：  </p>
-<ol>
-<li>13个字符长。尽管其他平台的游戏有特殊情况。  </li>
-<li>该字符串前一字节为\x00。  </li>
-<li>总是既有数字又有字母，且不含数字和大小写字母以外的字符。  </li>
-<li>总是没有任何含义，无法提取出单词。</li>
-</ol>
-<p>此段代码用穷举的方法，列举出所有\x00后紧跟13个数字或字母的字符串，并优先标记出其中同时包含数字和字母的组合，再由用户手动筛选或逐个测试。<br>以 <em>ANONYMOUS;CODE(JP)</em> 为例，最终可提取出53个符合规则的字符串，并优先标记了其中的8个。  </p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="clmf2qgoj0000agqt38p93j83" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-20230910-ac" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/blog/20230910-ac/" class="article-date">
-  <time class="dt-published" datetime="2023-09-11T15:41:38.000Z" itemprop="datePublished">2023-09-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/blog/20230910-ac/">Anonymous Code PC Steam版 视频文件说明</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Anonymous Code PC Steam版的视频文件使用了mzv格式后缀名，实际上是文件头有问题的MP4文件，修改文件头前四个字节后改为mp4后缀即可正常播放。<br>目前已经发现其中有至少三种MP4格式，需要修改为不同的值。<br>文件固定开头为00<del>03位为00，04</del>07位为ftyp，再后面一段到moov或mdat之前是MP4封装格式。例如mormal_end.mzv的封装格式为mp42 (mp42&#x2F;mp41) ，所以将第03位的00修改为0x18，即可正常播放。对应关系如下，需要严格对应每一个关键字。  </p>
-<ul>
-<li>0x18 mp42 (mp42&#x2F;mp41)   </li>
-<li>0x1C mp42 (mp42&#x2F;mp41&#x2F;isom)   </li>
-<li>0x28 M4V  (M4V &#x2F;M4A &#x2F;mp42&#x2F;mp41&#x2F;isom&#x2F;avc1)<br>未出现但可能用到的对应关系  </li>
-<li>0x14 isom (isom)  </li>
-<li>0x1C isom (isom&#x2F;iso2&#x2F;mp41)   </li>
-<li>0x1C mp42 (mp42&#x2F;isom&#x2F;avc1)   </li>
-<li>0x1C mp42 (mp42&#x2F;iso2&#x2F;mp41)   </li>
-<li>0x20 mp42 (mp42&#x2F;iso2&#x2F;avc1&#x2F;mp41)  </li>
-<li>0x20 isom (isom&#x2F;iso2&#x2F;avc1&#x2F;mp41)</li>
-</ul>
-<p><img src="/blog/./20230910-ac/2023091001.png" title="原mzv文件"><br><img src="/blog/./20230910-ac/2023091002.png" title="修改后的mp4文件"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-ac/" data-id="clmf22ms40000fcqt4si75r1y" data-title="Anonymous Code PC Steam版 视频文件说明" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
