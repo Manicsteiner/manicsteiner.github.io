@@ -6,15 +6,15 @@
   
   <title>Kaleido ADV Workshop Key Finder | manicsteiner.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Kaleido ADV Workshop Key Finder|Github此工具用于寻找Switch平台的Kaleido ADV Workshop引擎的游戏的密钥。测试时使用了 _ANONYMOUS;CODE(JP)，_五等分の花嫁∬～夏の思い出も五等分～_，_映画 五等分の花嫁～君と過ごした五つの思い出～ 三个游戏。Switch平台的Kaleido ADV Workshop引擎的游戏的密钥存储">
+  <meta name="description" content="Kaleido ADV Workshop Key Finder|Github拿着三个游戏的案例搓出来的东西在第二次试验时就爆炸了（悲）   很遗憾，此段代码在针对 ANONYMOUS;CODE(ENG) 测试时无法找到密钥，因为密钥的最后一位字符似乎与后续数据重合而变成了数字、字母以外的字符。幸好该密钥和Steam版相同才得以定位这个问题。代码修改为了只寻找连续的12个字符，但输出时仍尝试输出13">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Kaleido ADV Workshop Key Finder">
-<meta property="og:url" content="https://manicsteiner.github.io/blog/20230910-kaleido/index.html">
+<meta property="og:url" content="https://manicsteiner.github.io/blog/20230913-kaleido/index.html">
 <meta property="og:site_name" content="manicsteiner.github.io">
-<meta property="og:description" content="Kaleido ADV Workshop Key Finder|Github此工具用于寻找Switch平台的Kaleido ADV Workshop引擎的游戏的密钥。测试时使用了 _ANONYMOUS;CODE(JP)，_五等分の花嫁∬～夏の思い出も五等分～_，_映画 五等分の花嫁～君と過ごした五つの思い出～ 三个游戏。Switch平台的Kaleido ADV Workshop引擎的游戏的密钥存储">
+<meta property="og:description" content="Kaleido ADV Workshop Key Finder|Github拿着三个游戏的案例搓出来的东西在第二次试验时就爆炸了（悲）   很遗憾，此段代码在针对 ANONYMOUS;CODE(ENG) 测试时无法找到密钥，因为密钥的最后一位字符似乎与后续数据重合而变成了数字、字母以外的字符。幸好该密钥和Steam版相同才得以定位这个问题。代码修改为了只寻找连续的12个字符，但输出时仍尝试输出13">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-09-11T16:03:13.000Z">
-<meta property="article:modified_time" content="2023-09-11T16:12:03.456Z">
+<meta property="article:published_time" content="2023-09-13T09:44:43.000Z">
+<meta property="article:modified_time" content="2023-09-13T10:04:55.926Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
   
@@ -79,10 +79,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-20230910-kaleido" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-20230913-kaleido" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/blog/20230910-kaleido/" class="article-date">
-  <time class="dt-published" datetime="2023-09-11T16:03:13.000Z" itemprop="datePublished">2023-09-12</time>
+    <a href="/blog/20230913-kaleido/" class="article-date">
+  <time class="dt-published" datetime="2023-09-13T09:44:43.000Z" itemprop="datePublished">2023-09-13</time>
 </a>
     
   </div>
@@ -101,19 +101,22 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p><a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/KaleidoKeyFinderSwitch">Kaleido ADV Workshop Key Finder|Github</a><br>此工具用于寻找Switch平台的Kaleido ADV Workshop引擎的游戏的密钥。<br>测试时使用了 _ANONYMOUS;CODE(JP)<em>，_五等分の花嫁∬～夏の思い出も五等分～_，_映画 五等分の花嫁～君と過ごした五つの思い出～</em> 三个游戏。<br>Switch平台的Kaleido ADV Workshop引擎的游戏的密钥存储在exefs&#x2F;main文件中，可以用<a target="_blank" rel="noopener" href="https://github.com/Ryujinx/Ryujinx">Ryujinx</a>提取该文件。<br>但其在文件中的位置很不固定，密钥的内容也很随机，没有什么好方法去找它。<br>在以上三个游戏中，密钥的共同点只有：  </p>
-<ol>
-<li>13个字符长。尽管其他平台的游戏有特殊情况。  </li>
-<li>该字符串前一字节为\x00。  </li>
-<li>总是既有数字又有字母，且不含数字和大小写字母以外的字符。  </li>
-<li>总是没有任何含义，无法提取出单词。</li>
-</ol>
-<p>此段代码用穷举的方法，列举出所有\x00后紧跟13个数字或字母的字符串，并优先标记出其中同时包含数字和字母的组合，再由用户手动筛选或逐个测试。<br>以 <em>ANONYMOUS;CODE(JP)</em> 为例，最终可提取出53个符合规则的字符串，并优先标记了其中的8个。  </p>
+        <p><a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/KaleidoKeyFinderSwitch">Kaleido ADV Workshop Key Finder|Github</a><br>拿着三个游戏的案例搓出来的东西在第二次试验时就爆炸了（悲）  </p>
+<p>很遗憾，此段代码在针对 ANONYMOUS;CODE(ENG) 测试时无法找到密钥，因为密钥的最后一位字符似乎与后续数据重合而变成了数字、字母以外的字符。幸好该密钥和Steam版相同才得以定位这个问题。代码修改为了只寻找连续的12个字符，但输出时仍尝试输出13个字符。<br>现在以 ANONYMOUS;CODE(JP) 为例，最终可提取出71个可能符合规则的字符串，并优先标记了其中的8个。  </p>
+<p>现在出现了一个完全没救的问题，数据冲突，密钥最后一位有概率被吞导致完全没办法，要不是有个一样的能去照搬，那就只能暴力测试62次了。<br>想降低检出词条数的方法还剩一个，写个词典，把干扰项常见的单词记进去，再在筛选时检出指定词汇就抛弃。但是这个方法实现太麻烦，而且密钥里大概率没有也只是大概率，要再见着一个特例我要疯了。<br>以下是关于Kaleido ADV Workshop的密钥的一些说法。  </p>
+<ul>
+<li>总是13位长——假。PS3&#x2F;X360上的Dunamis15只有10位，尽管反例似乎只有这一个。  </li>
+<li>出现在script_info.psb前——不能说假，但只在PSV和PC版有效。  </li>
+<li>首位为数字——假。Switch版AC日文版为字母开头。  </li>
+<li>同时有数字、大小写字母——假。有概率只有数字和小写字母。好在还没有只有数字或只有字母的。  </li>
+<li>总是全文出现在可执行文件中——基本上是真的，这回翻车了，最后一位可能冲突。  </li>
+<li>前一位为\x00——暂时没有反例，求求您别再翻车了。</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="clmf2qgoj0000agqt38p93j83" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230913-kaleido/" data-id="clmhktin700002oqt9zy1agyc" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -123,19 +126,10 @@
     
 <nav id="article-nav">
   
-    <a href="/blog/20230911-kaleido/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          Kaleido ADV Workshop Chara Tool
-        
-      </div>
-    </a>
   
-  
-    <a href="/blog/20230910-ac/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/blog/20230911-kaleido/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">Anonymous Code PC Steam版 视频文件说明</div>
+      <div class="article-nav-title">Kaleido ADV Workshop Chara Tool</div>
     </a>
   
 </nav>
