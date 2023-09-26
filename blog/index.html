@@ -77,6 +77,46 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-20230926-ffmpeg" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20230926-ffmpeg/" class="article-date">
+  <time class="dt-published" datetime="2023-09-26T14:05:37.000Z" itemprop="datePublished">2023-09-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20230926-ffmpeg/">USM build，与FFmpeg</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="WannaCRI"><a href="#WannaCRI" class="headerlink" title="WannaCRI"></a>WannaCRI</h2><p>被网友问了怎么重新封装成USM文件，简单搜了一下，找到了这个。<br><a target="_blank" rel="noopener" href="https://github.com/donmai-me/WannaCRI/tree/0.3.0">donmai-me&#x2F;WannaCRI</a><br>根据其信息，可以封装只有视频轨的USM文件，或者用于提取USM文件的视频轨和音频轨。但不能封装完整的双轨道视频文件。<br>学到了用pip从本地安装whl文件，直接 ‘pip install *.whl’ 即可。<br>但是安装过程并不能安装其附带的requirements.txt，需要手动安装。  </p>
+<h2 id="FFmpeg-FFprobe"><a href="#FFmpeg-FFprobe" class="headerlink" title="FFmpeg, FFprobe"></a>FFmpeg, FFprobe</h2><p>用这个WannaCRI的时候第一次见到要求用FFprobe的程序，才发现我没安这个。<br><a target="_blank" rel="noopener" href="https://github.com/BtbN/FFmpeg-Builds">BtbN&#x2F;FFmpeg-Builds</a><br>懒得自己编译就直接下这个。<br>到现在还是不明白FFprobe和FFplay是干什么用的。<br>完整性：nonfree&gt;gpl&gt;lgpl shared指FFmpeg和FFprobe，FFplay共用avutil.dll等DLL，如果只用FFmpeg的话非shared更简洁，三个都要用的话选shared，体积小。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20230926-ffmpeg/" data-id="cln0f0edi0000mwqt15uxf33h" data-title="USM build，与FFmpeg" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-20230924-steamworkshopdownloader" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/blog/20230924-steamworkshopdownloader/" class="article-date">
@@ -385,6 +425,10 @@
       <ul>
         
           <li>
+            <a href="/blog/20230926-ffmpeg/">USM build，与FFmpeg</a>
+          </li>
+        
+          <li>
             <a href="/blog/20230924-steamworkshopdownloader/">steamworkshopdownloader 更正和更新</a>
           </li>
         
@@ -398,10 +442,6 @@
         
           <li>
             <a href="/blog/20230911-kaleido/">Kaleido ADV Workshop Chara Tool</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20230910-kaleido/">Kaleido ADV Workshop Key Finder</a>
           </li>
         
       </ul>
