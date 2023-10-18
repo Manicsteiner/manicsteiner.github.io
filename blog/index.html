@@ -77,6 +77,93 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-20231018-rootavd" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20231018-rootavd/" class="article-date">
+  <time class="dt-published" datetime="2023-10-18T12:29:35.000Z" itemprop="datePublished">2023-10-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20231018-rootavd/">rootAVD 为AVD添加root</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>主角 <a target="_blank" rel="noopener" href="https://github.com/newbit1/rootAVD">rootAVD - github</a><br>AVD可以说是非常强大的模拟器，唯一缺点是没有自带root，尤其是近几个安卓版本都没有给没有Google-APIs的系统包，所以很需要这个。<br>只测试了Android 14 (API34)，其他版本没有测试，应该能用。  </p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul>
+<li>已安装Android Studio，并安装了Virtual Device Manager。  </li>
+<li>使用 ‘git clone’ 或下载rootAVD的源码至本地。  </li>
+<li>在系统环境变量添加<a target="_blank" rel="noopener" href="https://github.com/newbit1/rootAVD#android_home">“ANDROID_HOME”</a>。  </li>
+<li>下载最新版<a target="_blank" rel="noopener" href="https://github.com/topjohnwu/Magisk/releases">Magisk</a>，或者是需要的版本。</li>
+</ul>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>如果需要，将下载的最新版Magisk的apk重命名为Magisk.zip，替换rootAVD目录下的同名文件。<br>然后启动需要root的AVD。<br>根据rootAVD的说明，在对应平台运行指定的指令。如Android 14 (API34)应使用  </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\rootAVD.bat system-images\android-34\google_apis\x86_64\ramdisk.img FAKEBOOTIMG</span><br></pre></td></tr></table></figure>
+<p>此时AVD应当被安装Magisk并唤起，根据提示在AVD的Magisk选择”安装–修补一个文件”，选择主目录下的”Download”文件夹内的fakeboot.img，修补。<br>切回rootAVD指令行窗口，回车，然后应该就安装好了。  </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20231018-rootavd/" data-id="clnvr7mqn0001g4qtd35k2trv" data-title="rootAVD 为AVD添加root" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-20231017-criware-awb" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20231017-criware-awb/" class="article-date">
+  <time class="dt-published" datetime="2023-10-18T12:24:24.000Z" itemprop="datePublished">2023-10-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20231017-criware-awb/">CRIWare AWB 新版文件问题</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>在游戏”Summertime Render Another Horizon” (Switch) 中，awb格式文件有所改动，其中一些原先使用两字节ushort存储的数据改为使用四字节uint，导致老旧处理工具无法使用。如有处理需求请使用foobar2000+VGMStream。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20231017-criware-awb/" data-id="clnvr7mqk0000g4qt2lbj1q9w" data-title="CRIWare AWB 新版文件问题" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-20231006-libwebp" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/blog/20231006-libwebp/" class="article-date">
@@ -482,6 +569,14 @@
       <ul>
         
           <li>
+            <a href="/blog/20231018-rootavd/">rootAVD 为AVD添加root</a>
+          </li>
+        
+          <li>
+            <a href="/blog/20231017-criware-awb/">CRIWare AWB 新版文件问题</a>
+          </li>
+        
+          <li>
             <a href="/blog/20231006-libwebp/">屡战屡败的libwebp构建</a>
           </li>
         
@@ -491,14 +586,6 @@
         
           <li>
             <a href="/blog/20230924-steamworkshopdownloader/">steamworkshopdownloader 更正和更新</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20230918-steamworkshopdownloader/">steamworkshopdownloader 脱离Steam账号获取创意工坊内容</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20230913-kaleido/">Kaleido ADV Workshop Key Finder</a>
           </li>
         
       </ul>
