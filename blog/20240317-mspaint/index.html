@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>归档: 2023/9 | manicsteiner.github.io</title>
+  <title>修复win10画图 | manicsteiner.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="manicsteiner.github.io">
-<meta property="og:url" content="https://manicsteiner.github.io/blog/archives/2023/09/index.html">
+  <meta name="description" content="MSPaint莫名其妙消失了，复制单个文件也没法用，Microsoft Store里只有Win11版本。折腾半天最后用的命令行：   1DISM &#x2F;Online &#x2F;Add-Capability &#x2F;CapabilityName:Microsoft.Windows.MSPaint~~~~0.0.1.0 莫名其妙的。用DISM的checkhealth那几个指令也查不出来。好消息是能用了，坏消息是Micr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="修复win10画图">
+<meta property="og:url" content="https://manicsteiner.github.io/blog/20240317-mspaint/index.html">
 <meta property="og:site_name" content="manicsteiner.github.io">
+<meta property="og:description" content="MSPaint莫名其妙消失了，复制单个文件也没法用，Microsoft Store里只有Win11版本。折腾半天最后用的命令行：   1DISM &#x2F;Online &#x2F;Add-Capability &#x2F;CapabilityName:Microsoft.Windows.MSPaint~~~~0.0.1.0 莫名其妙的。用DISM的checkhealth那几个指令也查不出来。好消息是能用了，坏消息是Micr">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-03-17T11:25:52.000Z">
+<meta property="article:modified_time" content="2024-03-17T11:29:58.829Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
   
@@ -75,153 +79,55 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/blog/archives/2023" class="archive-year">2023</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/blog/20230926-ffmpeg/" class="archive-article-date">
-  <time class="dt-published" datetime="2023-09-26T14:05:37.000Z" itemprop="datePublished">9月 26</time>
+        <section id="main"><article id="post-20240317-mspaint" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20240317-mspaint/" class="article-date">
+  <time class="dt-published" datetime="2024-03-17T11:25:52.000Z" itemprop="datePublished">2024-03-17</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blog/20230926-ffmpeg/">USM build，与FFmpeg</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      修复win10画图
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/blog/20230924-steamworkshopdownloader/" class="archive-article-date">
-  <time class="dt-published" datetime="2023-09-24T10:33:46.000Z" itemprop="datePublished">9月 24</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blog/20230924-steamworkshopdownloader/">steamworkshopdownloader 更正和更新</a>
-    </h1>
-  
+        <p>MSPaint莫名其妙消失了，复制单个文件也没法用，Microsoft Store里只有Win11版本。<br>折腾半天最后用的命令行：  </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DISM /Online /Add-Capability /CapabilityName:Microsoft.Windows.MSPaint~~~~0.0.1.0</span><br></pre></td></tr></table></figure>
+<p>莫名其妙的。用DISM的checkhealth那几个指令也查不出来。<br>好消息是能用了，坏消息是Microsoft Store里原来有的一个更新版本拿不到了。  </p>
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/blog/20230918-steamworkshopdownloader/" class="archive-article-date">
-  <time class="dt-published" datetime="2023-09-18T05:49:11.000Z" itemprop="datePublished">9月 18</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blog/20230918-steamworkshopdownloader/">steamworkshopdownloader 脱离Steam账号获取创意工坊内容</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/blog/20230913-kaleido/" class="archive-article-date">
-  <time class="dt-published" datetime="2023-09-13T09:44:43.000Z" itemprop="datePublished">9月 13</time>
-</a>
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20240317-mspaint/" data-id="cltvfr1xp0000ucqt20tr3khg" data-title="修复win10画图" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blog/20230913-kaleido/">Kaleido ADV Workshop Key Finder</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/blog/20230911-kaleido/" class="archive-article-date">
-  <time class="dt-published" datetime="2023-09-12T04:31:28.000Z" itemprop="datePublished">9月 12</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blog/20230911-kaleido/">Kaleido ADV Workshop Chara Tool</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/blog/20230910-kaleido/" class="archive-article-date">
-  <time class="dt-published" datetime="2023-09-11T16:03:13.000Z" itemprop="datePublished">9月 12</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blog/20230910-kaleido/">Kaleido ADV Workshop Key Finder</a>
-    </h1>
-  
-
-    </header>
+    </footer>
   </div>
-</article>
   
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/blog/20230910-ac/" class="archive-article-date">
-  <time class="dt-published" datetime="2023-09-11T15:41:38.000Z" itemprop="datePublished">9月 11</time>
-</a>
-      
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blog/20230910-ac/">Anonymous Code PC Steam版 视频文件说明</a>
-    </h1>
   
+    <a href="/blog/20240209-bilibilisub/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Bilibili港澳台番剧字幕获取</div>
+    </a>
+  
+</nav>
 
-    </header>
-  </div>
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>

@@ -77,6 +77,47 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-20240317-mspaint" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20240317-mspaint/" class="article-date">
+  <time class="dt-published" datetime="2024-03-17T11:25:52.000Z" itemprop="datePublished">2024-03-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20240317-mspaint/">修复win10画图</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>MSPaint莫名其妙消失了，复制单个文件也没法用，Microsoft Store里只有Win11版本。<br>折腾半天最后用的命令行：  </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DISM /Online /Add-Capability /CapabilityName:Microsoft.Windows.MSPaint~~~~0.0.1.0</span><br></pre></td></tr></table></figure>
+<p>莫名其妙的。用DISM的checkhealth那几个指令也查不出来。<br>好消息是能用了，坏消息是Microsoft Store里原来有的一个更新版本拿不到了。  </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20240317-mspaint/" data-id="cltvfr1xp0000ucqt20tr3khg" data-title="修复win10画图" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-20240209-bilibilisub" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/blog/20240209-bilibilisub/" class="article-date">
@@ -1292,7 +1333,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/10/">十月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/09/">九月 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/03/">三月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/10/">十月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/09/">九月 2023</a></li></ul>
     </div>
   </div>
 
@@ -1303,6 +1344,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/blog/20240317-mspaint/">修复win10画图</a>
+          </li>
         
           <li>
             <a href="/blog/20240209-bilibilisub/">Bilibili港澳台番剧字幕获取</a>
@@ -1318,10 +1363,6 @@
         
           <li>
             <a href="/blog/20231213-magesresourcev2-2/">MAGES引擎游戏资源提取方法指北v2.2</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20231101-ps2cri/">20231101-PS2CRI</a>
           </li>
         
       </ul>
