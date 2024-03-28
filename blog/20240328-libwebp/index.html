@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Kaleido ADV Workshop Key Finder | manicsteiner.github.io</title>
+  <title>再战libwebp | manicsteiner.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Kaleido ADV Workshop Key Finder|Github此工具用于寻找Switch平台的Kaleido ADV Workshop引擎的游戏的密钥。测试时使用了 _ANONYMOUS;CODE(JP)，_五等分の花嫁∬～夏の思い出も五等分～_，_映画 五等分の花嫁～君と過ごした五つの思い出～ 三个游戏。Switch平台的Kaleido ADV Workshop引擎的游戏的密钥存储">
+  <meta name="description" content="如果安装 Visual Studio 时没有勾选C++ ARM相关组件，后续再安装时不会生成Tools Command Prompt的快捷方式，需要手动制作一个。安装C++ ARM相关组件后， C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build 目录下会有 vcvarsamd64_arm64.bat">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Kaleido ADV Workshop Key Finder">
-<meta property="og:url" content="https://manicsteiner.github.io/blog/20230910-kaleido/index.html">
+<meta property="og:title" content="再战libwebp">
+<meta property="og:url" content="https://manicsteiner.github.io/blog/20240328-libwebp/index.html">
 <meta property="og:site_name" content="manicsteiner.github.io">
-<meta property="og:description" content="Kaleido ADV Workshop Key Finder|Github此工具用于寻找Switch平台的Kaleido ADV Workshop引擎的游戏的密钥。测试时使用了 _ANONYMOUS;CODE(JP)，_五等分の花嫁∬～夏の思い出も五等分～_，_映画 五等分の花嫁～君と過ごした五つの思い出～ 三个游戏。Switch平台的Kaleido ADV Workshop引擎的游戏的密钥存储">
+<meta property="og:description" content="如果安装 Visual Studio 时没有勾选C++ ARM相关组件，后续再安装时不会生成Tools Command Prompt的快捷方式，需要手动制作一个。安装C++ ARM相关组件后， C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build 目录下会有 vcvarsamd64_arm64.bat">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-09-11T16:03:13.000Z">
-<meta property="article:modified_time" content="2023-09-11T16:12:03.456Z">
+<meta property="article:published_time" content="2024-03-28T04:31:03.000Z">
+<meta property="article:modified_time" content="2024-03-28T05:07:01.513Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
   
@@ -79,10 +79,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-20230910-kaleido" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-20240328-libwebp" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/blog/20230910-kaleido/" class="article-date">
-  <time class="dt-published" datetime="2023-09-11T16:03:13.000Z" itemprop="datePublished">2023-09-12</time>
+    <a href="/blog/20240328-libwebp/" class="article-date">
+  <time class="dt-published" datetime="2024-03-28T04:31:03.000Z" itemprop="datePublished">2024-03-28</time>
 </a>
     
   </div>
@@ -93,7 +93,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      Kaleido ADV Workshop Key Finder
+      再战libwebp
     </h1>
   
 
@@ -101,19 +101,12 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p><a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/KaleidoKeyFinderSwitch">Kaleido ADV Workshop Key Finder|Github</a><br>此工具用于寻找Switch平台的Kaleido ADV Workshop引擎的游戏的密钥。<br>测试时使用了 _ANONYMOUS;CODE(JP)<em>，_五等分の花嫁∬～夏の思い出も五等分～_，_映画 五等分の花嫁～君と過ごした五つの思い出～</em> 三个游戏。<br>Switch平台的Kaleido ADV Workshop引擎的游戏的密钥存储在exefs&#x2F;main文件中，可以用<a target="_blank" rel="noopener" href="https://github.com/Ryujinx/Ryujinx">Ryujinx</a>提取该文件。<br>但其在文件中的位置很不固定，密钥的内容也很随机，没有什么好方法去找它。<br>在以上三个游戏中，密钥的共同点只有：  </p>
-<ol>
-<li>13个字符长。尽管其他平台的游戏有特殊情况。  </li>
-<li>该字符串前一字节为\x00。  </li>
-<li>总是既有数字又有字母，且不含数字和大小写字母以外的字符。  </li>
-<li>总是没有任何含义，无法提取出单词。</li>
-</ol>
-<p>此段代码用穷举的方法，列举出所有\x00后紧跟13个数字或字母的字符串，并优先标记出其中同时包含数字和字母的组合，再由用户手动筛选或逐个测试。<br>以 <em>ANONYMOUS;CODE(JP)</em> 为例，最终可提取出53个符合规则的字符串，并优先标记了其中的8个。  </p>
-
+        <p>如果安装 Visual Studio 时没有勾选C++ ARM相关组件，后续再安装时不会生成Tools Command Prompt的快捷方式，需要手动制作一个。<br>安装C++ ARM相关组件后， <code>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build</code> 目录下会有 vcvarsamd64_arm64.bat 文件，即是需要用到的快捷方式。<br>在任意目录下新建快捷方式，目标填 <code>%comspec% /k &quot;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsamd64_arm64.bat&quot;</code> ，起始位置填 <code>&quot;C:\Program Files\Microsoft Visual Studio\2022\Community\&quot;</code> ，和其他Tools Command Prompt一样，文件名为 <code>x64_arm64 Cross Tools Command Prompt for VS 2022</code> 。然后将其移动至 <code>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC</code> 目录下，和其他Cross Build快捷方式一起。<br>相应的，打开此窗口，运行以下命令，即可编译ARM64版的libwebp。  </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmake /f Makefile.vc CFG=release-dynamic RTLIBCFG=dynamic ARCH=arm64 OBJDIR=output</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="clmf2qgoj0000agqt38p93j83" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240328-libwebp/" data-id="cluarxn9q0000tkqt9jj750xb" data-title="再战libwebp" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -123,19 +116,10 @@
     
 <nav id="article-nav">
   
-    <a href="/blog/20230911-kaleido/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          Kaleido ADV Workshop Chara Tool
-        
-      </div>
-    </a>
   
-  
-    <a href="/blog/20230910-ac/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/blog/20240317-mspaint/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">Anonymous Code PC Steam版 视频文件说明</div>
+      <div class="article-nav-title">修复win10画图</div>
     </a>
   
 </nav>
