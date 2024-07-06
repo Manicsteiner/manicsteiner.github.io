@@ -33,7 +33,7 @@
 
   
   
-<meta name="generator" content="Hexo 7.1.1"></head>
+<meta name="generator" content="Hexo 7.2.0"></head>
 
 <body>
   <div id="container">
@@ -76,6 +76,84 @@
 
       <div class="outer">
         <section id="main">
+  
+    <article id="post-20240706-kaleidops3" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20240706-kaleidops3/" class="article-date">
+  <time class="dt-published" datetime="2024-07-06T15:55:17.000Z" itemprop="datePublished">2024-07-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20240706-kaleidops3/">Kaleido ADV Workshop PS3版</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>终于PS3版也可以操作了。<br>不知哪个版本的RPCS3加了个解密可执行文件的功能，在 Utilities - Decrypt PS3 Binary，选择 EBOOT.BIN 直接解密即可，得到 eboot.elf。对于 Kaleido ADV Workshop 的游戏来说，又可以操作了。还是以文本打开 eboot.elf，搜索script，这次似乎是在它前面稍远一点的位置。直接用 switchkeyfinder 大概会报上百个可疑，不建议这样用。<br>然后就是愉快的按密钥用FreeMote解密psb了。<br>这次折腾的 <em>Beyond The Future Fix The Time Arrows</em> [BLJM60408] 是个早期版本，独有一个 RGBX8_SW 图片格式，FreeMote 3.8版本暂时无法处理，可以自行在 FreeMoteExtension.cs 第329行后加上 <code>case &quot;RGBX8_SW&quot;:</code> 将其与 RGBA8_SW 并列处理，以暂时解决。音频文件也不能正确处理建议加上 <code>--raw</code> 参数直接输出raw文件，自行修改为lpcm之类的后缀名由VGMStream处理。格式为ATRAC3+。<br>Refer: <a target="_blank" rel="noopener" href="https://github.com/UlyssesWu/FreeMote/issues/130">FreeMote#130</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20240706-kaleidops3/" data-id="clyabobdw00008oqthn64hzcy" data-title="Kaleido ADV Workshop PS3版" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-20240630-bilibiliold" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20240630-bilibiliold/" class="article-date">
+  <time class="dt-published" datetime="2024-06-30T12:30:19.000Z" itemprop="datePublished">2024-06-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20240630-bilibiliold/">将Bilibili番剧页面变回旧版</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>小陈又一大恶行😈<br>新版番剧页面无法与“解除B站区域限制”同时工作，需要将其切换回旧版。然后返回按钮又被藏起来了，所以需要复杂操作。<br>首先打开一个B站页面（其实什么都可以，最好是需要转换的番剧页面），按F12进入调试模式，Edge在最上面一栏的工具栏里选“应用程序”（或点加号里找到它），选择“存储”-“Coockie”-“<a target="_blank" rel="noopener" href="https://www.bilibili.com”,firefox选择“存储”-“coockie”-“https"//www.bilibili.com%E2%80%9D%EF%BC%8C%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE%EF%BC%8C%E5%90%8D%E7%A7%B0%E4%B8%BA%E2%80%9Ci-wanna-go-back%E2%80%9D%EF%BC%8C%E6%95%B0%E5%80%BC%E4%B8%BA2%EF%BC%8C%E7%84%B6%E5%90%8E%E5%88%A0%E9%99%A4%E5%90%8D%E7%A7%B0%E4%B8%BA%E2%80%9Cbuvid%E2%80%9D%E5%BC%80%E5%A4%B4%E7%9A%84%E5%87%A0%E4%B8%AAcoockie%E6%9D%A1%E7%9B%AE%EF%BC%88%E6%8D%AE%E8%AF%B4%E8%87%B3%E5%B0%91%E8%A6%81%E5%88%A0%E9%99%A4%E2%80%9Cbuvid3%E2%80%9D%EF%BC%89%EF%BC%8C%E5%88%B7%E6%96%B0%E9%A1%B5%E9%9D%A2%E5%8D%B3%E5%8F%AF%E3%80%82%E4%BF%AE%E6%94%B9%E8%BF%99%E4%BA%9Bcoockie%E4%B8%8D%E4%BC%9A%E4%B8%A2%E5%A4%B1%E7%99%BB%E5%BD%95%E7%8A%B6%E6%80%81%E3%80%82%E5%A6%82%E6%9E%9C%E6%9C%89%E9%9C%80%E6%B1%82%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%B0%86%E6%96%B0%E5%BB%BA%E7%9A%84%E6%9D%A1%E7%9B%AE%E7%9A%84%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%E6%89%8B%E5%8A%A8%E8%B6%85%E7%BA%A7%E5%BB%B6%E5%90%8E%E3%80%82">https://www.bilibili.com”，Firefox选择“存储”-“Coockie”-“https&quot;//www.bilibili.com”，新建项目，名称为“i-wanna-go-back”，数值为2，然后删除名称为“buvid”开头的几个coockie条目（据说至少要删除“buvid3”），刷新页面即可。修改这些coockie不会丢失登录状态。如果有需求，可以将新建的条目的过期时间手动超级延后。</a><br>相关的，还有几个coockie条目也被建议修改，但没有修改似乎也没什么影响：“i-wanna-go-feeds”，数值为-1；“go-back-dyn”：1；“go_old_video”：1；“nostalgia_conf”：1。<br>以上方法基于旧播放页面仍然存在，仅向用户隐藏为前提，如果这个旧页面被彻底删除，则会失效。  </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20240630-bilibiliold/" data-id="cly4jq6sg0000x8qt1rgqhu00" data-title="将Bilibili番剧页面变回旧版" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
   
     <article id="post-20240613-githubaction" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
@@ -1491,7 +1569,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/06/">六月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/05/">五月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/04/">四月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/03/">三月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/10/">十月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/09/">九月 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/07/">七月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/06/">六月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/05/">五月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/04/">四月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/03/">三月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/10/">十月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/09/">九月 2023</a></li></ul>
     </div>
   </div>
 
@@ -1504,6 +1582,14 @@
       <ul>
         
           <li>
+            <a href="/blog/20240706-kaleidops3/">Kaleido ADV Workshop PS3版</a>
+          </li>
+        
+          <li>
+            <a href="/blog/20240630-bilibiliold/">将Bilibili番剧页面变回旧版</a>
+          </li>
+        
+          <li>
             <a href="/blog/20240613-githubaction/">在 github action 中使用 nmake</a>
           </li>
         
@@ -1513,14 +1599,6 @@
         
           <li>
             <a href="/blog/20240414-avd/">AVD 35.1.4 版本异常</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20240328-libwebp/">再战libwebp</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20240317-mspaint/">修复win10画图</a>
           </li>
         
       </ul>
