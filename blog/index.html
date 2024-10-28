@@ -77,6 +77,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-20241027-majiro" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20241027-majiro/" class="article-date">
+  <time class="dt-published" datetime="2024-10-27T13:45:31.000Z" itemprop="datePublished">2024-10-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20241027-majiro/">Majiro引擎解包经历</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>屑游戏： ノスフェラトゥのオモチャ<br>先是简单使用Garbro查看，音频没问题，rc8格式的图片也能看，rct格式图片说需要密码，无法打开，列表里记录的密钥也没有对应的。查看压缩包格式显示是Majiro archive。<br>于是开始搜索，找到了 <a target="_blank" rel="noopener" href="https://github.com/AtomCrafty/MajiroTools">MajiroTools</a> 和 <a target="_blank" rel="noopener" href="https://github.com/trigger-segfault/majiro-py">majiro-py</a> 。看了半天介绍后，弄明白了做法。  </p>
+<p>折腾过程：<br>garbro解arc，找到start.mjo<br>git clone <a target="_blank" rel="noopener" href="https://github.com/trigger-segfault/majiro-py.git">https://github.com/trigger-segfault/majiro-py.git</a><br>cd majiro-py<br>cd src<br>python -m mjotool -d d:\Decripted\Majiro\start.mjo  </p>
+<p>ldstr before pic_key_set  </p>
+<p>python 3.12 可用。考虑到脚本开发时间，3.10 应该也可以。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20241027-majiro/" data-id="cm2sex10q0000doqt97xi2v7b" data-title="Majiro引擎解包经历" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-20241003-steamemu" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/blog/20241003-steamemu/" class="article-date">
@@ -1755,6 +1797,10 @@
       <ul>
         
           <li>
+            <a href="/blog/20241027-majiro/">Majiro引擎解包经历</a>
+          </li>
+        
+          <li>
             <a href="/blog/20241003-steamemu/">Steam Emu 简易使用分析</a>
           </li>
         
@@ -1768,10 +1814,6 @@
         
           <li>
             <a href="/blog/20240731-avd/">手动改变AVD版本-续</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20240706-kaleidops3/">Kaleido ADV Workshop PS3版</a>
           </li>
         
       </ul>
