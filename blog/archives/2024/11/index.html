@@ -4,17 +4,13 @@
   <meta charset="utf-8">
   
   
-  <title>rootAVD 为AVD添加root | manicsteiner.github.io</title>
+  <title>归档: 2024/11 | manicsteiner.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="主角 rootAVD - githubAVD可以说是非常强大的模拟器，唯一缺点是没有自带root，尤其是近几个安卓版本都没有给没有Google-APIs的系统包，所以很需要这个。只测试了Android 14 (API34)，其他版本没有测试，应该能用。   准备 已安装Android Studio，并安装了Virtual Device Manager。   使用 ‘git clone’ 或下载ro">
-<meta property="og:type" content="article">
-<meta property="og:title" content="rootAVD 为AVD添加root">
-<meta property="og:url" content="https://manicsteiner.github.io/blog/20231018-rootavd/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="manicsteiner.github.io">
+<meta property="og:url" content="https://manicsteiner.github.io/blog/archives/2024/11/index.html">
 <meta property="og:site_name" content="manicsteiner.github.io">
-<meta property="og:description" content="主角 rootAVD - githubAVD可以说是非常强大的模拟器，唯一缺点是没有自带root，尤其是近几个安卓版本都没有给没有Google-APIs的系统包，所以很需要这个。只测试了Android 14 (API34)，其他版本没有测试，应该能用。   准备 已安装Android Studio，并安装了Virtual Device Manager。   使用 ‘git clone’ 或下载ro">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-10-18T12:29:35.000Z">
-<meta property="article:modified_time" content="2024-11-26T15:31:10.992Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
   
@@ -79,71 +75,39 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-20231018-rootavd" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/blog/20231018-rootavd/" class="article-date">
-  <time class="dt-published" datetime="2023-10-18T12:29:35.000Z" itemprop="datePublished">2023-10-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+        <section id="main">
   
-    <h1 class="p-name article-title" itemprop="headline name">
-      rootAVD 为AVD添加root
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/blog/archives/2024" class="archive-year">2024</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/blog/20241126-maarelease/" class="archive-article-date">
+  <time class="dt-published" datetime="2024-11-26T14:04:31.000Z" itemprop="datePublished">11月 26</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/blog/20241126-maarelease/">自行发版MAA指北</a>
     </h1>
   
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>主角 <a target="_blank" rel="noopener" href="https://github.com/newbit1/rootAVD">rootAVD - github</a><br>AVD可以说是非常强大的模拟器，唯一缺点是没有自带root，尤其是近几个安卓版本都没有给没有Google-APIs的系统包，所以很需要这个。<br>只测试了Android 14 (API34)，其他版本没有测试，应该能用。  </p>
-<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul>
-<li>已安装Android Studio，并安装了Virtual Device Manager。  </li>
-<li>使用 ‘git clone’ 或下载rootAVD的源码至本地。  </li>
-<li>在系统环境变量添加<a target="_blank" rel="noopener" href="https://github.com/newbit1/rootAVD#android_home">“ANDROID_HOME”</a>。  </li>
-<li>下载最新版<a target="_blank" rel="noopener" href="https://github.com/topjohnwu/Magisk/releases">Magisk</a>，或者是需要的版本。</li>
-</ul>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>如果需要，将下载的最新版Magisk的apk重命名为Magisk.zip，替换rootAVD目录下的同名文件。<br>然后启动需要root的AVD。<br>根据rootAVD的说明，在对应平台运行指定的指令。如Android 14 (API34)应使用  </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\rootAVD.bat system-images\android-34\google_apis\x86_64\ramdisk.img FAKEBOOTIMG</span><br></pre></td></tr></table></figure>
-<p>此时AVD应当被安装Magisk并唤起，根据提示在AVD的Magisk选择”安装–修补一个文件”，选择主目录下的”Download”文件夹内的fakeboot.img，修补。<br>切回rootAVD指令行窗口，回车，然后应该就安装好了。  </p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231018-rootavd/" data-id="cm3ym6v960009erq29m559zm0" data-title="rootAVD 为AVD添加root" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-    </footer>
+    </header>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/blog/20231101-ps2cri/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          20231101-PS2CRI
-        
-      </div>
-    </a>
-  
-  
-    <a href="/blog/20231017-criware-awb/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">CRIWare AWB 新版文件问题</div>
-    </a>
-  
-</nav>
-
-  
 </article>
+  
+  
+    </div></section>
+  
 
 
 </section>
