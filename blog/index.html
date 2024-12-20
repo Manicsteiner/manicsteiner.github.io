@@ -77,6 +77,53 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-20241220-ddsdxt" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20241220-ddsdxt/" class="article-date">
+  <time class="dt-published" datetime="2024-12-20T05:01:38.000Z" itemprop="datePublished">2024-12-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20241220-ddsdxt/">DDS DXT 格式简析</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>工具：GIMP，NVIDIA Texture Tools<br>待补充</p>
+<h2 id="DXT1"><a href="#DXT1" class="headerlink" title="DXT1"></a>DXT1</h2><p>4bpp，DXT1<br>最经典的格式，由于其像素数一半的体积比较容易认出</p>
+<h2 id="DXT3-BC2"><a href="#DXT3-BC2" class="headerlink" title="DXT3&#x2F;BC2"></a>DXT3&#x2F;BC2</h2><p>8bpp，DXT3<br>无透明度的图片左半边都是FF，应该比较明显，没见过实际使用</p>
+<h2 id="DXT5-BC3"><a href="#DXT5-BC3" class="headerlink" title="DXT5&#x2F;BC3"></a>DXT5&#x2F;BC3</h2><p>8bpp，DXT5<br>无透明度的图片左半边是FFFF开头，有些是FFFF0000-00000000，有些则不是零，但从上到下一样，应该比较明显</p>
+<h2 id="BC3n"><a href="#BC3n" class="headerlink" title="BC3n"></a>BC3n</h2><p>8bpp，DX10<br>包含那个非整行的文件头的话，0D和0F列会有明显的纵向规律，普遍是F9<del>FD之间，00</del>03列隔一段就会有00000000，没见过</p>
+<h2 id="BC5-ATI2"><a href="#BC5-ATI2" class="headerlink" title="BC5&#x2F;ATI2"></a>BC5&#x2F;ATI2</h2><p>8bpp，ATI2<br>无明显特征，没见过</p>
+<h2 id="BC5u"><a href="#BC5u" class="headerlink" title="BC5u"></a>BC5u</h2><p>8bpp，DX10<br>无明显特征，似乎隔一段内容就会出现8行明显含0的区域，没见过</p>
+<h2 id="BC6Hs"><a href="#BC6Hs" class="headerlink" title="BC6Hs"></a>BC6Hs</h2><p>8bpp，DX10<br>无明显特征，似乎隔一段内容就会出现8行明显含0的区域，有比较明显的重复行，没见过</p>
+<h2 id="BC7"><a href="#BC7" class="headerlink" title="BC7"></a>BC7</h2><p>8bpp，DX10<br>包含那个非整行的文件头的话，0A0B列会经常蹦出FFFF或FEFF</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20241220-ddsdxt/" data-id="cm4wcccw9000sesq6fbvz9uu3" data-title="DDS DXT 格式简析" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-20241126-maarelease" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/blog/20241126-maarelease/" class="article-date">
@@ -124,7 +171,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241126-maarelease/" data-id="cm4nnhxzj000reeohg1vv7roh" data-title="自行发版MAA指北" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241126-maarelease/" data-id="cm4wcccw9000resq6flivcddo" data-title="自行发版MAA指北" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -166,7 +213,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241027-majiro/" data-id="cm4nnhxzj000qeeohgwxlbeew" data-title="Majiro引擎解包经历" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241027-majiro/" data-id="cm4wcccw7000qesq60p95hbvz" data-title="Majiro引擎解包经历" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -205,7 +252,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241003-steamemu/" data-id="cm4nnhxzh000peeoha73uaf1m" data-title="Steam Emu 简易使用分析" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241003-steamemu/" data-id="cm4wcccw6000oesq6eomn1in9" data-title="Steam Emu 简易使用分析" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -252,7 +299,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240911-magesresourcev2-3/" data-id="cm4nnhxzh000oeeoh02w66mae" data-title="MAGES引擎游戏资源提取方法指北v2.3" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240911-magesresourcev2-3/" data-id="cm4wcccw7000pesq64dt5bkgt" data-title="MAGES引擎游戏资源提取方法指北v2.3" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -291,7 +338,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240810-avd/" data-id="cm4nnhxzh000neeoh9f6g2d0c" data-title="AVD 游戏异常 终" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240810-avd/" data-id="cm4wcccw6000mesq6gc88blcz" data-title="AVD 游戏异常 终" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -338,7 +385,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240731-avd/" data-id="cm4nnhxzg000meeoh6m3y6z2q" data-title="手动改变AVD版本-续" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240731-avd/" data-id="cm4wcccw6000nesq64x9scgwq" data-title="手动改变AVD版本-续" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -377,7 +424,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240706-kaleidops3/" data-id="cm4nnhxzg000leeohdhe59k3c" data-title="Kaleido ADV Workshop PS3版" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240706-kaleidops3/" data-id="cm4wcccw5000lesq6f3iu56wn" data-title="Kaleido ADV Workshop PS3版" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -417,7 +464,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240630-bilibiliold/" data-id="cm4nnhxzg000keeohce2vgcen" data-title="将Bilibili番剧页面变回旧版" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240630-bilibiliold/" data-id="cm4wcccw5000kesq6dkaw5ve4" data-title="将Bilibili番剧页面变回旧版" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -458,7 +505,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240613-githubaction/" data-id="cm4nnhxzf000jeeohe9cy0k26" data-title="在 github action 中使用 nmake" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240613-githubaction/" data-id="cm4wcccw5000jesq69zjg9um5" data-title="在 github action 中使用 nmake" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -497,7 +544,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240523-avd/" data-id="cm4nnhxzf000ieeoh90gdhhx2" data-title="手动改变AVD版本" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240523-avd/" data-id="cm4wcccw4000iesq636v26z59" data-title="手动改变AVD版本" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -536,7 +583,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240414-avd/" data-id="cm4nnhxze000heeohdhgueglq" data-title="AVD 35.1.4 版本异常" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240414-avd/" data-id="cm4wcccw3000gesq6exlw1it7" data-title="AVD 35.1.4 版本异常" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -575,7 +622,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240328-libwebp/" data-id="cm4nnhxze000geeoh1nsl15zo" data-title="再战libwebp" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240328-libwebp/" data-id="cm4wcccw4000hesq6d4826yuf" data-title="再战libwebp" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -616,7 +663,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240317-mspaint/" data-id="cm4nnhxzd000feeohcr8i73cf" data-title="修复win10画图" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240317-mspaint/" data-id="cm4wcccw3000fesq6er9r090z" data-title="修复win10画图" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -669,7 +716,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240209-bilibilisub/" data-id="cm4nnhxzd000eeeohah7mb5vf" data-title="Bilibili港澳台番剧字幕获取" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240209-bilibilisub/" data-id="cm4wcccw2000eesq6ewfe01tz" data-title="Bilibili港澳台番剧字幕获取" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -708,7 +755,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240117-github/" data-id="cm4nnhxzc000deeoh65kmcvvc" data-title="Github ping不通、无法使用git pull" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240117-github/" data-id="cm4wcccw1000desq62avef0g0" data-title="Github ping不通、无法使用git pull" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -747,7 +794,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231216-ps2imageformat/" data-id="cm4nnhxzc000ceeoh2ot59r9j" data-title="PS2ImageFormat" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231216-ps2imageformat/" data-id="cm4wcccw1000cesq65bunfeg7" data-title="PS2ImageFormat" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -832,7 +879,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231213-magesresourcev2-2/" data-id="cm4nnhxzb000beeoh3a196pvx" data-title="MAGES引擎游戏资源提取方法指北v2.2" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231213-magesresourcev2-2/" data-id="cm4wcccw0000besq693a7eqe6" data-title="MAGES引擎游戏资源提取方法指北v2.2" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1352,7 +1399,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231101-ps2cri/" data-id="cm4nnhxzb000aeeoh5i3sceba" data-title="20231101-PS2CRI" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231101-ps2cri/" data-id="cm4wcccvz000aesq68kkxg5oj" data-title="20231101-PS2CRI" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1400,7 +1447,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231018-rootavd/" data-id="cm4nnhxza0009eeoh2jlghiiu" data-title="rootAVD 为AVD添加root" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231018-rootavd/" data-id="cm4wcccvy0009esq61wpq3seu" data-title="rootAVD 为AVD添加root" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1439,7 +1486,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231017-criware-awb/" data-id="cm4nnhxz90008eeoh3psrhxog" data-title="CRIWare AWB 新版文件问题" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231017-criware-awb/" data-id="cm4wcccvx0008esq6eai404sr" data-title="CRIWare AWB 新版文件问题" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1496,7 +1543,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231006-libwebp/" data-id="cm4nnhxz80007eeoh1arjd9cs" data-title="屡战屡败的libwebp构建" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231006-libwebp/" data-id="cm4wcccvw0007esq6d6pcbfni" data-title="屡战屡败的libwebp构建" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1536,7 +1583,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230926-ffmpeg/" data-id="cm4nnhxz80006eeohbodn462e" data-title="USM build，与FFmpeg" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230926-ffmpeg/" data-id="cm4wcccvw0006esq62f969hlg" data-title="USM build，与FFmpeg" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1575,7 +1622,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230924-steamworkshopdownloader/" data-id="cm4nnhxz70005eeoh2vj5gbab" data-title="steamworkshopdownloader 更正和更新" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230924-steamworkshopdownloader/" data-id="cm4wcccvv0005esq6cinz4k48" data-title="steamworkshopdownloader 更正和更新" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1614,7 +1661,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/" data-id="cm4nnhxz60004eeohecyg6gvq" data-title="steamworkshopdownloader 脱离Steam账号获取创意工坊内容" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/" data-id="cm4wcccvu0004esq67k3c84bx" data-title="steamworkshopdownloader 脱离Steam账号获取创意工坊内容" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1663,7 +1710,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230913-kaleido/" data-id="cm4nnhxz50003eeoh7o8kekmx" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230913-kaleido/" data-id="cm4wcccvt0003esq6fjw4enan" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1716,7 +1763,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230911-kaleido/" data-id="cm4nnhxz40002eeohh835bx5f" data-title="Kaleido ADV Workshop Chara Tool" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230911-kaleido/" data-id="cm4wcccvt0002esq658fa1meg" data-title="Kaleido ADV Workshop Chara Tool" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1762,7 +1809,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="cm4nnhxz30001eeoh2jtlhzp6" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="cm4wcccvr0001esq6esxedmwk" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1813,7 +1860,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-ac/" data-id="cm4nnhxyx0000eeoh9q0tbtug" data-title="Anonymous Code PC Steam版 视频文件说明" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230910-ac/" data-id="cm4wcccvl0000esq6cqkia87b" data-title="Anonymous Code PC Steam版 视频文件说明" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1843,7 +1890,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/11/">十一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/10/">十月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/09/">九月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/08/">八月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/07/">七月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/06/">六月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/05/">五月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/04/">四月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/03/">三月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/10/">十月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/09/">九月 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/12/">十二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/11/">十一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/10/">十月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/09/">九月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/08/">八月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/07/">七月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/06/">六月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/05/">五月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/04/">四月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/03/">三月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/10/">十月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/09/">九月 2023</a></li></ul>
     </div>
   </div>
 
@@ -1854,6 +1901,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/blog/20241220-ddsdxt/">DDS DXT 格式简析</a>
+          </li>
         
           <li>
             <a href="/blog/20241126-maarelease/">自行发版MAA指北</a>
@@ -1869,10 +1920,6 @@
         
           <li>
             <a href="/blog/20240911-magesresourcev2-3/">MAGES引擎游戏资源提取方法指北v2.3</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20240810-avd/">AVD 游戏异常 终</a>
           </li>
         
       </ul>
