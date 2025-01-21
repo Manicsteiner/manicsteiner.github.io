@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   
   
-  <title>DDS DXT 格式简析 | manicsteiner.github.io</title>
+  <title>20250121-PS2info | manicsteiner.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="工具：GIMP，NVIDIA Texture Tools待补充 DXT14bpp，DXT1最经典的格式，由于其像素数一半的体积比较容易认出 DXT3&#x2F;BC28bpp，DXT3无透明度的图片左半边都是FF，应该比较明显，没见过实际使用 DXT5&#x2F;BC38bpp，DXT5无透明度的图片左半边是FFFF开头，有些是FFFF0000-00000000，有些则不是零，但从上到下一样，应该">
+  <meta name="description" content="重新整理PS2平台各个游戏的信息。 KID&#x2F;Regista SPCSPC格式图片，使用lzss stream压缩，其中的内容为LBG作为标签的图片格式，可以使用GARbro处理。PS2VNTool的处理似乎有问题。音频为ADX格式。   KID&#x2F;Regista BIPBIP格式图片，使用lzss stream压缩，其中的内容没有格式标识，已由GARbro支持。但是CHARA没有">
 <meta property="og:type" content="article">
-<meta property="og:title" content="DDS DXT 格式简析">
-<meta property="og:url" content="https://manicsteiner.github.io/blog/20241220-ddsdxt/index.html">
+<meta property="og:title" content="20250121-PS2info">
+<meta property="og:url" content="https://manicsteiner.github.io/blog/20250121-ps2info/index.html">
 <meta property="og:site_name" content="manicsteiner.github.io">
-<meta property="og:description" content="工具：GIMP，NVIDIA Texture Tools待补充 DXT14bpp，DXT1最经典的格式，由于其像素数一半的体积比较容易认出 DXT3&#x2F;BC28bpp，DXT3无透明度的图片左半边都是FF，应该比较明显，没见过实际使用 DXT5&#x2F;BC38bpp，DXT5无透明度的图片左半边是FFFF开头，有些是FFFF0000-00000000，有些则不是零，但从上到下一样，应该">
+<meta property="og:description" content="重新整理PS2平台各个游戏的信息。 KID&#x2F;Regista SPCSPC格式图片，使用lzss stream压缩，其中的内容为LBG作为标签的图片格式，可以使用GARbro处理。PS2VNTool的处理似乎有问题。音频为ADX格式。   KID&#x2F;Regista BIPBIP格式图片，使用lzss stream压缩，其中的内容没有格式标识，已由GARbro支持。但是CHARA没有">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-12-20T05:01:38.000Z">
+<meta property="article:published_time" content="2025-01-21T03:13:19.000Z">
 <meta property="article:modified_time" content="2025-01-21T03:40:30.372Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
@@ -79,10 +79,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-20241220-ddsdxt" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-20250121-ps2info" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/blog/20241220-ddsdxt/" class="article-date">
-  <time class="dt-published" datetime="2024-12-20T05:01:38.000Z" itemprop="datePublished">2024-12-20</time>
+    <a href="/blog/20250121-ps2info/" class="article-date">
+  <time class="dt-published" datetime="2025-01-21T03:13:19.000Z" itemprop="datePublished">2025-01-21</time>
 </a>
     
   </div>
@@ -93,7 +93,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      DDS DXT 格式简析
+      20250121-PS2info
     </h1>
   
 
@@ -101,20 +101,19 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>工具：GIMP，NVIDIA Texture Tools<br>待补充</p>
-<h2 id="DXT1"><a href="#DXT1" class="headerlink" title="DXT1"></a>DXT1</h2><p>4bpp，DXT1<br>最经典的格式，由于其像素数一半的体积比较容易认出</p>
-<h2 id="DXT3-BC2"><a href="#DXT3-BC2" class="headerlink" title="DXT3&#x2F;BC2"></a>DXT3&#x2F;BC2</h2><p>8bpp，DXT3<br>无透明度的图片左半边都是FF，应该比较明显，没见过实际使用</p>
-<h2 id="DXT5-BC3"><a href="#DXT5-BC3" class="headerlink" title="DXT5&#x2F;BC3"></a>DXT5&#x2F;BC3</h2><p>8bpp，DXT5<br>无透明度的图片左半边是FFFF开头，有些是FFFF0000-00000000，有些则不是零，但从上到下一样，应该比较明显</p>
-<h2 id="BC3n"><a href="#BC3n" class="headerlink" title="BC3n"></a>BC3n</h2><p>8bpp，DX10<br>包含那个非整行的文件头的话，0D和0F列会有明显的纵向规律，普遍是F9<del>FD之间，00</del>03列隔一段就会有00000000，没见过</p>
-<h2 id="BC5-ATI2"><a href="#BC5-ATI2" class="headerlink" title="BC5&#x2F;ATI2"></a>BC5&#x2F;ATI2</h2><p>8bpp，ATI2<br>无明显特征，没见过</p>
-<h2 id="BC5u"><a href="#BC5u" class="headerlink" title="BC5u"></a>BC5u</h2><p>8bpp，DX10<br>无明显特征，似乎隔一段内容就会出现8行明显含0的区域，没见过</p>
-<h2 id="BC6Hs"><a href="#BC6Hs" class="headerlink" title="BC6Hs"></a>BC6Hs</h2><p>8bpp，DX10<br>无明显特征，似乎隔一段内容就会出现8行明显含0的区域，有比较明显的重复行，没见过</p>
-<h2 id="BC7"><a href="#BC7" class="headerlink" title="BC7"></a>BC7</h2><p>8bpp，DX10<br>包含那个非整行的文件头的话，0A0B列会经常蹦出FFFF或FEFF</p>
+        <p>重新整理PS2平台各个游戏的信息。</p>
+<h2 id="KID-Regista-SPC"><a href="#KID-Regista-SPC" class="headerlink" title="KID&#x2F;Regista SPC"></a>KID&#x2F;Regista SPC</h2><p>SPC格式图片，使用lzss stream压缩，其中的内容为LBG作为标签的图片格式，可以使用GARbro处理。PS2VNTool的处理似乎有问题。音频为ADX格式。  </p>
+<h2 id="KID-Regista-BIP"><a href="#KID-Regista-BIP" class="headerlink" title="KID&#x2F;Regista BIP"></a>KID&#x2F;Regista BIP</h2><p>BIP格式图片，使用lzss stream压缩，其中的内容没有格式标识，已由GARbro支持。但是CHARA没有支持。音频为ADX格式。  </p>
+<h2 id="KID-5pb-KLZ"><a href="#KID-5pb-KLZ" class="headerlink" title="KID&#x2F;5pb KLZ"></a>KID&#x2F;5pb KLZ</h2><p>KLZ格式图片，压缩方法不明（被称为lzh），其中的内容为TIM2图片格式。当前由GARbro测试版或PS2VNTool支持。音频为ADX格式。  </p>
+<h2 id="Princess-Soft-Zerosystem-PACs"><a href="#Princess-Soft-Zerosystem-PACs" class="headerlink" title="Princess Soft Zerosystem-PACs"></a>Princess Soft Zerosystem-PACs</h2><p>TIM2格式图片。PAC包可由GARbro处理。BGM音频为VGS-Princess Soft Header，可由VGMStream处理，SE和Voice为HBD格式，VGMStream正尝试支持此格式，可能存在问题。  </p>
+<h2 id="Princess-Soft-Zerosystem-PACBIN"><a href="#Princess-Soft-Zerosystem-PACBIN" class="headerlink" title="Princess Soft Zerosystem-PACBIN"></a>Princess Soft Zerosystem-PACBIN</h2><p>TIM2格式或LZS压缩的TIM2格式图片，压缩在一个巨大的PAC.BIN中，文件名列表信息在SLPM可执行文件中，PS2VNTool支持。BGM音频为VGS-Princess Soft Header，可由VGMStream处理，SE和Voice为HBD格式，VGMStream正尝试支持此格式，可能存在问题。  </p>
+<h2 id="KID-5pb-MAGESv1"><a href="#KID-5pb-MAGESv1" class="headerlink" title="KID&#x2F;5pb MAGESv1"></a>KID&#x2F;5pb MAGESv1</h2><p>仍然不能处理。  </p>
+<h2 id="KID-ogdt"><a href="#KID-ogdt" class="headerlink" title="KID ogdt"></a>KID ogdt</h2><p>音频在AFS压缩包中，ADX格式，图片为ogdt header，目前不能处理。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241220-ddsdxt/" data-id="cm65xglur000sk3q83iu1hxw9" data-title="DDS DXT 格式简析" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250121-ps2info/" data-id="cm65xglur000tk3q8dv69cuh1" data-title="20250121-PS2info" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -124,19 +123,10 @@
     
 <nav id="article-nav">
   
-    <a href="/blog/20250121-ps2info/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          20250121-PS2info
-        
-      </div>
-    </a>
   
-  
-    <a href="/blog/20241126-maarelease/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/blog/20241220-ddsdxt/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">自行发版MAA指北</div>
+      <div class="article-nav-title">DDS DXT 格式简析</div>
     </a>
   
 </nav>
