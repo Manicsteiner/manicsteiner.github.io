@@ -22,13 +22,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Categories</title>
-    <url>/wiki/categories/</url>
-    <content><![CDATA[<h2 id="Game"><a href="#Game" class="headerlink" title="Game"></a><a href="./game">Game</a></h2><p>抽象的“一个游戏”。对标VNDB的&#x2F;v页面，提供VNDB页面和Bangumi.tv页面链接，对于缺少VNDB页面的游戏可能提供IGDB页面链接代替。对于“是不是同一个游戏”的判断标准将优先遵从VNDB的判断标准。</p>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a><a href="./release">Release</a></h2><p>“一个游戏”的具体的“分发版本”。对标VNDB的&#x2F;r页面，但更加具体，尤其是合集版本，会根据其“是否有多个独立的可执行文件”进行分割、保留或与独立版本页面合并。在此处直接与独立的程序及其下载链接相关联。</p>
-<h2 id="Anime"><a href="#Anime" class="headerlink" title="Anime"></a><a href="./anime">Anime</a></h2><h2 id="Tool"><a href="#Tool" class="headerlink" title="[Tool]"></a>[Tool]</h2>]]></content>
-  </entry>
-  <entry>
     <title>Instruction</title>
     <url>/wiki/instruction/</url>
     <content><![CDATA[<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p><a href="../../">Back</a></p>
@@ -58,6 +51,13 @@
 <h3 id="各个平台固件获取"><a href="#各个平台固件获取" class="headerlink" title="各个平台固件获取"></a>各个平台固件获取</h3><p>从网络获取系统固件可能引发版权问题，请自行考虑。<br><a href="https://darthsternie.net/">Darthsternie’s Firmware and Exploits Archive</a><br><a href="https://coolrom.com.au/bios/">CoolROM</a><br><a href="https://github.com/archtaurus/RetroPieBIOS">RetroPieBIOS（Github）</a></p>
 <p><a href="../../">Back</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Categories</title>
+    <url>/wiki/categories/</url>
+    <content><![CDATA[<h2 id="Game"><a href="#Game" class="headerlink" title="Game"></a><a href="./game">Game</a></h2><p>抽象的“一个游戏”。对标VNDB的&#x2F;v页面，提供VNDB页面和Bangumi.tv页面链接，对于缺少VNDB页面的游戏可能提供IGDB页面链接代替。对于“是不是同一个游戏”的判断标准将优先遵从VNDB的判断标准。</p>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a><a href="./release">Release</a></h2><p>“一个游戏”的具体的“分发版本”。对标VNDB的&#x2F;r页面，但更加具体，尤其是合集版本，会根据其“是否有多个独立的可执行文件”进行分割、保留或与独立版本页面合并。在此处直接与独立的程序及其下载链接相关联。</p>
+<h2 id="Anime"><a href="#Anime" class="headerlink" title="Anime"></a><a href="./anime">Anime</a></h2><h2 id="Tool"><a href="#Tool" class="headerlink" title="[Tool]"></a>[Tool]</h2>]]></content>
   </entry>
   <entry>
     <title>Tags</title>
@@ -271,6 +271,35 @@
       </tags>
   </entry>
   <entry>
+    <title>L no Kisetsu: A piece of memories - Limited Edition</title>
+    <url>/wiki/r/r11764/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>L no Kisetsu: A piece of memories - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11764">L no Kisetsu: A piece of memories - Limited Edition</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 827d17d8e44c995c706343aa163ed06a#75b5a8fdc0b1081d8ba47877a8064798#255828069#L no Kisetsu - A Piece of Memories (Japan) (Shokai Genteiban).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29%20%28Shokai%20Genteiban%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20(Japan)%20(Shokai%20Genteiban).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29%20%28Shokai%20Genteiban%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>playable</tag>
+        <tag>complete</tag>
+        <tag>PS1</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>6 Inch My Darling</title>
     <url>/wiki/r/r11561/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>6 Inch My Darling</strong><br>VNDB Link: <a href="https://vndb.org/r11561">6 Inch My Darling</a></p>
@@ -298,35 +327,6 @@
         <tag>playable</tag>
         <tag>complete</tag>
         <tag>Saturn</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>L no Kisetsu: A piece of memories - Limited Edition</title>
-    <url>/wiki/r/r11764/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>L no Kisetsu: A piece of memories - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r11764">L no Kisetsu: A piece of memories - Limited Edition</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : playable</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 827d17d8e44c995c706343aa163ed06a#75b5a8fdc0b1081d8ba47877a8064798#255828069#L no Kisetsu - A Piece of Memories (Japan) (Shokai Genteiban).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part3/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29%20%28Shokai%20Genteiban%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20(Japan)%20(Shokai%20Genteiban).7z">Direct Link</a></li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap_p2/CHD-PSX-JAP/L%20no%20Kisetsu%20-%20A%20Piece%20of%20Memories%20%28Japan%29%20%28Shokai%20Genteiban%29.chd">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>Japanese</tag>
-        <tag>playable</tag>
-        <tag>complete</tag>
-        <tag>PS1</tag>
       </tags>
   </entry>
   <entry>
@@ -1361,32 +1361,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Ever17 -the out of infinity-</title>
-    <url>/wiki/r/r280/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Ever17 -the out of infinity-</strong><br>VNDB Link: <a href="https://vndb.org/r280">Ever17 -the out of infinity-</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreamCast</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 60767d4b95281d05a232debb88117c3d#52ff6c864ce48c30151ac95f77175216#918893107#Ever 17 - The Out of Infinity (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sega_dreamcast/Ever%2017%20-%20The%20Out%20of%20Infinity%20%28Japan%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Ever%2017%20-%20The%20Out%20of%20Infinity%20(Japan).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>DreamCast</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Ever17 -the out of infinity- PREMIUM EDITION</title>
     <url>/wiki/r/r281/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Ever17 -the out of infinity- PREMIUM EDITION</strong><br>VNDB Link: <a href="https://vndb.org/r281">Ever17 -the out of infinity- PREMIUM EDITION</a></p>
@@ -1412,6 +1386,32 @@
         <tag>DreamCast</tag>
         <tag>Japanese</tag>
         <tag>playable</tag>
+        <tag>complete</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ever17 -the out of infinity-</title>
+    <url>/wiki/r/r280/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Ever17 -the out of infinity-</strong><br>VNDB Link: <a href="https://vndb.org/r280">Ever17 -the out of infinity-</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : DreamCast</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 60767d4b95281d05a232debb88117c3d#52ff6c864ce48c30151ac95f77175216#918893107#Ever 17 - The Out of Infinity (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sega_dreamcast/Ever%2017%20-%20The%20Out%20of%20Infinity%20%28Japan%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Ever%2017%20-%20The%20Out%20of%20Infinity%20(Japan).7z">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>not-tested</tag>
+        <tag>DreamCast</tag>
+        <tag>Japanese</tag>
         <tag>complete</tag>
       </tags>
   </entry>
@@ -1601,31 +1601,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Pocket Love</title>
-    <url>/wiki/r/r50147/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Pocket Love</strong><br>VNDB Link: <a href="https://vndb.org/r50147">Pocket Love</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : GameBoy</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="GB-Batch"><a href="#GB-Batch" class="headerlink" title="GB Batch"></a>GB Batch</h3><ul>
-<li>BaiduNetDisk<br> – 3edbbd1fbc18632a6f372789b92d5f7e#886e55acf7957384d500cc5311ac6294#4317142#Others.zip</li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Others.zip">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
-        <tag>GameBoy</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Memories Off (SuperLite 1500)</title>
     <url>/wiki/r/r49674/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Memories Off (SuperLite 1500)</strong><br>VNDB Link: <a href="https://vndb.org/r49674">Memories Off (SuperLite 1500)</a></p>
@@ -1652,6 +1627,31 @@
         <tag>Japanese</tag>
         <tag>complete</tag>
         <tag>PS1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pocket Love</title>
+    <url>/wiki/r/r50147/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Pocket Love</strong><br>VNDB Link: <a href="https://vndb.org/r50147">Pocket Love</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : GameBoy</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="GB-Batch"><a href="#GB-Batch" class="headerlink" title="GB Batch"></a>GB Batch</h3><ul>
+<li>BaiduNetDisk<br> – 3edbbd1fbc18632a6f372789b92d5f7e#886e55acf7957384d500cc5311ac6294#4317142#Others.zip</li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Others.zip">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>not-tested</tag>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>GameBoy</tag>
       </tags>
   </entry>
   <entry>
@@ -1817,6 +1817,37 @@
       </tags>
   </entry>
   <entry>
+    <title>Eve Zero</title>
+    <url>/wiki/r/r5324/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero</strong><br>VNDB Link: <a href="https://vndb.org/r5324">Eve Zero</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : PS1</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+<li>All-aged</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – c2f2b4b33cadf641bc9ed13d42e56ef4#4800c5b8c9c818cb0b831a458c69ebc2#423486119#Eve Zero (Japan) (Disc 1).7z<br> – 4a07719f3930d0bda7bf5bfa435221bc#b7128b85c3a0bce1c1d11a56ec491a91#443282244#Eve Zero (Japan) (Disc 2).7z<br> – be68a1077da21b135bc215aeef8be1ff#80e61cdc11fe162daf5961febb8b6738#281078377#Eve Zero (Japan) (Disc 3).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%203%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%202).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%203).7z">Direct Link</a></li>
+</ul>
+<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%202%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%203%29.chd">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>not-tested</tag>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+        <tag>PS1</tag>
+        <tag>all-aged</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Eve Zero - Limited Edition</title>
     <url>/wiki/r/r5325/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r5325">Eve Zero - Limited Edition</a></p>
@@ -1846,34 +1877,32 @@
       </tags>
   </entry>
   <entry>
-    <title>Eve Zero</title>
-    <url>/wiki/r/r5324/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve Zero</strong><br>VNDB Link: <a href="https://vndb.org/r5324">Eve Zero</a></p>
+    <title>Infinity</title>
+    <url>/wiki/r/r5872/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Infinity</strong><br>VNDB Link: <a href="https://vndb.org/r5872">Infinity</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>Platform : PS1</li>
 <li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-<li>All-aged</li>
+<li>Compatibility : playable</li>
+<li>Completeness : partial</li>
 </ul>
 <h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – c2f2b4b33cadf641bc9ed13d42e56ef4#4800c5b8c9c818cb0b831a458c69ebc2#423486119#Eve Zero (Japan) (Disc 1).7z<br> – 4a07719f3930d0bda7bf5bfa435221bc#b7128b85c3a0bce1c1d11a56ec491a91#443282244#Eve Zero (Japan) (Disc 2).7z<br> – be68a1077da21b135bc215aeef8be1ff#80e61cdc11fe162daf5961febb8b6738#281078377#Eve Zero (Japan) (Disc 3).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Eve%20Zero%20%28Japan%29%20%28Disc%203%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%202).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Eve%20Zero%20(Japan)%20(Disc%203).7z">Direct Link</a></li>
+<li>BaiduNetDisk<br> – 6d0d2f9801118a2487382b5269d63985#9046870be913324cf8ce2d5005ec95c8#293677206#Infinity (Japan).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Infinity%20%28Japan%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Infinity%20%28Japan%29%20%28Rev%201%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Infinity%20(Japan).7z">Direct Link</a></li>
 </ul>
 <h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%201%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%202%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Eve%20Zero%20%28Japan%29%20%28Disc%203%29.chd">Direct Link</a></li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Infinity%20%28Japan%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Infinity%20%28Japan%29%20%28Rev%201%29.chd">Direct Link</a></li>
 </ul>
 ]]></content>
       <categories>
         <category>Release</category>
       </categories>
       <tags>
-        <tag>not-tested</tag>
         <tag>Japanese</tag>
-        <tag>complete</tag>
+        <tag>playable</tag>
         <tag>PS1</tag>
-        <tag>all-aged</tag>
+        <tag>partial</tag>
       </tags>
   </entry>
   <entry>
@@ -1926,35 +1955,6 @@
         <tag>not-tested</tag>
         <tag>Japanese</tag>
         <tag>NGP</tag>
-        <tag>partial</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Infinity</title>
-    <url>/wiki/r/r5872/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Infinity</strong><br>VNDB Link: <a href="https://vndb.org/r5872">Infinity</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : PS1</li>
-<li>Language : Japanese</li>
-<li>Compatibility : playable</li>
-<li>Completeness : partial</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 6d0d2f9801118a2487382b5269d63985#9046870be913324cf8ce2d5005ec95c8#293677206#Infinity (Japan).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sony_playstation_part2/Infinity%20%28Japan%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sony_playstation_part2/Infinity%20%28Japan%29%20%28Rev%201%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/Infinity%20(Japan).7z">Direct Link</a></li>
-</ul>
-<h3 id="CHD"><a href="#CHD" class="headerlink" title="CHD"></a>CHD</h3><ul>
-<li>Internet Archive<br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Infinity%20%28Japan%29.chd">Direct Link</a><br> – <a href="https://archive.org/download/chd_psx_jap/CHD-PSX-JAP/Infinity%20%28Japan%29%20%28Rev%201%29.chd">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>Japanese</tag>
-        <tag>playable</tag>
-        <tag>PS1</tag>
         <tag>partial</tag>
       </tags>
   </entry>
@@ -2102,6 +2102,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Famicom Tantei Club - Kieta Koukeisha</title>
+    <url>/wiki/r/r6697/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Famicom Tantei Club - Kieta Koukeisha</strong><br>VNDB Link: <a href="https://vndb.org/r6697">Famicom Tantei Club - Kieta Koukeisha Zenpen</a> <a href="https://vndb.org/r6698">Famicom Tantei Club - Kieta Koukeisha kouhen</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : FC&#x2F;NES</li>
+<li>Language : Japanese</li>
+<li>Compatibility : playable</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="FDS-Batch"><a href="#FDS-Batch" class="headerlink" title="FDS Batch"></a>FDS Batch</h3><ul>
+<li>BaiduNetDisk<br> – F04BB20105F09280B4D05B20F3B0ED53#576B2CF77BABAA689DF1D37C3619D593#118159841#Famicom Collection.zip</li>
+<li>BitTorrent<br> – 5e87d2fd35c7071dcfcd0266b770d14ba72528af<br> – nyaa.si&#x2F;view&#x2F;1498013</li>
+</ul>
+<h3 id="FDS"><a href="#FDS" class="headerlink" title="FDS"></a>FDS</h3><ul>
+<li>Internet Archive<br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Zenpen%20%28Japan%29%20%28DV%203%29%20%28Wii%20and%20Wii%20U%20Virtual%20Console%29.7z">Direct Link</a><br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Zenpen%20%28Japan%29%20%28DV%203%29%20%283DS%20Virtual%20Console%29.7z">Direct Link</a><br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Zenpen%20%28Japan%29%20%28DV%201%2C%203%29.7z">Direct Link</a><br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Kouhen%20%28Japan%29.7z">Direct Link</a><br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Kouhen%20%28Japan%29%20%283DS%20Virtual%20Console%29.7z">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>Japanese</tag>
+        <tag>playable</tag>
+        <tag>complete</tag>
+        <tag>FC</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Eve: The Fatal Attraction - Limited Edition</title>
     <url>/wiki/r/r6522/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Eve: The Fatal Attraction - Limited Edition</strong><br>VNDB Link: <a href="https://vndb.org/r6522">Eve: The Fatal Attraction - Limited Edition</a></p>
@@ -2128,34 +2156,6 @@
         <tag>complete</tag>
         <tag>PS1</tag>
         <tag>all-aged</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Famicom Tantei Club - Kieta Koukeisha</title>
-    <url>/wiki/r/r6697/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Famicom Tantei Club - Kieta Koukeisha</strong><br>VNDB Link: <a href="https://vndb.org/r6697">Famicom Tantei Club - Kieta Koukeisha Zenpen</a> <a href="https://vndb.org/r6698">Famicom Tantei Club - Kieta Koukeisha kouhen</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : FC&#x2F;NES</li>
-<li>Language : Japanese</li>
-<li>Compatibility : playable</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="FDS-Batch"><a href="#FDS-Batch" class="headerlink" title="FDS Batch"></a>FDS Batch</h3><ul>
-<li>BaiduNetDisk<br> – F04BB20105F09280B4D05B20F3B0ED53#576B2CF77BABAA689DF1D37C3619D593#118159841#Famicom Collection.zip</li>
-<li>BitTorrent<br> – 5e87d2fd35c7071dcfcd0266b770d14ba72528af<br> – nyaa.si&#x2F;view&#x2F;1498013</li>
-</ul>
-<h3 id="FDS"><a href="#FDS" class="headerlink" title="FDS"></a>FDS</h3><ul>
-<li>Internet Archive<br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Zenpen%20%28Japan%29%20%28DV%203%29%20%28Wii%20and%20Wii%20U%20Virtual%20Console%29.7z">Direct Link</a><br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Zenpen%20%28Japan%29%20%28DV%203%29%20%283DS%20Virtual%20Console%29.7z">Direct Link</a><br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Zenpen%20%28Japan%29%20%28DV%201%2C%203%29.7z">Direct Link</a><br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Kouhen%20%28Japan%29.7z">Direct Link</a><br> – <a href="http://archive.org/download/nointro.fds/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Kouhen%20%28Japan%29%20%283DS%20Virtual%20Console%29.7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>Japanese</tag>
-        <tag>playable</tag>
-        <tag>complete</tag>
-        <tag>FC</tag>
       </tags>
   </entry>
   <entry>
@@ -2239,6 +2239,32 @@
       </tags>
   </entry>
   <entry>
+    <title>My Merry Maybe</title>
+    <url>/wiki/r/r7092/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>My Merry Maybe</strong><br>VNDB Link: <a href="https://vndb.org/r7092">My Merry Maybe</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>Platform : DreamCast</li>
+<li>Language : Japanese</li>
+<li>Compatibility : not-tested</li>
+<li>Completeness : complete</li>
+</ul>
+<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
+<li>BaiduNetDisk<br> – 4599fe1ca807b84948cc0038ee9b3438#abea500267d21b207f3d848cdc7eb526#694166193#My Merry Maybe (Japan) (Disc 1).7z<br> – a0330f5ae4664872cac44d1907726320#798e54b3c6d4a847eac00d880cb07c11#842102141#My Merry Maybe (Japan) (Disc 2).7z</li>
+<li>Internet Archive<br> – <a href="https://archive.org/download/sega_dreamcast/My%20Merry%20Maybe%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sega_dreamcast/My%20Merry%20Maybe%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a></li>
+<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/My%20Merry%20Maybe%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/My%20Merry%20Maybe%20(Japan)%20(Disc%202).7z">Direct Link</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Release</category>
+      </categories>
+      <tags>
+        <tag>not-tested</tag>
+        <tag>DreamCast</tag>
+        <tag>Japanese</tag>
+        <tag>complete</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</title>
     <url>/wiki/r/r732/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</strong><br>VNDB Link: <a href="https://vndb.org/r732">Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo</a></p>
@@ -2264,32 +2290,6 @@
         <tag>Japanese</tag>
         <tag>complete</tag>
         <tag>SFC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My Merry Maybe</title>
-    <url>/wiki/r/r7092/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>name: <strong>My Merry Maybe</strong><br>VNDB Link: <a href="https://vndb.org/r7092">My Merry Maybe</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>Platform : DreamCast</li>
-<li>Language : Japanese</li>
-<li>Compatibility : not-tested</li>
-<li>Completeness : complete</li>
-</ul>
-<h2 id="Download-Links"><a href="#Download-Links" class="headerlink" title="Download Links"></a>Download Links</h2><h3 id="BIN-CUE"><a href="#BIN-CUE" class="headerlink" title="BIN&#x2F;CUE"></a>BIN&#x2F;CUE</h3><ul>
-<li>BaiduNetDisk<br> – 4599fe1ca807b84948cc0038ee9b3438#abea500267d21b207f3d848cdc7eb526#694166193#My Merry Maybe (Japan) (Disc 1).7z<br> – a0330f5ae4664872cac44d1907726320#798e54b3c6d4a847eac00d880cb07c11#842102141#My Merry Maybe (Japan) (Disc 2).7z</li>
-<li>Internet Archive<br> – <a href="https://archive.org/download/sega_dreamcast/My%20Merry%20Maybe%20%28Japan%29%20%28Disc%201%29.zip">Direct Link</a><br> – <a href="https://archive.org/download/sega_dreamcast/My%20Merry%20Maybe%20%28Japan%29%20%28Disc%202%29.zip">Direct Link</a></li>
-<li>lib.sci-adv.cc<br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/My%20Merry%20Maybe%20(Japan)%20(Disc%201).7z">Direct Link</a><br> – <a href="https://pan.mcseekeri.top/api/raw/?path=/K%E7%A4%BE%E6%95%B4%E5%90%88/My%20Merry%20Maybe%20(Japan)%20(Disc%202).7z">Direct Link</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Release</category>
-      </categories>
-      <tags>
-        <tag>not-tested</tag>
-        <tag>DreamCast</tag>
-        <tag>Japanese</tag>
-        <tag>complete</tag>
       </tags>
   </entry>
   <entry>
@@ -2700,13 +2700,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Pocket Love ~If~</title>
-    <url>/wiki/v/v20686/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Pocket Love ~If~</strong><br>Aliases: ポケットラブ ~if~<br>Image: <img src="https://s2.vndb.org/cv/75/31675.jpg"><br>VNDB Link: <a href="https://vndb.org/v20686">Pocket Love ~If~</a></p>
+    <title>Pocket Love 2</title>
+    <url>/wiki/v/v20678/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Pocket Love 2</strong><br>Aliases: ポケットラブ2<br>Image: <img src="https://s2.vndb.org/cv/66/31666.jpg"><br>VNDB Link: <a href="https://vndb.org/v20678">Pocket Love 2</a><br>BGM Link: <a href="https://bangumi.tv/subject/330828">ポケットラブ2</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
 </ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[NGP][JP]<a href="../../r/r50156/">Pocket Love ~If~</a></p>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[GameBoy][JP]<a href="../../r/r50148/">Pocket Love 2</a></p>
 ]]></content>
       <categories>
         <category>Game</category>
@@ -2716,13 +2716,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Pocket Love 2</title>
-    <url>/wiki/v/v20678/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Pocket Love 2</strong><br>Aliases: ポケットラブ2<br>Image: <img src="https://s2.vndb.org/cv/66/31666.jpg"><br>VNDB Link: <a href="https://vndb.org/v20678">Pocket Love 2</a><br>BGM Link: <a href="https://bangumi.tv/subject/330828">ポケットラブ2</a></p>
+    <title>Pocket Love ~If~</title>
+    <url>/wiki/v/v20686/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Pocket Love ~If~</strong><br>Aliases: ポケットラブ ~if~<br>Image: <img src="https://s2.vndb.org/cv/75/31675.jpg"><br>VNDB Link: <a href="https://vndb.org/v20686">Pocket Love ~If~</a></p>
 <h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
 <li>raw</li>
 </ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[GameBoy][JP]<a href="../../r/r50148/">Pocket Love 2</a></p>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[NGP][JP]<a href="../../r/r50156/">Pocket Love ~If~</a></p>
 ]]></content>
       <categories>
         <category>Game</category>
@@ -2924,22 +2924,6 @@
       </tags>
   </entry>
   <entry>
-    <title>My Merry May</title>
-    <url>/wiki/v/v3696/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>My Merry May</strong><br>Aliases: マイ·メリー·メイ, 皋月物语<br>Image: <img src="https://s2.vndb.org/cv/34/18034.jpg"><br>VNDB Link: <a href="https://vndb.org/v3696">My Merry May</a><br>BGM Link: <a href="https://bangumi.tv/subject/79183">My Merry May with be</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>raw</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[DreamCast][JP]<a href="../../r/r7089/">My Merry May</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Famicom Tantei Club - Kieta Koukeisha</title>
     <url>/wiki/v/v3433/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>Famicom Tantei Club - Kieta Koukeisha</strong><br>Aliases: ファミコン探偵倶楽部 消えた後継者, Famicom Detective Club: The Missing Heir, Famicom偵探俱樂部 消失的繼承人<br>Image: <img src="https://s2.vndb.org/cv/80/31180.jpg"><br>VNDB Link: <a href="https://vndb.org/v3433">Famicom Tantei Club - Kieta Koukeisha</a><br>BGM Link: <a href="https://bangumi.tv/subject/234987">ファミコン探偵倶楽部 消えた後継者</a> <a href="https://bangumi.tv/subject/290174">ファミコン探偵倶楽部 消えた後継者</a></p>
@@ -2953,6 +2937,22 @@
       </categories>
       <tags>
         <tag>translated</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My Merry May</title>
+    <url>/wiki/v/v3696/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>My Merry May</strong><br>Aliases: マイ·メリー·メイ, 皋月物语<br>Image: <img src="https://s2.vndb.org/cv/34/18034.jpg"><br>VNDB Link: <a href="https://vndb.org/v3696">My Merry May</a><br>BGM Link: <a href="https://bangumi.tv/subject/79183">My Merry May with be</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>raw</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[DreamCast][JP]<a href="../../r/r7089/">My Merry May</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>raw</tag>
       </tags>
   </entry>
   <entry>
@@ -3084,6 +3084,22 @@
       </tags>
   </entry>
   <entry>
+    <title>弟切草</title>
+    <url>/wiki/v/v661/</url>
+    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>弟切草</strong><br>Aliases: Otogirisou<br>Image: <img src="https://s2.vndb.org/cv/66/40166.jpg"><br>VNDB Link: <a href="https://vndb.org/v661">Otogirisou</a><br>BGM Link: <a href="https://bangumi.tv/subject/22512">弟切草</a> <a href="https://bangumi.tv/subject/56619">弟切草 蘇生篇</a></p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
+<li>translated</li>
+</ul>
+<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[SFC&#x2F;SNES][JP]<a href="../../r/r1308/">Otogirisou</a><br>[PS1][JP]<a href="../../r/r1309/">Sound Novel Evolution 1 - Otogirisou - Soseihen</a><br>[PS1][CH]<a href="../../r/r47478">弟切草 蘇生篇</a><br>[PSX2PSP][CH]<a href="../../r/r47478g1">弟切草 蘇生篇</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>translated</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>眠れる森のお姫さま</title>
     <url>/wiki/v/v6378/</url>
     <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>眠れる森のお姫さま</strong><br>Aliase: Nemureru Mori no Ohime-sama, Sleeping Princess in Forest, 眠れる森のお姫様, Emmyrea, エミーリア<br>Image: <img src="https://s2.vndb.org/cv/72/7972.jpg"><br>VNDB Link: <a href="https://vndb.org/v6378">Nemureru Mori no Ohime-sama</a><br>BGM Link: <a href="https://bangumi.tv/subject/104611">眠れる森のお姫様</a></p>
@@ -3113,22 +3129,6 @@
       </categories>
       <tags>
         <tag>raw</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>弟切草</title>
-    <url>/wiki/v/v661/</url>
-    <content><![CDATA[<h2 id="Basic-Info"><a href="#Basic-Info" class="headerlink" title="Basic Info"></a>Basic Info</h2><p>Name: <strong>弟切草</strong><br>Aliases: Otogirisou<br>Image: <img src="https://s2.vndb.org/cv/66/40166.jpg"><br>VNDB Link: <a href="https://vndb.org/v661">Otogirisou</a><br>BGM Link: <a href="https://bangumi.tv/subject/22512">弟切草</a> <a href="https://bangumi.tv/subject/56619">弟切草 蘇生篇</a></p>
-<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><ul>
-<li>translated</li>
-</ul>
-<h2 id="Release"><a href="#Release" class="headerlink" title="Release"></a>Release</h2><p>[SFC&#x2F;SNES][JP]<a href="../../r/r1308/">Otogirisou</a><br>[PS1][JP]<a href="../../r/r1309/">Sound Novel Evolution 1 - Otogirisou - Soseihen</a><br>[PS1][CH]<a href="../../r/r47478">弟切草 蘇生篇</a><br>[PSX2PSP][CH]<a href="../../r/r47478g1">弟切草 蘇生篇</a></p>
-]]></content>
-      <categories>
-        <category>Game</category>
-      </categories>
-      <tags>
-        <tag>translated</tag>
       </tags>
   </entry>
   <entry>
