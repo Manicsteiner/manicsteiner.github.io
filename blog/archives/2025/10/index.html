@@ -4,22 +4,15 @@
   <meta charset="utf-8">
   
   
-  <title>Anonymous Code PC Steam版 视频文件说明 | manicsteiner.github.io</title>
+  <title>归档: 2025/10 | manicsteiner.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Anonymous Code PC Steam版的视频文件使用了mzv格式后缀名，实际上是文件头有问题的MP4文件，修改文件头前四个字节后改为mp4后缀即可正常播放。目前已经发现其中有至少三种MP4格式，需要修改为不同的值。文件固定开头为0003位为00，0407位为ftyp，再后面一段到moov或mdat之前是MP4封装格式。例如mormal_end.mzv的封装格式为mp42 (mp42&amp;#x">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Anonymous Code PC Steam版 视频文件说明">
-<meta property="og:url" content="https://manicsteiner.github.io/blog/20230910-ac/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="manicsteiner.github.io">
+<meta property="og:url" content="https://manicsteiner.github.io/blog/archives/2025/10/index.html">
 <meta property="og:site_name" content="manicsteiner.github.io">
-<meta property="og:description" content="Anonymous Code PC Steam版的视频文件使用了mzv格式后缀名，实际上是文件头有问题的MP4文件，修改文件头前四个字节后改为mp4后缀即可正常播放。目前已经发现其中有至少三种MP4格式，需要修改为不同的值。文件固定开头为0003位为00，0407位为ftyp，再后面一段到moov或mdat之前是MP4封装格式。例如mormal_end.mzv的封装格式为mp42 (mp42&amp;#x">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://manicsteiner.github.io/blog/20230910-ac/2023091001.png">
-<meta property="og:image" content="https://manicsteiner.github.io/blog/20230910-ac/2023091002.png">
-<meta property="article:published_time" content="2023-09-11T15:41:38.000Z">
-<meta property="article:modified_time" content="2025-10-03T01:14:45.193Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://manicsteiner.github.io/blog/20230910-ac/2023091001.png">
   
     <link rel="alternate" href="/blog/atom.xml" title="manicsteiner.github.io" type="application/atom+xml">
   
@@ -84,69 +77,39 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-20230910-ac" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/blog/20230910-ac/" class="article-date">
-  <time class="dt-published" datetime="2023-09-11T15:41:38.000Z" itemprop="datePublished">2023-09-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+        <section id="main">
   
-    <h1 class="p-name article-title" itemprop="headline name">
-      Anonymous Code PC Steam版 视频文件说明
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/blog/archives/2025" class="archive-year">2025</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/blog/20251002-maagpu/" class="archive-article-date">
+  <time class="dt-published" datetime="2025-10-02T14:57:44.000Z" itemprop="datePublished">10月 2</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/blog/20251002-maagpu/">20251002-MAAGPU</a>
     </h1>
   
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Anonymous Code PC Steam版的视频文件使用了mzv格式后缀名，实际上是文件头有问题的MP4文件，修改文件头前四个字节后改为mp4后缀即可正常播放。<br>目前已经发现其中有至少三种MP4格式，需要修改为不同的值。<br>文件固定开头为00<del>03位为00，04</del>07位为ftyp，再后面一段到moov或mdat之前是MP4封装格式。例如mormal_end.mzv的封装格式为mp42 (mp42&#x2F;mp41) ，所以将第03位的00修改为0x18，即可正常播放。对应关系如下，需要严格对应每一个关键字。  </p>
-<ul>
-<li>0x18 mp42 (mp42&#x2F;mp41)   </li>
-<li>0x1C mp42 (mp42&#x2F;mp41&#x2F;isom)   </li>
-<li>0x28 M4V  (M4V &#x2F;M4A &#x2F;mp42&#x2F;mp41&#x2F;isom&#x2F;avc1)<br>未出现但可能用到的对应关系  </li>
-<li>0x14 isom (isom)  </li>
-<li>0x1C isom (isom&#x2F;iso2&#x2F;mp41)   </li>
-<li>0x1C mp42 (mp42&#x2F;isom&#x2F;avc1)   </li>
-<li>0x1C mp42 (mp42&#x2F;iso2&#x2F;mp41)   </li>
-<li>0x20 mp42 (mp42&#x2F;iso2&#x2F;avc1&#x2F;mp41)  </li>
-<li>0x20 isom (isom&#x2F;iso2&#x2F;avc1&#x2F;mp41)</li>
-</ul>
-<p><img src="/blog/./20230910-ac/2023091001.png" title="原mzv文件"><br><img src="/blog/./20230910-ac/2023091002.png" title="修改后的mp4文件"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-ac/" data-id="cmga5jfix0000ol3i3g0oa8wp" data-title="Anonymous Code PC Steam版 视频文件说明" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-    </footer>
+    </header>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/blog/20230910-kaleido/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          Kaleido ADV Workshop Key Finder
-        
-      </div>
-    </a>
-  
-  
-</nav>
-
-  
 </article>
+  
+  
+    </div></section>
+  
 
 
 </section>
