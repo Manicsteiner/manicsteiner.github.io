@@ -14,7 +14,7 @@
 <meta property="og:description" content="PyTorch 篇经典AI工具PyTorch。在CUDA上用着非常痛快，但是ROCm版仅供Linux使用。偶尔见到一个自行编译的教程，于是决定自己试一试。 步骤 安装python3.10+（已实测3.14），安装annaconda，安装Visual Studio（实际使用VS2026），git等工具 克隆TheRock仓库至本地 使用Command Prompt for VS，创建conda虚拟环">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-03-04T10:09:05.000Z">
-<meta property="article:modified_time" content="2026-04-19T08:31:22.617Z">
+<meta property="article:modified_time" content="2026-05-03T06:00:13.109Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
   
@@ -114,6 +114,8 @@
 <li>注意重新编译前记得清理pytorch&#x2F;build&#x2F;CMakeCache.txt和vision，audio的build目录</li>
 <li>然后生成的文件在rocm-output文件夹，打开真实python环境，依次安装rocm_sdk_core rocm_sdk_libraries rocm_sdk_devel rocm-*.tar.gz torch torchaudio torchvision</li>
 <li>安装pytest，在external-build&#x2F;pytorch目录下运行<code>python run_pytorch_smoke_tests.py --amdgpu-family gfx1150</code></li>
+<li>pytorch 2.11 更新：<a target="_blank" rel="noopener" href="https://github.com/ROCm/pytorch/blob/443606eb94430d90554ab4c21202494576afedce/third_party/build_bundled.py#L118">pytorch&#x2F;third_party&#x2F;build_bundled.py</a> 118行分析分发许可证处，将分析失败的raise value error替换为return MIT或其他协议，以避免生成失败。这可能是由于setuptools的更新破坏了这部分的功能导致。</li>
+<li>代码无改动但是部分生成失败需要重新生成时，可以临时注释掉<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/903ee444eb935adf456bf5df724e1b6f5c2ce962/external-builds/pytorch/build_prod_wheels.py#L426">therock&#x2F;external-builds&#x2F;pytorch&#x2F;build_prod_wheels.py</a>的force-reinstall，节省重新安装rocm全家桶的用时和硬盘损耗。</li>
 </ul>
 <h2 id="LM-Studio-ROCm-篇"><a href="#LM-Studio-ROCm-篇" class="headerlink" title="LM Studio ROCm 篇"></a>LM Studio ROCm 篇</h2><p>经典AI一键式工具<a target="_blank" rel="noopener" href="https://lmstudio.ai/">LM Studio</a><br>提供基于llama.cpp的runtime，CUDA版本使用痛快，ROCm版只给独显和Strix Halo，还是得自己折腾。<br>又是看到一份<a target="_blank" rel="noopener" href="https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Unlock-LM-Studio-on-Any-AMD-GPU-with-ROCm-Guide#step-by-step-guide">教程</a>，开始自己折腾。</p>
 <h3 id="步骤-1"><a href="#步骤-1" class="headerlink" title="步骤"></a>步骤</h3><ul>
@@ -133,7 +135,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260304-amd/" data-id="cmo5ibnqu0012u73f99ptcs93" data-title="AMD ROCm折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260304-amd/" data-id="cmopd34b10012v23faaikap42" data-title="AMD ROCm折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
