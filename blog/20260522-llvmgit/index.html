@@ -4,25 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>steamworkshopdownloader 脱离Steam账号获取创意工坊内容 | manicsteiner.github.io</title>
+  <title>llvm超大型仓库折腾实录 | manicsteiner.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="一个其实大部分情况下没屁用的攻略。其目的在于：不使用Steam账号，不使用加速器或科学网络工具，在拥有该游戏的情况下获取特定免费游戏的创意工坊文件。接下来以已经安装了GOG版的Terraria，获取tModLoader可用的Calamity（灾厄）模组创意工坊文件。首先在tmodLoader的Github发布页下载tModLoader的可执行文件，根据安装提示放在与Terraria安装目录同级的目">
+  <meta name="description" content="由于逆天rpcs3仓库拿llvm当子模块，只好想办法在本地弄一个。直接克隆肯定是不太行的，100KB&#x2F;s鬼知道要克隆几个小时。尝试使用黑车镜像站，但是也不稳，20MB&#x2F;s能跑几分钟然后报个断流，啥也不剩。然后是tuna等国内镜像站，结果都只有几百k，一样不太行。然后遇到了一个巧合，NJU的镜像暴露了git目录的所有文件，可以直接下载，速度有8MB&#x2F;s，于是整了个烂活，">
 <meta property="og:type" content="article">
-<meta property="og:title" content="steamworkshopdownloader 脱离Steam账号获取创意工坊内容">
-<meta property="og:url" content="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/index.html">
+<meta property="og:title" content="llvm超大型仓库折腾实录">
+<meta property="og:url" content="https://manicsteiner.github.io/blog/20260522-llvmgit/index.html">
 <meta property="og:site_name" content="manicsteiner.github.io">
-<meta property="og:description" content="一个其实大部分情况下没屁用的攻略。其目的在于：不使用Steam账号，不使用加速器或科学网络工具，在拥有该游戏的情况下获取特定免费游戏的创意工坊文件。接下来以已经安装了GOG版的Terraria，获取tModLoader可用的Calamity（灾厄）模组创意工坊文件。首先在tmodLoader的Github发布页下载tModLoader的可执行文件，根据安装提示放在与Terraria安装目录同级的目">
+<meta property="og:description" content="由于逆天rpcs3仓库拿llvm当子模块，只好想办法在本地弄一个。直接克隆肯定是不太行的，100KB&#x2F;s鬼知道要克隆几个小时。尝试使用黑车镜像站，但是也不稳，20MB&#x2F;s能跑几分钟然后报个断流，啥也不剩。然后是tuna等国内镜像站，结果都只有几百k，一样不太行。然后遇到了一个巧合，NJU的镜像暴露了git目录的所有文件，可以直接下载，速度有8MB&#x2F;s，于是整了个烂活，">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/2023091802.png">
-<meta property="og:image" content="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/2023091803.png">
-<meta property="og:image" content="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/2023091804.png">
-<meta property="og:image" content="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/2023091805.png">
-<meta property="og:image" content="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/2023091801.png">
-<meta property="article:published_time" content="2023-09-18T05:49:11.000Z">
-<meta property="article:modified_time" content="2026-05-22T16:50:26.499Z">
+<meta property="article:published_time" content="2026-05-22T16:36:00.000Z">
+<meta property="article:modified_time" content="2026-05-22T16:50:26.527Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/2023091802.png">
   
     <link rel="alternate" href="/blog/atom.xml" title="manicsteiner.github.io" type="application/atom+xml">
   
@@ -87,10 +81,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-20230918-steamworkshopdownloader" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-20260522-llvmgit" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/blog/20230918-steamworkshopdownloader/" class="article-date">
-  <time class="dt-published" datetime="2023-09-18T05:49:11.000Z" itemprop="datePublished">2023-09-18</time>
+    <a href="/blog/20260522-llvmgit/" class="article-date">
+  <time class="dt-published" datetime="2026-05-22T16:36:00.000Z" itemprop="datePublished">2026-05-23</time>
 </a>
     
   </div>
@@ -101,7 +95,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      steamworkshopdownloader 脱离Steam账号获取创意工坊内容
+      llvm超大型仓库折腾实录
     </h1>
   
 
@@ -109,12 +103,12 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>一个其实大部分情况下没屁用的攻略。其目的在于：不使用Steam账号，不使用加速器或科学网络工具，在拥有该游戏的情况下获取特定免费游戏的创意工坊文件。<br>接下来以已经安装了GOG版的Terraria，获取tModLoader可用的Calamity（灾厄）模组创意工坊文件。<br>首先在tmodLoader的<a target="_blank" rel="noopener" href="https://github.com/tModLoader/tModLoader">Github发布页</a>下载tModLoader的可执行文件，根据安装提示放在与Terraria安装目录同级的目录下。<br>接下来访问<a target="_blank" rel="noopener" href="https://steamworkshopdownloader.io/">steamworkshopdownloader.io</a>，这是个第三方网站，并不直接提供下载，您也可以越过这段。根据其提示，访问<a target="_blank" rel="noopener" href="https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD">developer.valvesoftware.com</a>，下载SteamCMD，并安装。<br><img src="/blog/./20230918-steamworkshopdownloader/2023091802.png"><br><img src="/blog/./20230918-steamworkshopdownloader/2023091803.png"><br><img src="/blog/./20230918-steamworkshopdownloader/2023091804.png"><br>接下来回到steamworkshopdownloader.io的输入框，根据其要求输入创意工坊页面链接。假设我们只知道模组名称，不知道具体页面链接，而我们的网络状况又不允许打开Steam搜索，需要用搜索引擎搜索。考虑到某度极其辣鸡，bing也开始对国区特殊对待，目前可以使用<a target="_blank" rel="noopener" href="https://yandex.com/">yandex</a>搜索。关键字包括游戏名，模组名，steamcommunity。<br><img src="/blog/./20230918-steamworkshopdownloader/2023091805.png"><br>搜索得到创意工坊页面链接，粘贴回steamworkshopdownloader.io的输入框，获取到SteamCMD要用的指令。根据指令内容和模组链接逆推得到命令为’workshop_download_item’，第一个参数为Steam app id（1281930对应tModLoader），第二个参数对应模组页面id。找到此规律后可不使用此网站。<br><img src="/blog/./20230918-steamworkshopdownloader/2023091801.png"><br>最后打开SteamCMD，输入”login anonymous”登录，粘贴刚才得到的下载命令，执行，下载得到模组文件。<br>然后关于游戏本身，就是打开SteamCMD下的\steamapps\workshop\content\{appid}\{modid}\目录，把.tmod文件复制到Documents\My Games\Terraria\tModLoader\Mods目录下，启动tModLoader了。  </p>
+        <p>由于逆天rpcs3仓库拿llvm当子模块，只好想办法在本地弄一个。<br>直接克隆肯定是不太行的，100KB&#x2F;s鬼知道要克隆几个小时。<br>尝试使用黑车镜像站，但是也不稳，20MB&#x2F;s能跑几分钟然后报个断流，啥也不剩。<br>然后是tuna等国内镜像站，结果都只有几百k，一样不太行。<br>然后遇到了一个巧合，NJU的镜像暴露了git目录的所有文件，可以直接下载，速度有8MB&#x2F;s，于是整了个烂活，把objects&#x2F;pack目录下几百个文件一个一个下载下来了，其他目录的也基本弄下来了，除了refs&#x2F;heads，refs&#x2F;remotes，refs&#x2F;tags等明显不算在主分支上的东西，应该没影响。<br>然后逆天的来了——它作为一个submodule始终没法init，报错找不到commit hash（这个commit确实不在主线上），我也没什么办法，卡在这里了。<br>于是我想到了把它从submodule模式提取出来成为一个独立仓库，把config里的filemode和bare改为一般仓库的false，重新用git status检查，终于正常显示为仓库了（并非正常，显示我把仓库内容删光了）。<br>然后折腾半天把所有文件unstage、revert，这下终于变成一个基本正常的仓库了。<br>此时运行git pull，但是忘把镜像站链接改回来了（甚至还不是NJU的链接），pull了半天又下了大概5GB数据，告诉我找不到main branch的云端链接，set upstream后告诉我领先主线一万七千多个commit……改回github正常链接后也正常不了了。此时仓库大小约22GB。<br>最后是checkout到目标commit hash，把git目录移动到rpcs3的git&#x2F;modules目录对应位置，正常文件移动到目标文件夹，再submodule init，就一切正常了。<br>总之这个折腾过程……就这样吧，其他仓库应该也没有暴露git目录这个待遇。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/" data-id="cmph5oj020003uz0b7lra06aa" data-title="steamworkshopdownloader 脱离Steam账号获取创意工坊内容" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260522-llvmgit/" data-id="cmph5oj0m0014uz0bgokz83um" data-title="llvm超大型仓库折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -124,19 +118,10 @@
     
 <nav id="article-nav">
   
-    <a href="/blog/20230924-steamworkshopdownloader/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          steamworkshopdownloader 更正和更新
-        
-      </div>
-    </a>
   
-  
-    <a href="/blog/20230913-kaleido/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/blog/20260419-nanazip/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">Kaleido ADV Workshop Key Finder</div>
+      <div class="article-nav-title">安装NanaZip</div>
     </a>
   
 </nav>
