@@ -14,7 +14,7 @@
 <meta property="og:description" content="PyTorch 篇经典AI工具PyTorch。在CUDA上用着非常痛快，但是ROCm版仅供Linux使用。偶尔见到一个自行编译的教程，于是决定自己试一试。 步骤 安装python3.10+（已实测3.14），安装annaconda，安装Visual Studio（实际使用VS2026），git等工具 克隆TheRock仓库至本地 使用Command Prompt for VS，创建conda虚拟环">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-03-04T10:09:05.000Z">
-<meta property="article:modified_time" content="2026-07-20T13:18:52.058Z">
+<meta property="article:modified_time" content="2026-07-20T14:10:10.191Z">
 <meta property="article:author" content="manicsteiner">
 <meta name="twitter:card" content="summary">
   
@@ -118,7 +118,10 @@
 <li>代码无改动但是部分生成失败需要重新生成时，可以临时注释掉<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/903ee444eb935adf456bf5df724e1b6f5c2ce962/external-builds/pytorch/build_prod_wheels.py#L426">therock&#x2F;external-builds&#x2F;pytorch&#x2F;build_prod_wheels.py</a>的force-reinstall，节省重新安装rocm全家桶的用时和硬盘损耗。</li>
 <li>pytorch 2.13 更新：checkout pyt 时，有可能遇到 gbk codec can’t decode，此时在<a target="_blank" rel="noopener" href="https://github.com/ROCm/pytorch/blob/4fc86dafe38249e7d9080898a0fe89de663bb6b5/tools/amd_build/build_amd.py#L194">pytorch&#x2F;tools&#x2F;amd_build&#x2F;build_amd.py open</a>函数添加参数 encoding&#x3D;’utf-8’可以解决。</li>
 <li>初次初始化时，pytorch\build\CMakeFiles\4.0.0\CMakeHIPCompiler.cmake 里的 CMAKE_HIP_COMPILER_ROCM_ROOT 等的路径的反斜杠竟然会被直接识别为转义符，需要手动替换为正斜杠。很sb。</li>
-<li>.conda\envs\rocm\Lib\site-packages_rocm_sdk_devel\lib\llvm\lib\clang\23\include__clang_cuda_math_forward_declares.h 和 __clang_hip_cmath.h里的 isgreater isunordered 等的定义会和msvc的cmath定义冲突，建议使用MSVC v143（或者直接删掉这几行，后果自负）。</li>
+<li>你可能需要手动在虚拟环境安装 pip install ninja&#x3D;&#x3D;1.11.0，并且禁用几行删除pypi ninja的<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/997093efeace3c5091e177c04864d587c18b801a/external-builds/pytorch/build_prod_wheels.py#L1125">build_prod_wheels</a>代码。</li>
+<li>需要手动构建 libuv 并添加一个指向它的系统变量。参考<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/997093efeace3c5091e177c04864d587c18b801a/.github/workflows/multi_arch_build_windows_pytorch_wheels.yml#L200">ci</a></li>
+<li>.conda\envs\rocm\Lib\site-packages_rocm_sdk_devel\lib\llvm\lib\clang\23\include__clang_cuda_math_forward_declares.h 和 __clang_hip_cmath.h里的 isgreater isunordered 等的定义会和msvc的cmath定义冲突，<del>建议使用MSVC v143（或者直接删掉这几行，后果自负）。</del>然而MSVC v143会有其他报错……</li>
+<li>或者先删掉这几行，编译成功后恢复rocm_sdk_devel，删除 pytorch\build\third_party\gloo 和 pytorch\build\lib\gloo.lib gloo_hip.lib，使用 MSVC v143 跑一遍，到报错为止，再删除  pytorch\build\lib\gloo.lib gloo_hip.lib，回到145再跑一遍，大概也许可以成功。</li>
 <li>pytorch\build\CMakeFiles\rules.ninja 里竟然会给 llvm-lib.exe 传入 qc 命令，但是windows环境不认这个，需要替换为<code>/out:</code>。</li>
 <li>另，2.11版本的许可证问题已被移除。</li>
 </ul>
@@ -140,7 +143,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260304-amd/" data-id="cuidpv13mHixdO-O8u7pulLSJ" data-title="AMD ROCm折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260304-amd/" data-id="cuidA2eZ3yNLa0sdtuhytjhC2" data-title="AMD ROCm折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       

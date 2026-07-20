@@ -112,7 +112,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260601-lsp/" data-id="cuidGzNYC96p9tpqpFHDkHYKv" data-title="LSP折腾简录·其二" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260601-lsp/" data-id="cuidD2mqavDaHnLnQsyT6X_0o" data-title="LSP折腾简录·其二" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -151,7 +151,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260522-llvmgit/" data-id="cuidDh3Lhy5TXRoxgcrJcBJRG" data-title="llvm超大型仓库折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260522-llvmgit/" data-id="cuidgOOW5u0wRnc7pnv_ZixsC" data-title="llvm超大型仓库折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -190,7 +190,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260419-nanazip/" data-id="cuid_WKRrBI_mjH-40W191QFK" data-title="安装NanaZip" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260419-nanazip/" data-id="cuidUDqBajrkNH8eXQPI8M2Ii" data-title="安装NanaZip" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -234,7 +234,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260409-lsp/" data-id="cuidGjOorFTkDsb8atiVHyoR-" data-title="LSP折腾简录" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260409-lsp/" data-id="cuidvCwuNy2c1Gq-_d1Q760nH" data-title="LSP折腾简录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -283,7 +283,10 @@
 <li>代码无改动但是部分生成失败需要重新生成时，可以临时注释掉<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/903ee444eb935adf456bf5df724e1b6f5c2ce962/external-builds/pytorch/build_prod_wheels.py#L426">therock&#x2F;external-builds&#x2F;pytorch&#x2F;build_prod_wheels.py</a>的force-reinstall，节省重新安装rocm全家桶的用时和硬盘损耗。</li>
 <li>pytorch 2.13 更新：checkout pyt 时，有可能遇到 gbk codec can’t decode，此时在<a target="_blank" rel="noopener" href="https://github.com/ROCm/pytorch/blob/4fc86dafe38249e7d9080898a0fe89de663bb6b5/tools/amd_build/build_amd.py#L194">pytorch&#x2F;tools&#x2F;amd_build&#x2F;build_amd.py open</a>函数添加参数 encoding&#x3D;’utf-8’可以解决。</li>
 <li>初次初始化时，pytorch\build\CMakeFiles\4.0.0\CMakeHIPCompiler.cmake 里的 CMAKE_HIP_COMPILER_ROCM_ROOT 等的路径的反斜杠竟然会被直接识别为转义符，需要手动替换为正斜杠。很sb。</li>
-<li>.conda\envs\rocm\Lib\site-packages_rocm_sdk_devel\lib\llvm\lib\clang\23\include__clang_cuda_math_forward_declares.h 和 __clang_hip_cmath.h里的 isgreater isunordered 等的定义会和msvc的cmath定义冲突，建议使用MSVC v143（或者直接删掉这几行，后果自负）。</li>
+<li>你可能需要手动在虚拟环境安装 pip install ninja&#x3D;&#x3D;1.11.0，并且禁用几行删除pypi ninja的<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/997093efeace3c5091e177c04864d587c18b801a/external-builds/pytorch/build_prod_wheels.py#L1125">build_prod_wheels</a>代码。</li>
+<li>需要手动构建 libuv 并添加一个指向它的系统变量。参考<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/997093efeace3c5091e177c04864d587c18b801a/.github/workflows/multi_arch_build_windows_pytorch_wheels.yml#L200">ci</a></li>
+<li>.conda\envs\rocm\Lib\site-packages_rocm_sdk_devel\lib\llvm\lib\clang\23\include__clang_cuda_math_forward_declares.h 和 __clang_hip_cmath.h里的 isgreater isunordered 等的定义会和msvc的cmath定义冲突，<del>建议使用MSVC v143（或者直接删掉这几行，后果自负）。</del>然而MSVC v143会有其他报错……</li>
+<li>或者先删掉这几行，编译成功后恢复rocm_sdk_devel，删除 pytorch\build\third_party\gloo 和 pytorch\build\lib\gloo.lib gloo_hip.lib，使用 MSVC v143 跑一遍，到报错为止，再删除  pytorch\build\lib\gloo.lib gloo_hip.lib，回到145再跑一遍，大概也许可以成功。</li>
 <li>pytorch\build\CMakeFiles\rules.ninja 里竟然会给 llvm-lib.exe 传入 qc 命令，但是windows环境不认这个，需要替换为<code>/out:</code>。</li>
 <li>另，2.11版本的许可证问题已被移除。</li>
 </ul>
@@ -305,7 +308,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260304-amd/" data-id="cuidpv13mHixdO-O8u7pulLSJ" data-title="AMD ROCm折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260304-amd/" data-id="cuidA2eZ3yNLa0sdtuhytjhC2" data-title="AMD ROCm折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -356,7 +359,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260226-maarelease/" data-id="cuid8iLu2l2ZCGLSrAm4mjvP9" data-title="自行发版MAA指北-6.3.x" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260226-maarelease/" data-id="cuidbHeVgZ-SRIQQ_877Dmml2" data-title="自行发版MAA指北-6.3.x" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -395,7 +398,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260121-apktool/" data-id="cuidhb-CLrJ3AkcPssmtvLaGy" data-title="尝试通过APKTool反编译去除一处弹窗" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260121-apktool/" data-id="cuidMQg2pWDxzw8ZbAqUTynYp" data-title="尝试通过APKTool反编译去除一处弹窗" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -443,7 +446,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20251014-arknightsx86/" data-id="cuidvxcVgg22fWPyZ5g3hDStV" data-title="20251014-arknightsx86" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20251014-arknightsx86/" data-id="cuidrOhNZnHzODfqm8VUT7GoQ" data-title="20251014-arknightsx86" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -503,7 +506,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20251013-maagameupdate/" data-id="cuidKXj_o0_NrQOiQdH4VILdd" data-title="游戏更新时，MAA维护者该做的事（海外服）" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20251013-maagameupdate/" data-id="cuidntq1hzJCvloi9uGQlM8By" data-title="游戏更新时，MAA维护者该做的事（海外服）" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -569,7 +572,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20251002-maagpu/" data-id="cuiderJeC5YXkip-fYMq1Z_C3" data-title="20251002-MAAGPU" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20251002-maagpu/" data-id="cuid-Agvhu6RFBqVS6MkBrU7z" data-title="20251002-MAAGPU" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -668,7 +671,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20250412-magesresourcev3/" data-id="cuidfji1kG0DbwzHw10czZ9xE" data-title="MAGES引擎游戏资源提取方法指北v3" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250412-magesresourcev3/" data-id="cuidJloL4gP09AF8buFJm0PMd" data-title="MAGES引擎游戏资源提取方法指北v3" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -707,7 +710,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20250306-never7pcsteam/" data-id="cuidIRo7KrqdhGWwsHEpAsjNw" data-title="20250306-Never7PCSteam" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250306-never7pcsteam/" data-id="cuidvtNaq282BraRctbmuQhnK" data-title="20250306-Never7PCSteam" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -746,7 +749,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20250223-gameinfolist/" data-id="cuidYX8DzgA1ho-Usenr6tcIB" data-title="20250223-Gameinfolist" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250223-gameinfolist/" data-id="cuidV1ibTMdxLRGpwN_c8jlvz" data-title="20250223-Gameinfolist" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -792,7 +795,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20250121-ps2info/" data-id="cuiduJtJoQE4a5nkzN8qXZZ2Z" data-title="20250121-PS2info" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250121-ps2info/" data-id="cuid6h91IYxF4eWfAwCObYqdi" data-title="20250121-PS2info" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -839,7 +842,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241220-ddsdxt/" data-id="cuidGlf2wAZgtaIxhNeZVJ_xn" data-title="DDS DXT 格式简析" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241220-ddsdxt/" data-id="cuidWKgaGPONNRvlh_b6mO0R1" data-title="DDS DXT 格式简析" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -898,7 +901,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241126-maarelease/" data-id="cuidhdQSXojgUUeAh67mzg786" data-title="自行发版MAA指北" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241126-maarelease/" data-id="cuidObhgKB2wNgXDbIiWaaM-I" data-title="自行发版MAA指北" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -940,7 +943,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241027-majiro/" data-id="cuidwwx5TmY5thKzqhJ_XNDV6" data-title="Majiro引擎解包经历" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241027-majiro/" data-id="cuidexSnzr8E8_wPNR_c33hSI" data-title="Majiro引擎解包经历" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -979,7 +982,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241003-steamemu/" data-id="cuidOOneAFEAsKSUSlDNYeT75" data-title="Steam Emu 简易使用分析" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241003-steamemu/" data-id="cuidNG9rPEX2vVHd47sj-yUrD" data-title="Steam Emu 简易使用分析" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1026,7 +1029,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240911-magesresourcev2-3/" data-id="cuidyNYcta1OxZXbYmHyxbImd" data-title="MAGES引擎游戏资源提取方法指北v2.3" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240911-magesresourcev2-3/" data-id="cuid9qBWhosA-rVgini7CfN8c" data-title="MAGES引擎游戏资源提取方法指北v2.3" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1065,7 +1068,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240810-avd/" data-id="cuid0Gc_1T5dfgxwZFvXPoY_O" data-title="AVD 游戏异常 终" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240810-avd/" data-id="cuidXjtoJz6l_pTMVU9av0NS4" data-title="AVD 游戏异常 终" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1112,7 +1115,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240731-avd/" data-id="cuidYHYasAfQozkCQ9mf8cBTn" data-title="手动改变AVD版本-续" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240731-avd/" data-id="cuidYSOsGu5xIaq1Vcsv3Ee89" data-title="手动改变AVD版本-续" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1151,7 +1154,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240706-kaleidops3/" data-id="cuid22v0KWMw1wv-FX1176mbo" data-title="Kaleido ADV Workshop PS3版" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240706-kaleidops3/" data-id="cuidKJ6_gKmsJ0ncFqvOlNiGf" data-title="Kaleido ADV Workshop PS3版" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1191,7 +1194,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240630-bilibiliold/" data-id="cuidgSTFf1C6VQECcfMtL_n0o" data-title="将Bilibili番剧页面变回旧版" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240630-bilibiliold/" data-id="cuidQbMGJoBfYoxzmFL_i1ehV" data-title="将Bilibili番剧页面变回旧版" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1232,7 +1235,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240613-githubaction/" data-id="cuidJ60dfk0nMrFDZ0J8PnPaI" data-title="在 github action 中使用 nmake" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240613-githubaction/" data-id="cuidSHr9EOfcbvz0pU2o_h_dA" data-title="在 github action 中使用 nmake" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1271,7 +1274,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240523-avd/" data-id="cuidd6agWil53zdoiBqeiA1FO" data-title="手动改变AVD版本" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240523-avd/" data-id="cuidwYY9OZocuQAXoRREqeTpQ" data-title="手动改变AVD版本" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1310,7 +1313,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240414-avd/" data-id="cuidZqvyHi_NonaWg12iwwIWp" data-title="AVD 35.1.4 版本异常" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240414-avd/" data-id="cuidpFhzzPYjNO_vcAN89rzCK" data-title="AVD 35.1.4 版本异常" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1349,7 +1352,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240328-libwebp/" data-id="cuidWC5_7ZAxvE5EBcj1iVFSJ" data-title="再战libwebp" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240328-libwebp/" data-id="cuid9XzLxCQRbW-vaeve_4R4Y" data-title="再战libwebp" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1390,7 +1393,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240317-mspaint/" data-id="cuidQwy9j2SnCapddINONom0O" data-title="修复win10画图" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240317-mspaint/" data-id="cuideGkxLjJcho_LDO9-7pYMn" data-title="修复win10画图" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1443,7 +1446,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240209-bilibilisub/" data-id="cuid8vkiAXhfj-UDzbRzzIcoB" data-title="Bilibili港澳台番剧字幕获取" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240209-bilibilisub/" data-id="cuidVeiZflWUsOQvAe_4cu0Ah" data-title="Bilibili港澳台番剧字幕获取" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1482,7 +1485,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240117-github/" data-id="cuidVJOCo_XetqPlQ2KmMTSuY" data-title="Github ping不通、无法使用git pull" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240117-github/" data-id="cuidl5WFnLaij8ayPWlQl3zPZ" data-title="Github ping不通、无法使用git pull" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1521,7 +1524,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231216-ps2imageformat/" data-id="cuidVW4iDnekZwnVgsMJQ1sl2" data-title="PS2ImageFormat" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231216-ps2imageformat/" data-id="cuidtF8teEnaBUA2mim4p3Jh3" data-title="PS2ImageFormat" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1606,7 +1609,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231213-magesresourcev2-2/" data-id="cuidsOI0D1rWljShCFXeXA5fr" data-title="MAGES引擎游戏资源提取方法指北v2.2" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231213-magesresourcev2-2/" data-id="cuidspLgpj9ykDpCvQWAHQwVk" data-title="MAGES引擎游戏资源提取方法指北v2.2" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2126,7 +2129,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231101-ps2cri/" data-id="cuidWKoIURla94UyljN7jy4IT" data-title="20231101-PS2CRI" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231101-ps2cri/" data-id="cuidWEMyBTIO8On_4ZkPHXtzj" data-title="20231101-PS2CRI" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2174,7 +2177,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231018-rootavd/" data-id="cuidlQxFoVfdxrkxN3ehgTISF" data-title="rootAVD 为AVD添加root" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231018-rootavd/" data-id="cuidSrgcpMCfdJ-8WG8E5FqfO" data-title="rootAVD 为AVD添加root" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2213,7 +2216,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231017-criware-awb/" data-id="cuidtAEPikCFr-yqxZh47Uzk3" data-title="CRIWare AWB 新版文件问题" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231017-criware-awb/" data-id="cuida_dDReWFSdpMnZm2cuxzX" data-title="CRIWare AWB 新版文件问题" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2270,7 +2273,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231006-libwebp/" data-id="cuidUFEAblEDWt0A2HT8Cphyq" data-title="屡战屡败的libwebp构建" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231006-libwebp/" data-id="cuidYntfaY2LoMGB-u40GrIw4" data-title="屡战屡败的libwebp构建" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2310,7 +2313,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230926-ffmpeg/" data-id="cuidwL1rHVEVpaoQJldHESslK" data-title="USM build，与FFmpeg" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230926-ffmpeg/" data-id="cuidu8r1-EwYNfwKj1Q_sLgv4" data-title="USM build，与FFmpeg" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2349,7 +2352,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230924-steamworkshopdownloader/" data-id="cuidxl0YpWJeEelE76o0kzlog" data-title="steamworkshopdownloader 更正和更新" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230924-steamworkshopdownloader/" data-id="cuidKI4hZDmvCFfIorQs87eMb" data-title="steamworkshopdownloader 更正和更新" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2388,7 +2391,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/" data-id="cuidu-zoHcCorfUXzsx0d0zka" data-title="steamworkshopdownloader 脱离Steam账号获取创意工坊内容" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/" data-id="cuid444ah-Hd5EpCyjRBauHbS" data-title="steamworkshopdownloader 脱离Steam账号获取创意工坊内容" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2437,7 +2440,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230913-kaleido/" data-id="cuidrQeL48bye4xO-9sFs6wKo" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230913-kaleido/" data-id="cuid8KdeKFJ6hIaZkIy1rdY9j" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2490,7 +2493,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230911-kaleido/" data-id="cuidn0uyCbk0xMGhCaoFRc4vn" data-title="Kaleido ADV Workshop Chara Tool" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230911-kaleido/" data-id="cuiduyUc72MJXe5GHRyR_lnPL" data-title="Kaleido ADV Workshop Chara Tool" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2536,7 +2539,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="cuidv8-UFEK4ErNCzQ1Fdcyb_" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="cuidDp3K12Eu0MjP2rpQcJ2KA" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2587,7 +2590,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-ac/" data-id="cuidxcfjKSPOfemNDmUrMjo-F" data-title="Anonymous Code PC Steam版 视频文件说明" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230910-ac/" data-id="cuidSMVV49Q-XQ5fe6JARrF3d" data-title="Anonymous Code PC Steam版 视频文件说明" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
