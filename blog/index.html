@@ -79,6 +79,84 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-20260922-amd" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/20260922-amd/" class="article-date">
+  <time class="dt-published" datetime="2026-09-22T11:01:48.000Z" itemprop="datePublished">2026-09-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/20260922-amd/">AMD ROCm折腾实录·其二</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="PyTorch-篇-重置"><a href="#PyTorch-篇-重置" class="headerlink" title="PyTorch 篇 重置"></a>PyTorch 篇 重置</h2><p>经典AI工具<a target="_blank" rel="noopener" href="https://pytorch.org/">PyTorch</a>。<br>在CUDA上用着非常痛快，但是ROCm版仅供Linux使用。<br>偶尔见到一个自行编译的<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1a7cwzCEe2">教程</a>，于是决定自己试一试。<br><a href="/blog/20260304-amd">前篇</a>反复修改多次，在此重置，以2.14版本为主。</p>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
+<li>安装python3.10+（已实测3.14），安装annaconda，安装Visual Studio（实际使用VS2026），git等工具。</li>
+<li>需要手动构建 libuv 并添加一个指向它的系统变量。变量名称为libuv_ROOT，指向libuv&#x2F;install。参考<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/40d2bb4d2eba9920bf932b1eb7672ab0dd3ec77e/.github/workflows/multi_arch_build_windows_pytorch_wheels.yml#L297">ci</a></li>
+</ul>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/libuv/libuv.git -b v1.47.0 --depth 1</span><br><span class="line">cd libuv</span><br><span class="line">cmake -S -B build -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=install</span><br><span class="line">cmake --build build --config Release</span><br><span class="line">cmake --install build --prefix install --config Release</span><br></pre></td></tr></table></figure>
+<ul>
+<li>需要安装<a target="_blank" rel="noopener" href="https://github.com/mozilla/sccache">sccache</a>。从仓库下载windows-amd64版本，将sccache.exe放置在一个添加至系统路径的路径下。</li>
+<li>可能需要ccache.exe。我使用的版本来自<a target="_blank" rel="noopener" href="https://winlibs.com/">winlibs.com</a>，解压至一个文件夹，将其添加至系统路径。</li>
+<li>本次编译目标为Radeon 880M gfx1150，其他型号请自行前往<a target="_blank" rel="noopener" href="https://llvm.org/docs/AMDGPUUsage.html#amdgpu-processor-table">llvm-amdgpu</a>查找对应架构名称。</li>
+</ul>
+<h3 id="极简步骤"><a href="#极简步骤" class="headerlink" title="极简步骤"></a>极简步骤</h3><ul>
+<li>克隆<a target="_blank" rel="noopener" href="https://github.com/rocm/therock">TheRock</a>仓库至本地</li>
+<li>使用Command Prompt for VS，创建conda虚拟环境，按以下操作克隆pytorch仓库，生成</li>
+</ul>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">conda create -n rocm python=3.14 -y</span><br><span class="line">conda activate rocm</span><br><span class="line">pip install -r D:\Storage\Developer\Python\TheRock\external-builds\pytorch\requirements-ci.txt</span><br><span class="line">pip install -r D:\Storage\Developer\Python\TheRock\external-builds\pytorch\requirements-test.txt</span><br><span class="line">cd /d &quot;D:\Storage\Developer\Python\TheRock\external-builds\pytorch&quot;</span><br><span class="line"></span><br><span class="line">python pytorch_torch_repo.py checkout --gitrepo-origin https://github.com/rocm/pytorch.git --repo-hashtag release/2.14 --checkout-dir &quot;D:\pyt&quot;</span><br><span class="line"># python pytorch_audio_repo.py checkout --require-related-commit --checkout-dir ../audio --torch-dir &quot;D:\pyt&quot;</span><br><span class="line"># torchaudio已停止更新，不再需要了。</span><br><span class="line">python pytorch_vision_repo.py checkout --repo-hashtag release/0.29 --checkout-dir ../vision --torch-dir &quot;D:\pyt&quot;</span><br><span class="line"></span><br><span class="line">python build_prod_wheels.py build --install-rocm --index-url https://rocm.nightlies.amd.com/whl-multi-arch/ --rocm-extras device-gfx1150 --pytorch-rocm-arch gfx1150 --pytorch-dir &quot;D:/pyt&quot; --pytorch-vision-dir &quot;D:/Storage/Developer/Python/TheRock/external-builds/vision&quot; --output-dir &quot;D:/Storage/Developer/Python/rocm-output&quot;</span><br><span class="line"></span><br><span class="line">python run_pytorch_smoke_tests.py --amdgpu-family gfx1150</span><br></pre></td></tr></table></figure>
+<ul>
+<li>然后生成的文件在rocm-output文件夹，打开真实python环境，依次安装rocm_sdk_core rocm_sdk_libraries rocm_sdk_devel rocm_sdk_device_* rocm-*.tar.gz torch torchvision。</li>
+</ul>
+<h2 id="详细实战"><a href="#详细实战" class="headerlink" title="详细实战"></a>详细实战</h2><ul>
+<li><p>每次重新编译新版本前，记得清理pytorch&#x2F;build&#x2F;CMakeCache.txt和vision，audio的build目录。如果只是版本内的小修改，可以不清理。</p>
+</li>
+<li><p>代码无改动但是部分生成失败需要重新生成时，可以临时注释掉<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/40d2bb4d2eba9920bf932b1eb7672ab0dd3ec77e/external-builds/pytorch/build_prod_wheels.py#L593">therock&#x2F;external-builds&#x2F;pytorch&#x2F;build_prod_wheels.py</a>的force-reinstall，节省重新安装rocm全家桶的用时和硬盘损耗。</p>
+</li>
+<li><p>初次初始化时，pytorch\build\CMakeFiles\4.*\CMakeHIPCompiler.cmake 里的 CMAKE_HIP_COMPILER_ROCM_ROOT 等的路径的反斜杠竟然会被直接识别为转义符，需要手动替换为正斜杠。</p>
+</li>
+<li><p>此前版本使用的–require-related-commit现在会无法正确找到目标，所以改为手动指定版本。需要自己找到正确的版本号对应关系。</p>
+</li>
+<li><p>[pytorch 2.11] ：<a target="_blank" rel="noopener" href="https://github.com/ROCm/pytorch/blob/443606eb94430d90554ab4c21202494576afedce/third_party/build_bundled.py#L118">pytorch&#x2F;third_party&#x2F;build_bundled.py</a> 118行分析分发许可证处，将分析失败的raise value error替换为return MIT或其他协议，以避免生成失败。这可能是由于setuptools的更新破坏了这部分的功能导致。新版本已修复。</p>
+</li>
+<li><p>[pytorch 2.13+] ：checkout pyt 时，有可能遇到 gbk codec can’t decode，此时在<a target="_blank" rel="noopener" href="https://github.com/ROCm/pytorch/blob/31f716863453cca3fc7dbf181fb26fe0ffc5f32c/tools/amd_build/build_amd.py#L194">pytorch&#x2F;tools&#x2F;amd_build&#x2F;build_amd.py open</a>函数添加参数 encoding&#x3D;’utf-8’可以解决。</p>
+</li>
+<li><p>[pytorch 2.13] ：你可能需要手动在虚拟环境安装 pip install ninja&#x3D;&#x3D;1.11.0，并且禁用几行删除pypi ninja的<a target="_blank" rel="noopener" href="https://github.com/Manicsteiner/TheRock/blob/997093efeace3c5091e177c04864d587c18b801a/external-builds/pytorch/build_prod_wheels.py#L1125">build_prod_wheels</a>代码。新版本已修复。</p>
+</li>
+<li><p>[pytorch 2.13] ：.conda\envs\rocm\Lib\site-packages_rocm_sdk_devel\lib\llvm\lib\clang\23\include__clang_cuda_math_forward_declares.h 和 __clang_hip_cmath.h里的 isgreater isunordered 等的定义会和msvc的cmath定义冲突，<del>建议使用MSVC v143（或者直接删掉这几行，后果自负）。</del>然而MSVC v143会有其他报错……或者先删掉这几行，编译成功后恢复rocm_sdk_devel，删除 pytorch\build\third_party\gloo 和 pytorch\build\lib\gloo.lib gloo_hip.lib，使用 MSVC v143 跑一遍，到报错为止，再删除  pytorch\build\lib\gloo.lib gloo_hip.lib，回到145再跑一遍，大概也许可以成功。新版本已修复。</p>
+</li>
+<li><p>[pytorch 2.13+] : pytorch\build\CMakeFiles\rules.ninja 里竟然会给 llvm-lib.exe 传入 qc 命令，但是windows环境不认这个，需要替换为<code>/out:</code>。如果每次重新运行build时都会重新生成这个rules.ninja并把命令改回qc，那就在确定生成内容不变后用一个脚本将其变为只读，无法更改，使其强行以out形态通过。</p>
+</li>
+</ul>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"> param(</span><br><span class="line">    [Parameter(Mandatory=$true)]</span><br><span class="line">    [string]$Path</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">$fullPath = [System.IO.Path]::GetFullPath($Path)</span><br><span class="line"></span><br><span class="line">if (-not (Test-Path -LiteralPath $fullPath)) &#123;</span><br><span class="line">    throw &quot;file not exist: $fullPath&quot;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># 关键：FileShare::Read</span><br><span class="line"># 允许其他进程以只读方式打开，但不允许写、删除、重命名</span><br><span class="line">$stream = [System.IO.File]::Open(</span><br><span class="line">    $fullPath,</span><br><span class="line">    [System.IO.FileMode]::Open,</span><br><span class="line">    [System.IO.FileAccess]::Read,</span><br><span class="line">    [System.IO.FileShare]::Read</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">Write-Host &quot;LOCKED: $fullPath&quot;</span><br><span class="line">Write-Host &quot;Ctrl+C to exit&quot;</span><br><span class="line"></span><br><span class="line">try &#123;</span><br><span class="line">    while ($true) &#123;</span><br><span class="line">        Start-Sleep -Seconds 3600</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">finally &#123;</span><br><span class="line">    $stream.Close()</span><br><span class="line">    $stream.Dispose()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># powershell -NoProfile -ExecutionPolicy Bypass -File .\Lock-File-ReadOnly.ps1 -Path .\build\CMakeFiles\rules.ninja</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://manicsteiner.github.io/blog/20260922-amd/" data-id="cuidrNrHHmb8hkt1a4QAVJfEX" data-title="AMD ROCm折腾实录·其二" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-20260601-lsp" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/blog/20260601-lsp/" class="article-date">
@@ -112,7 +190,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260601-lsp/" data-id="cuidgT964SsFJqciXwep4GjDj" data-title="LSP折腾简录·其二" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260601-lsp/" data-id="cuidnTG51j0tULZKwOW-KLBY2" data-title="LSP折腾简录·其二" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -151,7 +229,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260522-llvmgit/" data-id="cuidPx9w89XfccK9HXGR6Xj5c" data-title="llvm超大型仓库折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260522-llvmgit/" data-id="cuidr3gSTfmNRpkEigdZW94Ib" data-title="llvm超大型仓库折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -190,7 +268,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260419-nanazip/" data-id="cuidaosznpxeAozs6yiLtANts" data-title="安装NanaZip" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260419-nanazip/" data-id="cuid4gzQ5sNc4n7PnRYgicbD9" data-title="安装NanaZip" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -234,7 +312,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260409-lsp/" data-id="cuidXbpopa_LsElQK5Qy3rlfH" data-title="LSP折腾简录" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260409-lsp/" data-id="cuiduGC0MTxKbluNDozcs48kD" data-title="LSP折腾简录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -289,6 +367,7 @@
 <li>或者先删掉这几行，编译成功后恢复rocm_sdk_devel，删除 pytorch\build\third_party\gloo 和 pytorch\build\lib\gloo.lib gloo_hip.lib，使用 MSVC v143 跑一遍，到报错为止，再删除  pytorch\build\lib\gloo.lib gloo_hip.lib，回到145再跑一遍，大概也许可以成功。</li>
 <li>pytorch\build\CMakeFiles\rules.ninja 里竟然会给 llvm-lib.exe 传入 qc 命令，但是windows环境不认这个，需要替换为<code>/out:</code>。</li>
 <li>另，2.11版本的许可证问题已被移除。</li>
+<li>可能需要安装<a target="_blank" rel="noopener" href="https://github.com/mozilla/sccache">sccache</a>。</li>
 </ul>
 <h2 id="LM-Studio-ROCm-篇"><a href="#LM-Studio-ROCm-篇" class="headerlink" title="LM Studio ROCm 篇"></a>LM Studio ROCm 篇</h2><p>经典AI一键式工具<a target="_blank" rel="noopener" href="https://lmstudio.ai/">LM Studio</a><br>提供基于llama.cpp的runtime，CUDA版本使用痛快，ROCm版只给独显和Strix Halo，还是得自己折腾。<br>又是看到一份<a target="_blank" rel="noopener" href="https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Unlock-LM-Studio-on-Any-AMD-GPU-with-ROCm-Guide#step-by-step-guide">教程</a>，开始自己折腾。</p>
 <h3 id="步骤-1"><a href="#步骤-1" class="headerlink" title="步骤"></a>步骤</h3><ul>
@@ -308,7 +387,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260304-amd/" data-id="cuidiWBQhmjoCnBLlgUQXH8bq" data-title="AMD ROCm折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260304-amd/" data-id="cuidP-ZQ4cLQLP1jQxIb5KRWV" data-title="AMD ROCm折腾实录" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -359,7 +438,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260226-maarelease/" data-id="cuidDk-7XT2A9DIQvRN3wgpAk" data-title="自行发版MAA指北-6.3.x" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260226-maarelease/" data-id="cuid4MUeD-uZSLWv4H_mW8-g8" data-title="自行发版MAA指北-6.3.x" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -398,7 +477,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20260121-apktool/" data-id="cuiddeTmikpM6PKVjwGs5C0Ah" data-title="尝试通过APKTool反编译去除一处弹窗" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20260121-apktool/" data-id="cuidb0nCTt5kFuwyGkk9BSQJF" data-title="尝试通过APKTool反编译去除一处弹窗" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -446,7 +525,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20251014-arknightsx86/" data-id="cuidbD1AzJL6vJTBcprbf_DFf" data-title="20251014-arknightsx86" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20251014-arknightsx86/" data-id="cuidES6ZeBXcya_lwz_OyvrZa" data-title="20251014-arknightsx86" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -506,7 +585,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20251013-maagameupdate/" data-id="cuidAUCMqyuu3RoHD6D8GNHar" data-title="游戏更新时，MAA维护者该做的事（海外服）" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20251013-maagameupdate/" data-id="cuid-wHRCLbIp8rFWqQOza7wM" data-title="游戏更新时，MAA维护者该做的事（海外服）" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -572,7 +651,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20251002-maagpu/" data-id="cuidekyihgwU1mMye1KMh1cf_" data-title="20251002-MAAGPU" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20251002-maagpu/" data-id="cuidDeRomGlvp3MULnsoWh_Mj" data-title="20251002-MAAGPU" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -671,7 +750,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20250412-magesresourcev3/" data-id="cuidI1MMZX9pRkFJahQhwNrmq" data-title="MAGES引擎游戏资源提取方法指北v3" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250412-magesresourcev3/" data-id="cuidNfEK3DX_qqkbZbw4akHob" data-title="MAGES引擎游戏资源提取方法指北v3" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -710,7 +789,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20250306-never7pcsteam/" data-id="cuidS8FFr6j92R7SbN7UizKYQ" data-title="20250306-Never7PCSteam" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250306-never7pcsteam/" data-id="cuidCYFbhsWyvL9i312G5Zs-p" data-title="20250306-Never7PCSteam" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -749,7 +828,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20250223-gameinfolist/" data-id="cuidZv42-a6JqOh-OG0dgn-pI" data-title="20250223-Gameinfolist" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250223-gameinfolist/" data-id="cuidl9G3uO9ehQrAfTqjyEVGT" data-title="20250223-Gameinfolist" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -795,7 +874,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20250121-ps2info/" data-id="cuid1LLAbm23iMQYEbFHTVMjJ" data-title="20250121-PS2info" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20250121-ps2info/" data-id="cuid_KjYUs1MuH9Y-qQokTxoo" data-title="20250121-PS2info" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -842,7 +921,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241220-ddsdxt/" data-id="cuidw4DqVOmJRwuY20VWosh-f" data-title="DDS DXT 格式简析" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241220-ddsdxt/" data-id="cuidnqKxtUBIkvQ7bg6Khlbdu" data-title="DDS DXT 格式简析" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -901,7 +980,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241126-maarelease/" data-id="cuidVpOqt5qjbDVnoU5otn_y0" data-title="自行发版MAA指北" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241126-maarelease/" data-id="cuidzVDHDDLp465gUj6a76I2A" data-title="自行发版MAA指北" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -943,7 +1022,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241027-majiro/" data-id="cuidhSU5yeHderbVHUcijFJNP" data-title="Majiro引擎解包经历" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241027-majiro/" data-id="cuidvX-U6elHSI5mX7oOSPX58" data-title="Majiro引擎解包经历" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -982,7 +1061,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20241003-steamemu/" data-id="cuidUZ8qciNhq5dIgAhNGqRIs" data-title="Steam Emu 简易使用分析" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20241003-steamemu/" data-id="cuidX6RXsAjCa109cuGgzEIXO" data-title="Steam Emu 简易使用分析" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1029,7 +1108,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240911-magesresourcev2-3/" data-id="cuidkgb0AuayAEe9BoUjUtHcG" data-title="MAGES引擎游戏资源提取方法指北v2.3" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240911-magesresourcev2-3/" data-id="cuidC4gVpX7HL5avQYthtnzua" data-title="MAGES引擎游戏资源提取方法指北v2.3" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1068,7 +1147,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240810-avd/" data-id="cuidKVbEngXJy2vnZPgkNj5L2" data-title="AVD 游戏异常 终" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240810-avd/" data-id="cuidDhoy20lTwuI5ZH07t19cB" data-title="AVD 游戏异常 终" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1115,7 +1194,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240731-avd/" data-id="cuide4ihUY-kn29SOaDVNgG2B" data-title="手动改变AVD版本-续" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240731-avd/" data-id="cuidhRjjTYOt9sslSM-PpLnxt" data-title="手动改变AVD版本-续" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1154,7 +1233,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240706-kaleidops3/" data-id="cuidUr6utnf3Qe3U9NYOdyedF" data-title="Kaleido ADV Workshop PS3版" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240706-kaleidops3/" data-id="cuidnJq4oAqWvwO_-HRk7Y-fg" data-title="Kaleido ADV Workshop PS3版" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1194,7 +1273,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240630-bilibiliold/" data-id="cuidi53FdRsNWdLOs8Z-j6Lt6" data-title="将Bilibili番剧页面变回旧版" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240630-bilibiliold/" data-id="cuidUPdUcKynrpHX8_0pNp86x" data-title="将Bilibili番剧页面变回旧版" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1235,7 +1314,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240613-githubaction/" data-id="cuid_zG1XJaVYxab8MIUDJAf3" data-title="在 github action 中使用 nmake" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240613-githubaction/" data-id="cuid9s3LPd_tudjjzPmj-8TKz" data-title="在 github action 中使用 nmake" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1274,7 +1353,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240523-avd/" data-id="cuiddTRZOd9vIAXWZyHShyLrA" data-title="手动改变AVD版本" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240523-avd/" data-id="cuidFrR_LBSXBWKajAuzbyKWz" data-title="手动改变AVD版本" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1313,7 +1392,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240414-avd/" data-id="cuidQ79uxLrIRB7piMsDgsMiX" data-title="AVD 35.1.4 版本异常" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240414-avd/" data-id="cuidwCD4r9o6Qk6RrO7h39Xmk" data-title="AVD 35.1.4 版本异常" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1352,7 +1431,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240328-libwebp/" data-id="cuid2gs9Y_uPE8UkRxw9ZjK8g" data-title="再战libwebp" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240328-libwebp/" data-id="cuidp20YZD47-pXuOB1xDPh8D" data-title="再战libwebp" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1393,7 +1472,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240317-mspaint/" data-id="cuidaYVMeV75WfZFKI84elpJh" data-title="修复win10画图" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240317-mspaint/" data-id="cuidUJ2vJQKWdFI06nxL8_8Ds" data-title="修复win10画图" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1446,7 +1525,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240209-bilibilisub/" data-id="cuid5dEO3RUgEz92-RYRu2OAy" data-title="Bilibili港澳台番剧字幕获取" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240209-bilibilisub/" data-id="cuidQCwogi7FbHrkHA_DKF85P" data-title="Bilibili港澳台番剧字幕获取" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1485,7 +1564,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20240117-github/" data-id="cuidgW-DXfXmI8BPG9oZVDmEQ" data-title="Github ping不通、无法使用git pull" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20240117-github/" data-id="cuiduMV9Vpi9HMwzfkMkWAzmS" data-title="Github ping不通、无法使用git pull" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1524,7 +1603,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231216-ps2imageformat/" data-id="cuidWpXXmXL7SPguEqAqFGWmL" data-title="PS2ImageFormat" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231216-ps2imageformat/" data-id="cuidQkaNs-kVXu_xh6ftNv0bu" data-title="PS2ImageFormat" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1609,7 +1688,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231213-magesresourcev2-2/" data-id="cuidi3M3OiS8Lp9i-x_567Bx3" data-title="MAGES引擎游戏资源提取方法指北v2.2" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231213-magesresourcev2-2/" data-id="cuidMCwXVAqDjkza5VRk0WCmL" data-title="MAGES引擎游戏资源提取方法指北v2.2" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2129,7 +2208,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231101-ps2cri/" data-id="cuidvwl3_qUJduLKe5f_Kq0qV" data-title="20231101-PS2CRI" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231101-ps2cri/" data-id="cuid3XrNTJRMw5sFxh8vcRqGO" data-title="20231101-PS2CRI" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2177,7 +2256,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231018-rootavd/" data-id="cuid8WYZCyPaA8YHKu7F0kwyM" data-title="rootAVD 为AVD添加root" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231018-rootavd/" data-id="cuidz27_1aGfB81z3Z7RNwC8h" data-title="rootAVD 为AVD添加root" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2216,7 +2295,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231017-criware-awb/" data-id="cuidZrclWnskG_bS0rGPZGuqx" data-title="CRIWare AWB 新版文件问题" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231017-criware-awb/" data-id="cuidAZp66KID8LxgwRHIXWSdC" data-title="CRIWare AWB 新版文件问题" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2273,7 +2352,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20231006-libwebp/" data-id="cuidLrFARyf1wm9JK62WP9FDz" data-title="屡战屡败的libwebp构建" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20231006-libwebp/" data-id="cuidhYF11l3gKzCGz4RyjH7w5" data-title="屡战屡败的libwebp构建" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2313,7 +2392,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230926-ffmpeg/" data-id="cuidrOy3OOGwVU0W_E8lGFzoB" data-title="USM build，与FFmpeg" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230926-ffmpeg/" data-id="cuidjEou2Sk6WpFeeSwlL6RDP" data-title="USM build，与FFmpeg" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2352,7 +2431,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230924-steamworkshopdownloader/" data-id="cuidyH8Rj7bzn3OC-XgjtOeZv" data-title="steamworkshopdownloader 更正和更新" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230924-steamworkshopdownloader/" data-id="cuid0-sIe41mxxCZcetk8xR-Q" data-title="steamworkshopdownloader 更正和更新" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2391,7 +2470,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/" data-id="cuidS4vbBE0oBNjVn56Z937iW" data-title="steamworkshopdownloader 脱离Steam账号获取创意工坊内容" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230918-steamworkshopdownloader/" data-id="cuidzKWrvWuqHvfuzbmlBYY9e" data-title="steamworkshopdownloader 脱离Steam账号获取创意工坊内容" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2440,7 +2519,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230913-kaleido/" data-id="cuidvLuSYJ00HEP0vIEp-GaPy" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230913-kaleido/" data-id="cuid_8JIlB-HbEaIE7HaCK-cS" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2493,7 +2572,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230911-kaleido/" data-id="cuidsTJq4lfFPQZ8MV09gPIzm" data-title="Kaleido ADV Workshop Chara Tool" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230911-kaleido/" data-id="cuidW_CYzgQJ1sEfctPZHTH8Y" data-title="Kaleido ADV Workshop Chara Tool" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2539,7 +2618,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="cuidNzbamQoiZNu_iEh2VFxtv" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230910-kaleido/" data-id="cuidGl6sN3p12y08mEWvnserv" data-title="Kaleido ADV Workshop Key Finder" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2590,7 +2669,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://manicsteiner.github.io/blog/20230910-ac/" data-id="cuid-qsrEQliTUYtj2RJaToQB" data-title="Anonymous Code PC Steam版 视频文件说明" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://manicsteiner.github.io/blog/20230910-ac/" data-id="cuido4fGeBUeHMiCPre3CDT5L" data-title="Anonymous Code PC Steam版 视频文件说明" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -2620,7 +2699,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/06/">六月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/05/">五月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/04/">四月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/03/">三月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/02/">二月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/01/">一月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/10/">十月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/04/">四月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/03/">三月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/02/">二月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/01/">一月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/12/">十二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/11/">十一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/10/">十月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/09/">九月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/08/">八月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/07/">七月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/06/">六月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/05/">五月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/04/">四月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/03/">三月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/10/">十月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/09/">九月 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/09/">九月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/06/">六月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/05/">五月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/04/">四月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/03/">三月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/02/">二月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2026/01/">一月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/10/">十月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/04/">四月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/03/">三月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/02/">二月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2025/01/">一月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/12/">十二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/11/">十一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/10/">十月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/09/">九月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/08/">八月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/07/">七月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/06/">六月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/05/">五月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/04/">四月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/03/">三月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/10/">十月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2023/09/">九月 2023</a></li></ul>
     </div>
   </div>
 
@@ -2631,6 +2710,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/blog/20260922-amd/">AMD ROCm折腾实录·其二</a>
+          </li>
         
           <li>
             <a href="/blog/20260601-lsp/">LSP折腾简录·其二</a>
@@ -2646,10 +2729,6 @@
         
           <li>
             <a href="/blog/20260409-lsp/">LSP折腾简录</a>
-          </li>
-        
-          <li>
-            <a href="/blog/20260304-amd/">AMD ROCm折腾实录</a>
           </li>
         
       </ul>
